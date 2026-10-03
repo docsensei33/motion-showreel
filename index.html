@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude — Motion Reel 2026</title>
+<style>
+  @font-face { font-family: 'Unbounded'; font-weight: 400; src: url(fonts/Unbounded-400.ttf); }
+  @font-face { font-family: 'Unbounded'; font-weight: 800; src: url(fonts/Unbounded-800.ttf); }
+  @font-face { font-family: 'Unbounded'; font-weight: 900; src: url(fonts/Unbounded-900.ttf); }
+  @font-face { font-family: 'Anton'; font-weight: 400; src: url(fonts/Anton-400.ttf); }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 500; src: url(fonts/JetBrainsMono-500.ttf); }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 800; src: url(fonts/JetBrainsMono-800.ttf); }
+  @font-face { font-family: 'Inter'; font-weight: 500; src: url(fonts/Inter-500.ttf); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url(fonts/Inter-800.ttf); }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; }
+  canvas { display: block; width: min(100vw, 177.78vh); height: min(56.25vw, 100vh); cursor: pointer; }
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px; display: flex; gap: 12px; align-items: center;
+        background: linear-gradient(transparent, rgba(0,0,0,.7)); color: #F3EFE6; font-size: 12px; opacity: 0; transition: opacity .3s; }
+  body:hover #ui { opacity: 1; }
+  #ui input { flex: 1; accent-color: #FF4F2E; }
+  #ui button { background: #FF4F2E; color: #0B0B12; border: 0; font: 800 12px 'JetBrains Mono', monospace; padding: 8px 14px; border-radius: 99px; cursor: pointer; }
+  #start { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(11,11,18,.55);
+           color: #F3EFE6; font: 800 16px 'JetBrains Mono', monospace; letter-spacing: .2em; cursor: pointer; }
+  #start span { border: 2px solid #F3EFE6; padding: 18px 28px; border-radius: 99px; }
+  .render #ui, .render #start { display: none; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="ui"><button id="pp">PLAY</button><input id="scrub" type="range" min="0" max="15" step="0.001" value="0"><span id="tc">00.000</span></div>
+<div id="start"><span>▶ PLAY REEL — SOUND ON</span></div>
+<script src="reel.js"></script>
+</body>
+</html>
