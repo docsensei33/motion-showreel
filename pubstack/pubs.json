@@ -1,0 +1,1994 @@
+[
+ {
+  "pmid": "37706750",
+  "doi": "10.1097/JU.0000000000003698",
+  "journal": "J Urol",
+  "year": "2023",
+  "vol": "211",
+  "issue": "1",
+  "pages": "11-19",
+  "title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia (BPH): AUA Guideline Amendment 2023.",
+  "authors": [
+   "Sandhu JS",
+   "Bixler BR",
+   "Dahm P",
+   "Goueli R",
+   "Kirkby E",
+   "Stoffel JT",
+   "Wilt TJ"
+  ],
+  "aff": "Urology, Memorial Sloan Kettering Cancer Center, New York, New York.",
+  "abstract": [
+   "The purpose of this American Urological Association (AUA) Guideline amendment is to provide a useful reference on the effective evidence-based management of male lower urinary tract symptoms secondary/attributed to BPH (LUTS/BPH).",
+   "The Minnesota Evidence Review Team searched Ovid MEDLINE, the Cochrane Library, and the Agency for Healthcare Research and Quality (AHRQ) database to identify studies relevant to the management of BPH. The guideline was updated in 2023 to capture eligible literature published between September 2020 and October 2022. When sufficient evidence existed, the body of evidence was assigned a strength rating of A (high), B (moderate), or C (low) for support of Strong, Moderate, or Conditional Recommendations. In the absence of sufficient evidence, additional information is provided as Clinical Principles and Expert Opinions.",
+   "The BPH amendment resulted in changes to statements/supporting text on combination therapy, photoselective vaporization of the prostate (PVP), water vapor thermal therapy (WVTT), laser enucleation, and prostate artery embolization (PAE). A new statement on temporary implanted prostatic devices (TIPD) was added. In addition, statements on transurethral needle ablation (TUNA) and transurethral microwave thermotherapy (TUMT) were removed and information regarding these legacy technologies was added to the background section. References and the accompanying treatment algorithms were updated to align with the updated text.",
+   "This guideline seeks to improve clinicians' ability to evaluate and treat patients with BPH/LUTS based on currently available evidence. Future studies will be essential to further support these statements to improve patient care."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42095468",
+  "doi": "10.1097/JU.0000000000005099",
+  "journal": "J Urol",
+  "year": "2026",
+  "vol": "216",
+  "issue": "2",
+  "pages": "161-170",
+  "title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part III: Procedural/Surgical Management.",
+  "authors": [
+   "Goueli R",
+   "Badlani GH",
+   "Welliver C",
+   "Anderson PD",
+   "Bauer SR",
+   "Dana T",
+   "Donalisio da Silva R",
+   "Holmes R",
+   "Kim SK",
+   "Kirkby E",
+   "Gill BC",
+   "Maislos S",
+   "McClure T",
+   "Miller NL",
+   "Roshan I",
+   "Summers SJ",
+   "Totten A",
+   "Sandhu JS"
+  ],
+  "aff": "Department of Urology, University of Texas Southwestern Medical Center, Dallas, Texas.",
+  "abstract": [
+   "Procedural therapies for lower urinary tract symptoms/benign prostatic hyperplasia (LUTS/BPH) are expansive and are associated with distinct risks and benefits. This Guideline covers the treatment of LUTS/BPH. The summary presented herein represents Part III of the three-part series addressing procedural/surgical management of LUTS/BPH. Please refer to Parts I and II for additional information on this topic.",
+   "The systematic review that informs this Guideline was based on searches in Ovid MEDLINE, the Cochrane Central Register of Controlled Trials, and the Cochrane Database of Systematic Reviews through January 2025. Update searches were conducted on December 15, 2025. Literature searches were limited to studies of medical therapies published since 2009 and surgical studies published since 2014. The searches were supplemented by reviewing electronic database reference lists of relevant articles. Criteria for inclusion and exclusion of studies were based on the Key Questions and the populations, interventions, comparators, outcomes, timing, types of studies and settings (PICOTS) of interest developed by the Panel.",
+   "Guideline statements herein address general procedural principles and management of LUTS/BPH. Evidence- and consensus-based statements were developed to assist clinicians considering procedural interventions based on individual patient characteristics. Additional sections addressing sexual function, retreatment rates, and postoperative follow-up were included to support patient counseling and procedural selection.",
+   "Procedural management of LUTS/BPH involves a complex balance between efficacy, durability, and procedure-specific adverse effects. Shared decision-making is essential to tailor therapy to the individual patient."
+  ],
+  "types": [
+   "Journal Article",
+   "Practice Guideline",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "36794408",
+  "doi": "10.1177/15330338231155000",
+  "journal": "Technol Cancer Res Treat",
+  "year": "2023",
+  "vol": "22",
+  "issue": "",
+  "pages": "15330338231155000",
+  "title": "Minimally Invasive Treatment in Benign Prostatic Hyperplasia (BPH).",
+  "authors": [
+   "Sciacqua LV",
+   "Vanzulli A",
+   "Di Meo R",
+   "Pellegrino G",
+   "Lavorato R",
+   "Vitale G",
+   "Carrafiello G"
+  ],
+  "aff": "Residency Program in Diagnostic and Interventional Radiology, Università degli Studi di Milano, Milan, Italy.",
+  "abstract": [
+   "Review efficacy and safety of minimally-invasive treatments for Low Urinary Tract Symptoms (LUTS) in patients affected by Benign Prostate Hyperplasia (BPH). We performed a systematic review of the literature from 1993 to 2022 leveraging original research articles, reviews, and case-studies published in peer-reviewed journals and stored in public repositories. Prostate artery embolization (PAE), transurethral needle ablation (TUNA), transurethral microwave thermotherapy (TUMT), high intensity focused ultrasound (HIFU), laser treatments and Cryoablation are valid and safe alternatives to the gold standard (surgery) in the treatment of LUTS in patients affected by BPH, with fewer undesired effects being reported."
+  ],
+  "types": [
+   "Systematic Review",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "36964042",
+  "doi": "10.1016/j.eururo.2023.02.028",
+  "journal": "Eur Urol",
+  "year": "2023",
+  "vol": "83",
+  "issue": "6",
+  "pages": "534-547",
+  "title": "Minimally Invasive Treatments for Benign Prostatic Obstruction: A Systematic Review and Network Meta-analysis.",
+  "authors": [
+   "Cornu JN",
+   "Zantek P",
+   "Burtt G",
+   "Martin C",
+   "Martin A",
+   "Springate C",
+   "Chughtai B"
+  ],
+  "aff": "Department of Urology, Charles Nicolle University Hospital, Rouen Cedex, France.",
+  "abstract": [
+   "Minimally invasive surgical therapies for male lower urinary tract symptoms secondary to benign prostatic obstruction were developed to be safer and more tolerable than standard ablative techniques. These treatments have not been compared with each other in a randomised fashion, and for some treatments, there are no trials against a reference technique.",
+   "To compare the efficacy, safety, and tolerability of water vapour thermal therapy (WVTT), prostatic urethral lift (PUL), prostatic arterial embolisation (PAE), temporary implantable nitinol device (iTIND), transurethral microwave thermotherapy (TUMT), and transurethral resection of the prostate (TURP).",
+   "A systematic search of MEDLINE/PubMed, Embase, Cochrane Library, and grey literature for randomised controlled trials was performed. Trials meeting the selection criteria were assessed for the risk of bias using the Cochrane RoB2 tool. Treatments were compared, using a network meta-analysis, in terms of outcomes including symptom score, quality of life, maximum urinary flow rate, postvoid residual urine, International Index of Erectile Function (IIEF-5), and scales from the Male Sexual Health Questionnaire.",
+   "The search identified 63 trials. Symptoms and quality of life for PAE, PUL, and WVTT appeared similar to those for TURP, whereas TURP was found to have the most clinically significant improvement in flow rate. TUMT was less efficacious than TURP but provided similar results on quality of life. Comparisons of ejaculatory function favoured WVTT and PUL compared with TURP. The relative efficacy of iTIND was less clear because of the risk of bias in the respective trial.",
+   "PAE, PUL, and WVTT appear favourable from a risk-benefit perspective despite probably having less efficacy than TURP for objective outcomes. These findings warrant confirmation through long-term randomised controlled trials.",
+   "This paper has summarised the evidence from 63 clinical trials on minimally invasive surgical therapies for men with symptoms of an enlarged prostate, including water vapour thermal therapy (WVTT), prostatic urethral lift (PUL), prostatic arterial embolisation (PAE), temporary implantable nitinol device, and transurethral microwave thermotherapy (TUMT). Improvement in symptoms for each of PAE, PUL, TUMT, and WVTT in short-term follow-up was similar to that for the standard surgical treatment, although standard surgery appeared to provide the greatest increase in urine flow. Men who had WVTT or PUL were less likely to have problems with sexual function than those who had standard surgery."
+  ],
+  "types": [
+   "Systematic Review",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Network Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "36463348",
+  "doi": "10.1007/s00345-022-04218-6",
+  "journal": "World J Urol",
+  "year": "2022",
+  "vol": "41",
+  "issue": "1",
+  "pages": "179-188",
+  "title": "Prostatic artery embolization compared to transurethral resection of the prostate and prostatic urethral lift: a real-world population-based study.",
+  "authors": [
+   "Raizenne BL",
+   "Zheng X",
+   "Oumedjbeur K",
+   "Mao J",
+   "Zorn KC",
+   "Elterman D",
+   "Bhojani N",
+   "McClure T",
+   "Te A",
+   "Kaplan S",
+   "Sedrakyan A",
+   "Chughtai B"
+  ],
+  "aff": "Division of Urology, Centre hospitalier de l'Université de Montréal, Montreal, QC, Canada.",
+  "abstract": [
+   "There are growing interests for minimally invasive surgical techniques (MISTs) for the treatment of benign prostatic hyperplasia (BPH)-associated lower urinary tract symptoms (LUTS). Prostatic artery embolization (PAE) uses selective angioembolization of prostatic arteries, thereby reducing size to improve LUTS/BPH. However, real-world data comparing surgical outcomes between MISTs and tissue resective techniques are lacking. We assessed the differences in surgical outcomes between PAE, transurethral resection of the prostate (TURP), and prostatic urethral lift (PUL) in a real-world population for LUTS/BPH.",
+   "We present an observational population-based study of 12,902 men with BPH in New York State who received PAE, TURP, and PUL in outpatient and ambulatory surgery settings from 2014 to 2018. For short-term outcomes, we report 30-day and 90-day risks of readmission to inpatient and emergency room (ER) with/without complications and compared them across groups using χtests and mixed-effect logistic regressions. For long-term outcomes, we report surgical retreatment and stricture rates using Kaplan-Meier failure curves and compared them using Log rank tests and Cox regression models.",
+   "Of 12 902 men, 335 had PAE, 11,205 had TURP, and 1362 had PUL. PAE patients had the highest 30-day (19.9%) and 90-day (35.6%) risks of readmission to inpatient or ER (p < 0.01). Non-specific abdominal pain was the main diagnosis associated with 30-day and 90-day readmissions to inpatient or ER after PAE (14.3% and 26.8%, respectively). After 2 years of follow-up, PAE patients had the highest retreatment rate of 28.5% (95%CI 23.7-34.2%) compared to TURP (3.4% (95%CI 3.1-3.8%)) and PUL (8.5% (95%CI 5.6-12.9%)) (p < 0.001).",
+   "In a real-world population, PAE was associated with the most frequent 30-day and 90-day readmission to inpatient or ER and the highest retreatment rate among all surgical techniques even when controlled for individual patient comorbidities and surgical volume."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38531756",
+  "doi": "10.1016/j.euf.2024.03.001",
+  "journal": "Eur Urol Focus",
+  "year": "2024",
+  "vol": "10",
+  "issue": "5",
+  "pages": "788-795",
+  "title": "Prostatic Artery Embolisation Versus Transurethral Resection of the Prostate for Benign Prostatic Obstruction: 5-year Outcomes of a Randomised, Open-label, Noninferiority Trial.",
+  "authors": [
+   "Müllhaupt G",
+   "Hechelhammer L",
+   "Graf N",
+   "Mordasini L",
+   "Schmid HP",
+   "Engeler DS",
+   "Abt D"
+  ],
+  "aff": "Department of Urology, St. Gallen Cantonal Hospital and School of Medicine, University of St. Gallen, St. Gallen, Switzerland; Department of Urology, Spital Thun, Thun, Switzerland.",
+  "abstract": [
+   "Prostatic artery embolisation (PAE) and transurethral resection of the prostate (TURP) are two of the surgical options for treatment of lower urinary tract symptoms/benign prostatic obstruction (LUTS/BPO). Our aim was to compare the efficacy and safety of PAE and TURP for LUTS/BPO treatment at long-term follow-up.",
+   "We conducted a randomised, open-label, single-centre trial at a Swiss tertiary care centre. The main outcome was the change in International Prostate Symptom Score (IPSS) after PAE versus TURP. Secondary outcomes included patient-reported outcomes, functional measures, and adverse events assessed at baseline and at 3, 6, 12, 24, and 60 mo. Between-group differences in the change from baseline to 5 yr were tested using two-sided Mann-Whitney and t tests.",
+   "Of the 103 patients with refractory LUTS/BPO who were randomised between 2014 and 2017, 18/48 who underwent PAE and 38/51 who underwent TURP reached the 60-mo follow-up visit. The mean reduction in IPSS from baseline to 5 yr was -7.78 points after PAE and -11.57 points after TURP (difference 3.79 points, 95% confidence interval [CI] -0.66 to 8.24; p = 0.092). TURP was superior for most patient-reported secondary outcomes except for erectile function. At 5 yr, PAE was less effective than TURP regarding objective parameters, such as the improvement in maximum urinary flow rate (3.59 vs 9.30 ml/s, difference -5.71, 95% CI -10.72 to -0.70; p = 0. 027) and reduction in postvoid residual volume (27.81 vs 219.97 ml; difference 192.15, 95% CI 83.79-300.51; p = 0.001).",
+   "The improvement in LUTS/BPO at 5 yr after PAE was inferior to that achieved with TURP. The limitations of PAE should be considered during patient selection and counselling.",
+   "In this study, we show the long-term results of prostate artery embolisation (PAE) in comparison to transurethral resection of the prostate (TURP) for the treatment of benign prostate enlargement causing urinary symptoms. PAE shows good long-term results in properly selected patients, although the improvements are less pronounced than with TURP. This trial is registered on ClinicalTrials.gov as NCT02054013."
+  ],
+  "types": [
+   "Comparative Study",
+   "Equivalence Trial",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "33078236",
+  "doi": "10.1007/s00270-020-02657-5",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2020",
+  "vol": "44",
+  "issue": "2",
+  "pages": "183-193",
+  "title": "Systematic Review and Meta-analysis Comparing Prostatic Artery Embolization to Gold-Standard Transurethral Resection of the Prostate for Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Knight GM",
+   "Talwar A",
+   "Salem R",
+   "Mouli S"
+  ],
+  "aff": "Department of Radiology, Section of Interventional Radiology, Northwestern University, 676 N. St. Clair, Suite 800, Chicago, IL, 60611, USA.",
+  "abstract": [
+   "To report a comparative systematic review and meta-analysis of prostatic artery embolization (PAE) and transurethral resection of the prostate (TURP) for the management of benign prostatic hyperplasia (BPH).",
+   "A multi-database search for relevant literature was conducted on 15 July 2020 to include studies published on or before that date. Search terms used were: (prostate embolization OR prostatic embolization OR prostate embolization OR prostatic embolization) AND (prostatic hyperplasia OR prostatic obstruction). Risk of bias was assessed using Cochrane Collaboration and ROBINS-I criteria. Random-effects meta-analysis was performed using RevMan 5.3.",
+   "Six studies with 598 patients were included. TURP was associated with significantly more improvement in maximum urinary flow rate (Q) (mean difference = 5.02 mL/s; 95% CI [2.66,7.38]; p < 0.0001; I = 89%), prostate volume (mean difference = 15.59 mL; 95% CI [7.93,23.25]; p < 0.00001; I = 88%), and prostate-specific antigen (PSA) (mean difference = 1.02 ng/mL; 95% CI [0.14,1.89]; p = 0.02; I = 71%) compared to PAE. No significant difference between PAE and TURP was observed for changes in International Prostate Symptoms Score (IPSS), IPSS quality of life (IPSS-QoL), International Index of Erectile Function (IIEF-5), and post-void residual (PVR). PAE was associated with fewer adverse events (AEs) (39.0% vs. 77.7%; p < 0.00001) and shorter hospitalization times (mean difference = -1.94 days; p < 0.00001), but longer procedural times (mean difference = 51.43 min; p = 0.004).",
+   "Subjective symptom improvement was equivalent between TURP and PAE. While TURP demonstrated larger improvements for some objective parameters, PAE was associated with fewer AEs and shorter hospitalization times.",
+   "Level 2a, Systematic Review."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "35964881",
+  "doi": "10.1016/j.jvir.2022.08.006",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2022",
+  "vol": "33",
+  "issue": "12",
+  "pages": "1605-1615",
+  "title": "Prostatic Artery Embolization Versus Transurethral Resection of the Prostate for Benign Prostatic Hyperplasia: A Cost-Effectiveness Analysis.",
+  "authors": [
+   "Wu X",
+   "Zhou A",
+   "Heller M",
+   "Kohlbrenner R"
+  ],
+  "aff": "Department of Radiology and Biomedical Imaging, University of California, San Francisco, California.",
+  "abstract": [
+   "To compare the cost effectiveness of prostatic artery embolization (PAE) with that of transurethral resection of the prostate (TURP) for the treatment of medically refractory benign prostatic hyperplasia (BPH).",
+   "A cost-effectiveness analysis with Markov modeling was performed, comparing the clinical course after PAE with that after TURP for 3 years. Probabilities were obtained from the available literature, and costs were based on Medicare reimbursements and published cost analyses. Outcomes were measured using quality-adjusted life-year (QALY). Statistical analyses included base case calculation, probabilistic sensitivity analysis, and deterministic sensitivity analysis to assess the robustness of the conclusion under different clinical scenarios.",
+   "Base case calculation showed comparable outcomes (PAE, 2.845 QALY; TURP, 2.854 QALY), with a cost difference of $3,104 (PAE, $2,934; TURP, $6,038). The incremental cost-effectiveness ratio was $360,249/QALY. PAE was dominant in 23.2% and more cost effective in 48.4% of the probabilistic sensitivity analysis simulations. PAE was better if its recurrence risk was <20.4% per year and even when the TURP recurrence risk was assumed to be 0%. TURP would be more cost effective when its procedural cost was <$3,367 or the PAE procedural cost >$4,409. PAE remained cost effective when varying the risks and costs of the minor and major short-term or long-term adverse events of both procedures. TURP would be the better strategy if the utility of BPH recurrence was <0.85 QALY.",
+   "PAE is a cost-effective strategy to treat medically refractory BPH, resulting in comparable health benefits at a lower cost than that of TURP even when accounting for extreme alterations in adverse events, costs, and recurrence rates."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42904084",
+  "doi": "10.5173/ceju.2025.0221",
+  "journal": "Cent European J Urol",
+  "year": "2026",
+  "vol": "79",
+  "issue": "3",
+  "pages": "360-366",
+  "title": "Minimally invasive vs standard surgical treatment: A systematic review comparing prostatic artery embolization and transurethral resection of the prostate for benign prostatic hyperplasia.",
+  "authors": [
+   "Konieczny H",
+   "Żabicki B",
+   "Suchora K",
+   "Salagierski M"
+  ],
+  "aff": "Department of Urology, Collegium Medicum, University of Zielona Gora, Poland.",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) is a common cause of lower urinary tract symptoms (LUTS). While transurethral resection of the prostate (TURP) is widely regarded as the standard surgical treatment, prostatic artery embolization (PAE) has emerged as a minimally invasive alternative. This systematic review compares the effectiveness and safety of PAE and TURP in the management of BPH.",
+   "We conducted a systematic review in accordance with PRISMA guidelines, including prospective and retrospective studies that directly or indirectly compared PAE and TURP. Searches were performed in PubMed, Science Direct, and Cochrane Library. Key outcomes assessed included the International Prostate Symptom Score (IPSS), Quality of Life (QoL), maximum urinary flow rate (Q), post-void residual volume (PVR), prostate volume (PV), the International Index of Erectile Function (IIEF-5), prostate-specific antigen (PSA), and adverse events.",
+   "A total of 18 studies, published between 2005 and 2025, were included in the review. Both PAE and TURP demonstrated significant improvements in IPSS and QoL, with comparable outcomes in most studies. TURP, however, consistently resulted in a greater reduction in PVR and PV due to its mechanism of physically removing prostatic tissue. In terms of safety, PAE was associated with minor, transient complications such as post-embolization syndrome, while major complications were infrequent.",
+   "Both PAE and TURP are effective treatments for LUTS leading to significant improvements in patient symptoms and quality of life. While TURP provides a greater reduction in prostate volume and residual urine, PAE offers a less invasive option with a favorable safety profile, making it a viable alternative, especially for high-risk surgical candidates."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "33825062",
+  "doi": "10.1007/s00270-021-02821-5",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2021",
+  "vol": "44",
+  "issue": "7",
+  "pages": "1095-1102",
+  "title": "Prostatic Artery Embolization (PAE) and Transurethral Resection of the Prostate (TURP) have a Differential Impact on Lower Urinary Tract Symptoms (LUTS): Retrospective Analysis of the Multicentre UK-ROPE (UK Register of Prostate Embolization) Study.",
+  "authors": [
+   "Vigneswaran G",
+   "Maclean D",
+   "Hadi M",
+   "Maher B",
+   "Modi S",
+   "Bryant T",
+   "Harris M",
+   "Hacking N"
+  ],
+  "aff": "Department of Interventional Radiology, University Hospital Southampton, Tremona Road, Southampton, SO16 6YD, UK.",
+  "abstract": [
+   "To compare the relative IPSS (International Prostate Symptom Score) improvement in storage and voiding symptoms between prostatic artery embolization (PAE) and transurethral resection of the prostate (TURP).",
+   "Retrospective analysis of the UK-ROPE (UK Register of Prostate Embolization) multicentre database was conducted with inclusion of all patients with full IPSS questionnaire score data. The voiding and storage subscore improvement was compared between interventions. Student's t-test (paired and unpaired) and ANOVA (Analysis of variance) were used to identify significant differences between the groups.",
+   "146 patients (121 PAE, 25 TURP) were included in the analysis. Storage symptoms were more frequently the most severe symptom ('storage' in 75 patients vs 'voiding' in 17 patients). Between groups, no significant difference was seen in raw storage subscore improvement (TURP 4.9 vs PAE 4.2; p = 0.34) or voiding subscore improvement (TURP 8.4 vs PAE 6.7; p = 0.1). ANOVA demonstrated a greater proportionate reduction (relative to total IPSS) towards voiding symptoms in the TURP group (27.3% TURP vs 9.9% PAE, p = 0.001).",
+   "Although both TURP and PAE improve voiding symptoms more than storage, a significantly larger proportion of total symptom reduction is due to voiding in the TURP cohort, with PAE providing a more balanced improvement between voiding and storage."
+  ],
+  "types": [
+   "Journal Article",
+   "Multicenter Study"
+  ]
+ },
+ {
+  "pmid": "33569641",
+  "doi": "10.1007/s00345-021-03601-z",
+  "journal": "World J Urol",
+  "year": "2021",
+  "vol": "39",
+  "issue": "7",
+  "pages": "2301-2306",
+  "title": "Reasons to consider prostatic artery embolization.",
+  "authors": [
+   "Abt D",
+   "Schmid HP",
+   "Speakman MJ"
+  ],
+  "aff": "Department of Urology, School of Medicine, University of St. Gallen, Rorschacherstrasse 95, 9007, St. Gallen, Switzerland.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) has emerged as a truly minimally invasive treatment option for patients with lower urinary tract symptoms presumed secondary to benign prostatic obstruction (LUTS/BPO) over the last few years and is now supported by evidence-based international guidelines. Here, we provide an overview on the profile of PAE based on the most relevant and recent literature.",
+   "A comprehensive review of literature on PAE was conducted on PubMed-Medline. The most relevant literature was summarized narratively.",
+   "While there is still a lack of long-term data, efficacy and safety data have been published for the short to mid-term. As with any minimally invasive technique, relief of bladder outlet obstruction is less pronounced after PAE compared to more invasive resective techniques. This is likely to be associated with higher re-intervention rates during the longer term. However, due to its beneficial safety profile, PAE represents an interesting option for many patients and could fill a niche between pharmacotherapy and formal surgical intervention. Given its unique treatment approach, i.e. endovascular instead of transurethral, PAE has a clearly different profile compared to other minimally invasive treatments. Performance with local anesthesia with possible continuation of anticoagulant drugs and no upper prostate size limit are the most important advantages of PAE.",
+   "PAE represents a valuable supplement in the treatment armamentarium of LUTS/BPH if patients are selected appropriately."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "29445846",
+  "doi": "10.1007/s00345-018-2220-z",
+  "journal": "World J Urol",
+  "year": "2018",
+  "vol": "36",
+  "issue": "4",
+  "pages": "575-584",
+  "title": "Prostatic artery embolization for benign prostatic obstruction: assessment of safety and efficacy.",
+  "authors": [
+   "Christidis D",
+   "Clarebrough E",
+   "Ly V",
+   "Perera M",
+   "Woo H",
+   "Lawrentschuk N",
+   "Bolton D"
+  ],
+  "aff": "Department of Surgery, Austin Health, University of Melbourne, Melbourne, VIC, Australia.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) has seen a recent increase in interest as a treatment for men with benign prostatic obstruction (BPO). The appeal of this intervention lies in reported reduction in morbidity and its minimally invasive nature. The purpose of this review is to assess the safety and efficacy of PAE as a new treatment in BPO and explore risks surrounding its performance.",
+   "A review of the literature was performed. Medical databases searched included PubMed, EMBASE, and Cochrane databases, limited to English, peer-reviewed articles. Search terms included prostatic artery embolization, lower urinary tracts symptoms, minimally invasive therapies, interventional radiology prostate, and benign prostatic hyperplasia. Articles were screened by two independent reviewers for content on development, methods, outcomes, and complications of PAE.",
+   "Suitability of patients to undergo PAE depends on review of patient history, pre-procedure visualisation of appropriate vascular anatomy and clinical parameters. Despite this selection of candidates favourable for procedural success, PAE is not without risk of complications, some of which can significantly affect patient quality of life.",
+   "Although initial findings show promise regarding safety and efficacy of PAE in improving symptom and quality-of-life scores, further investigation is required to establish durability of effect and the appropriate use of this experimental modality. There is currently limited robust evidence for the beneficial outcomes of PAE. Long-term follow-up studies will add to the evidence base to help further assess the feasibility of this procedure as an alternative to TURP."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "30691478",
+  "doi": "10.1186/s12894-019-0440-1",
+  "journal": "BMC Urol",
+  "year": "2019",
+  "vol": "19",
+  "issue": "1",
+  "pages": "11",
+  "title": "Transurethral resection of the prostate versus prostatic artery embolization in the treatment of benign prostatic hyperplasia: a meta-analysis.",
+  "authors": [
+   "Jiang YL",
+   "Qian LJ"
+  ],
+  "aff": "Department of Urology, The Affiliated Hospital of Hang Zhou Normal University, Hangzhou, 310015, China.",
+  "abstract": [
+   "To compare the clinical efficiency and safety of transurethral resection of the prostate (TURP) and prostatic artery embolization (PAE) for the treatment of Benign prostatic hyperplasia (BPH).",
+   "We searched PUBMED, EMBASE and the Cochrane Central Register for studies from May 1998 to May 2018 for studies comparing the efficiency and safety of TURP with PAE. Four studies met the inclusion criteria for our meta-analysis. After data extraction and quality assessment, we used RevMan 5.2 to pool the data.",
+   "A total of four studies involving 506 patients were included in our meta-analysis. The pooled data showed that the Qmax was higher in TURP group than PAE with a significant difference (WMD:4.66, 95%CI 2.54 to 6.79, P < 0.05). The postoperative QOL was lower in the TURP than PAE group (WMD: -0.53, 95%CI -0.88 to - 0.18, P < 0.05). The postoperative prostate volume was significantly smaller in the TURP than PAE group (WMD: -8.26, 95%CI -12.64 to - 3.88, P < 0.05). The operative time was significantly shorter in the TURP than PAE group (WMD: -10.55, 95%CI -16.92 to - 4.18, P < 0.05). No significant difference was found in the postoperative IPSS and complications between TURP and PAE (P > 0.05, WMD:1.56, 95%CI -0.67 to 3.78, p = 0,05, OR:1.54, 95%CI 1.00 to2.38, respectively).",
+   "TURP could achieve improved Qmax and QoL compared to PAE. Therefore, for patients with BPH and lower urinary tract symptoms (LUTS), TURP was superior to PAE."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "29975976",
+  "doi": "10.1055/a-0612-8067",
+  "journal": "Rofo",
+  "year": "2018",
+  "vol": "190",
+  "issue": "9",
+  "pages": "847-855",
+  "title": "Prostate Artery Embolization: Indication, Technique and Clinical Results.",
+  "authors": [
+   "Teichgräber U",
+   "Aschenbach R",
+   "Diamantis I",
+   "von Rundstedt FC",
+   "Grimm MO",
+   "Franiel T"
+  ],
+  "aff": "Department of Radiology, University Hospital Jena, Germany.",
+  "abstract": [
+   "Prostate artery embolization (PAE) is a new embolization therapy to treat benign prostate syndrome (BPS).",
+   "This review article presents the rationale and impact mechanism of PAE, criteria for patient selection, and discusses the anatomy of prostate arteries. The study results are seen in the context of complications and clinical partners.",
+   "Important preconditions for successful prostate artery embolization are a strict indication, precise knowledge of the anatomy of the pelvic arteries and advanced interventional-radiological skills. Several studies showed that urological parameters after prostate artery embolization improve at a similar level as for established post-surgical treatments. At the same time, it could be proven that prostate artery embolization has no impact on erectile function and is associated with a relatively low complication rate.",
+   "PAE is increasingly developing to an alternative for the established surgical treatments in BPS patients.",
+   "· PAE is a new embolization method for treating BPS and represents an alternative to classic urological surgical procedure such as TURP.. · Due to the low caliber of the prostate artery (0.5 - 2 mm), the presence of anatomical variations, and the arteriosclerosis seen in most older men, PAE is a technically challenging embolization method.. · In patients with a high postoperative bleeding risk in classic urological surgical treatment concepts, PAE is a very gentle alternative method..",
+   "· Teichgräber U, Aschenbach R, Diamantis I et al. Prostate Artery Embolization: Indication, Technique and Clinical Results. Fortschr Röntgenstr 2018; 190: 847 - 855."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "33308527",
+  "doi": "10.1016/j.tvir.2020.100694",
+  "journal": "Tech Vasc Interv Radiol",
+  "year": "2020",
+  "vol": "23",
+  "issue": "3",
+  "pages": "100694",
+  "title": "Prostatic Artery Embolization in Refractory Hematuria of Prostatic Origin.",
+  "authors": [
+   "Kably I",
+   "Acharya V",
+   "Richardson AJ",
+   "Bhatia S"
+  ],
+  "aff": "Department of Interventional Radiology, University of Miami Miller School of Medicine, Miami, FL.",
+  "abstract": [
+   "Hematuria of prostatic origin has multiple etiologies including benign prostatic hyperplasia (BPH), iatrogenic urological trauma, prostate cancer, and radiation therapy. Hematuria secondary to benign prostatic hyperplasia can occur because of the increased vascularity of the primary gland, itself, or because of the vascular re-growth following a transurethral resection of the prostate. Prostatic hematuria usually resolves with conservative measures; however, refractory hematuria of prostatic origin may require hospitalization with treatment with blood transfusions, repeated indwelling urinary catheterization, and continuous bladder irrigation. Prostate artery embolization is an emerging minimally invasive procedural therapy for men with BPH that was originally utilized for the treatment of refractory hematuria of prostatic origin . This article aims to summarize the currently available evidence around prostate artery embolization for the treatment of refractory hematuria of prostatic origin."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "38281906",
+  "doi": "10.1186/s12894-023-01397-1",
+  "journal": "BMC Urol",
+  "year": "2024",
+  "vol": "24",
+  "issue": "1",
+  "pages": "22",
+  "title": "Comparing prostatic artery embolization to surgical and minimally invasive procedures for the treatment of benign prostatic hyperplasia: a systematic review and meta-analysis.",
+  "authors": [
+   "Altman R",
+   "Ferreira R",
+   "Barragan C",
+   "Bhojani N",
+   "Lajkosz K",
+   "Zorn KC",
+   "Chughtai B",
+   "Annamalai G",
+   "Elterman DS"
+  ],
+  "aff": "Division of Urology, Department of Surgery, University Health Network, Toronto, ON, Canada.",
+  "abstract": [
+   "To summarize current evidence to report a comparative systematic review and meta-analysis of prostatic artery embolization (PAE) with transurethral resection of the prostate (TURP) and open simple prostatectomy (OSP) for the treatment of benign prostatic hyperplasia (BPH).",
+   "A systematic literature search was performed to identify studies published from inception until August 2021. The search terms used were (prostate embolization OR prostatic embolization) AND (prostatic hyperplasia OR prostatic obstruction) as well as the abbreviations of PAE and BPH. Risk of bias was assessed using the Cochrane Risk of Bias tool for randomized controlled trials (RCTs) and the Risk of Bias in Non-randomized Studies-of Interventions (ROBINS-I) tool for observational studies. Random-effects meta-analysis was performed using Revman 5.4.",
+   "Seven studies were included with 810 patients: five RCTs and one observational study compared PAE with TURP, and one observational study compared PAE with OSP. The included studies had considerable risk of bias concerns. TURP and OSP were associated with more statistically significant improvements in urodynamic measures and BPH symptoms compared to PAE. However, PAE seems to significantly improve erectile dysfunction compared to OSP and improve other outcome measures compared to TURP, although not significantly. PAE appeared to reduce adverse events and report more minor complications compared with TURP and OSP, but it is unclear whether PAE is more effective in the long-term.",
+   "PAE is an emerging treatment option for patients with symptomatic BPH who cannot undergo surgery or have undergone failed medical therapy. Overall, PAE groups reported fewer adverse events. Future ongoing and longer-term studies are needed to provide better insight into the benefit of PAE compared to other treatment options."
+  ],
+  "types": [
+   "Meta-Analysis",
+   "Systematic Review",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "18253111",
+  "doi": "10.1038/ncpuro1044",
+  "journal": "Nat Clin Pract Urol",
+  "year": "2008",
+  "vol": "5",
+  "issue": "3",
+  "pages": "159-65",
+  "title": "Persistent prostatic hematuria.",
+  "authors": [
+   "Rastinehad AR",
+   "Ost MC",
+   "VanderBrink BA",
+   "Siegel DN",
+   "Kavoussi LR"
+  ],
+  "aff": "The Arthur Smith Institute for Urology, North Shore-LIJ Health System, 450 Lakeville Road, Lake Success, NY 11042, USA.",
+  "abstract": [
+   "Prostatic hematuria can be a challenging clinical problem. In this Review we discuss the spectrum of methods for diagnosing prostatic hematuria and the pharmacologic and minimally invasive therapies currently available to treat primary disease and refractory cases. Before making a diagnosis and starting therapy, however, other, nonprostatic sources of hematuria must be ruled out. As part of diagnosis all patients should undergo a formal cystoscopy. Therapy should include functional and biochemical approaches. Inhibitors of 5-alpha-reductase have been shown to successfully treat prostatic hematuria when it is caused by benign prostatic hyperplasia. Intravesical instillations, using agents such as alum, silver nitrate and formalin, have been used as second-line therapies, with limited success. A novel, minimally invasive method, termed selective arterial prostatic embolization, offers another option for treating prostatic hematuria. Using interventional radiologic techniques during selective arterial prostatic embolization enables selective catheterization of the prostatic arterial circulation with subsequent embolization. This approach can rapidly stop hematuria. If more-invasive therapy is required, transurethral resection, or vaporization of the prostate and clot evacuation, should be performed before embolization or other surgical interventions."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "35417622",
+  "doi": "10.1111/bju.15748",
+  "journal": "BJU Int",
+  "year": "2022",
+  "vol": "131",
+  "issue": "2",
+  "pages": "139-152",
+  "title": "Comparative efficacy and safety of prostatic urethral lift vs prostatic artery embolization for benign prostatic hyperplasia: a systematic review and network meta-analysis.",
+  "authors": [
+   "Lucas-Cava V",
+   "Sánchez-Margallo FM",
+   "Insausti-Gorbea I",
+   "Sun F"
+  ],
+  "aff": "Endoluminal Therapy and Diagnosis Unit, Jesús Usón Minimally Invasive Surgery Centre, Cáceres, Spain.",
+  "abstract": [
+   "To assess and compare the clinical efficacy and safety of prostatic urethral lift (PUL) and prostatic artery embolization (PAE) for the treatment of lower urinary tract symptoms (LUTS) in patients with benign prostatic hyperplasia (BPH) by means of a systematic review and network meta-analysis.",
+   "A systematic literature search was performed using PubMed and Web of Science from inception to March 2021 to identify randomized controlled trials (RCTs) that compared PUL or PAE with either transurethral resection of the prostate (TURP) or sham procedures as control interventions. Qualitative and quantitative analyses were performed to pool the data on direct and indirect comparisons between interventions using STATA 14.",
+   "Eight RCTs with 675 participants were included in our network meta-analysis. Quantitative synthesis revealed that TURP was the most efficacious intervention for clinical (International Prostate Symptoms Score and quality of life) and functional outcomes (maximum urinary flow rate and post-void residual urine volume), and was associated with a lower reintervention rate compared with PAE (risk ratio [RR] 2.08 with 95% confidence interval [CI] 0.96 to 4.51) and PUL (RR 2.33 with 95% CI 0.50 to 10.86), although the difference were not statistically significant. Indirect comparison indicated that PUL and PAE resulted in similar outcomes. PAE was associated with fewer minor adverse events (AEs; RR 0.75 with 95% CI 0.48 to 1.18) and PUL with fewer major AEs (RR 0.72 with 95% CI 0.17 to 3.13) when compared with TURP. Whilst PAE had a better ranking with regard to improvement of most clinical and functional outcomes, PUL was the best ranked procedure regarding erectile function, as measured by the International Index of Erectile Function 5, but no significant difference was observed.",
+   "Current evidence suggests that PUL and PAE have similar clinical efficacy and safety profiles in the management of LUTS associated with BPH. However, the quality of evidence is relatively low because of the paucity of RCTs available, and results should be interpreted with caution."
+  ],
+  "types": [
+   "Journal Article",
+   "Systematic Review",
+   "Research Support, Non-U.S. Gov't",
+   "Network Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "39320252",
+  "doi": "10.23736/S2724-6051.24.05802-6",
+  "journal": "Minerva Urol Nephrol",
+  "year": "2024",
+  "vol": "76",
+  "issue": "5",
+  "pages": "618-624",
+  "title": "Postoperative urinary incontinence following BPH surgery: insights from a comprehensive national database analysis.",
+  "authors": [
+   "Licari LC",
+   "Bologna E",
+   "Manfredi C",
+   "Franco A",
+   "Ditonno F",
+   "DE Nunzio C",
+   "Franco G",
+   "Cindolo L",
+   "Leonardo C",
+   "Adelstein SA",
+   "Fiori C",
+   "Cherullo EE",
+   "Olweny EO",
+   "Autorino R"
+  ],
+  "aff": "Department of Urology, Rush University, Chicago, IL, USA.",
+  "abstract": [
+   "Postoperative urinary incontinence (UI) is a feared complication of BPH surgery. Our study aims to investigate the incidence of UI among patients undergoing different procedures for BPH.",
+   "A retrospective analysis was conducted using a large national database, containing patient records between 2011 and 2022. The most employed surgical procedures for BPH were considered, including TURP, Transurethral Incision of the Prostate (TUIP), Holmium/Thulium Laser Enucleation of the Prostate (HoLEP/ThuLEP), Open Simple Prostatectomy (OSP), minimally invasive simple prostatectomy (Lap/Rob SP), Photoselective Vaporization of the Prostate (PVP), Prostatic Urethral Lift (PUL), Robotic Waterjet Treatment (RWT - Aquablation), Water Vapor Thermal Therapy (WVTT - Rezum) and Prostatic Artery Embolization (PAE). Rates of any type of UI, including stress UI (SUI), urge UI (UUI) and mixed UI (MUI) were assessed. Multivariate regression analysis was used to identify predictors of \"persistent\" postoperative UI, defined as the presence of an active UI diagnosis at 12 months post-surgery.",
+   "Among 274,808 patients who underwent BPH surgery, 11,017 (4.01%) experienced persistent UI. UUI rates varied between 0.62% (PAE) and 2.71% (PVP), SUI ranged from 0.04% (PAE) and 2.75% (Lap/Rob SP), while MUI between 0.11% (PAE) and 1.17% (HoLEP/ThuLEP). On multivariable analysis, HoLEP/ThuLEP (OR 1.612; 95% CI: 1.508-1.721; P<0.001), PVP (OR 1.164; 95% CI:1.122-1.208; P<0.001), Open SP (OR 1.424; 95% CI:1.241- 1.624; P<0.001), and Lap/Rob SP (OR 1.667; 95% CI:1.119-2.384; P<0.01) showed significant higher likelihood of UI compared to TURP. PUL (OR 0.604; 95% CI:0.566-0.644; P<0.001), WVTT (OR 0.661; 95% CI:0.579-0.752; P<0.001), RWT (OR 0.434; 95% CI:0.216-0.767; P<0.01), and PAE (OR 0.178; 95% CI:0.111-0.269; P<0.001) were associated with lower likelihood of UI.",
+   "UI remains a concerning complication following BPH surgery, but it is an uncommon event affecting <5% of patients. Some differences in UI rates and risk might exist among various BPH procedures. These findings underscore the need for thorough patient selection and counseling."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "42495495",
+  "doi": "10.7759/cureus.111326",
+  "journal": "Cureus",
+  "year": "2026",
+  "vol": "18",
+  "issue": "6",
+  "pages": "e111326",
+  "title": "Preoperative Prostatic Artery Embolization Combined With Transurethral Resection of the Prostate Versus Transurethral Resection of the Prostate Alone in Large Benign Prostatic Hyperplasia: A Systematic Review and Meta-Analysis.",
+  "authors": [
+   "Alchalabi H",
+   "Amro O",
+   "Ebrahimi Ghaei R",
+   "Murphy C",
+   "Ali M"
+  ],
+  "aff": "Surgery, Royal Victoria Hospital, Belfast, GBR.",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) with large prostate volume presents substantial surgical challenges for transurethral resection of the prostate (TURP), encompassing heightened intraoperative haemorrhage risk, prolonged operative duration, and increased perioperative morbidity. Prostatic artery embolization (PAE) has been investigated as a minimally invasive adjunct to reduce prostatic vascularity prior to TURP, potentially optimising perioperative outcomes. This systematic review and meta-analysis evaluated the comparative efficacy and safety of PAE combined with TURP (PAE+TURP) versus TURP alone in patients with large-volume BPH. PubMed (MEDLINE), Embase, Scopus, and Web of Science were searched from inception through January 2026. Randomised controlled trials (RCTs) and cohort studies comparing PAE+TURP with TURP alone in large-volume BPH were eligible. The primary outcome was the International Prostate Symptom Score (IPSS). Secondary outcomes comprised operative time, maximum urinary flow rate (Qmax), and quality of life (QoL). Pooled mean differences (MDs) with 95% confidence intervals (CI) were derived using random-effects models. Three studies (one RCT and two cohort studies) totalling 261 patients (88 PAE+TURP, 173 TURP alone) were included. PAE+TURP yielded significantly greater IPSS improvement than TURP alone (MD=-2.07; 95% CI: -3.15 to -0.99; p<0.001; I²=0%). Subgroup analyses stratified by follow-up duration demonstrated no significant between-group difference in studies reporting three-month outcomes, whereas studies reporting six-month outcomes favoured PAE+TURP. Operative time was significantly shorter with PAE+TURP (MD=-38.7 minutes; 95% CI: -66.1 to -11.3; p=0.01), albeit with substantial heterogeneity (I²=97.8%). Qmax and QoL did not differ significantly between groups (both p=0.08). The single RCT was rated low risk of bias using the Cochrane Collaboration Risk of Bias 2 (RoB 2) tool; both retrospective cohort studies received a good-quality rating on the Newcastle-Ottawa Scale, though residual confounding inherent to observational designs cannot be excluded. Preoperative PAE followed by TURP was associated with shorter operative time and superior lower urinary tract symptom (LUTS) control compared with TURP alone in large-volume BPH. The limited evidence base and methodological heterogeneity across current studies underscore the need for large-scale randomised trials to establish long-term benefits and standardise patient selection criteria."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "34448024",
+  "doi": "10.1007/s00261-021-03258-7",
+  "journal": "Abdom Radiol (NY)",
+  "year": "2021",
+  "vol": "46",
+  "issue": "12",
+  "pages": "5746-5757",
+  "title": "Retrospective observation of the efficacy and safety of prostatic artery embolization combined with transurethral resection of the prostate and simple transurethral resection of the prostate in the treatment of large (> 100 mL) benign prostatic hyperplasia.",
+  "authors": [
+   "Tang Y",
+   "Wang RL",
+   "Ruan DD",
+   "Chen X",
+   "Zhou YF",
+   "Wu SJ",
+   "Cai SL",
+   "Zhang JH",
+   "Yang FG",
+   "Luo JW",
+   "Fang ZT"
+  ],
+  "aff": "Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China.",
+  "abstract": [
+   "To retrospectively compare the efficacy and safety of prostatic artery embolization (PAE) combined with transurethral resection of the prostate (TURP) and simple TURP in treating large (> 100 mL) benign prostatic hyperplasia (BPH).",
+   "We retrospectively analyzed the clinical data of 13 and 17 patients with large BPH who underwent TURP and PAE + TURP, respectively, from January 2016 to January 2020. The changes in various indices before and after surgery were compared between the two groups.",
+   "In the PAE + TURP group, the operation time (OT), intraoperative blood loss (BL), postoperative bladder flushing time (PBFT), and postoperative catheter retention time (PCRT) were lower, and the speed of the excised lesion (SEL) was higher than that in the TURP group (P < 0.05). Following-up for 12 months, the prostatic volume (PV), maximum urinary flow rate (Qmax), postvoid residual volume (PVR), International Prostate Symptom Score (IPSS), quality of life (QoL) score, total prostate-specific antigen (T-PSA), and free prostate-specific antigen (F-PSA) in each group improved as compared to before the surgery (P < 0.05), and the above improved indicators, IPSS ratio, and obstructive symptoms in the PAE + TURP group were higher than those in the TURP group (P < 0.05). The incidence of postoperative complications in the PAE + TURP group was lower than that in the TURP group. We obtained the pathological picture of a prostate biopsy after PAE for the first time.",
+   "Compared to TURP alone, PAE + TURP should be promoted, because of its greater efficacy and safety in treating large BPH and fewer post-surgical complications."
+  ],
+  "types": [
+   "Journal Article",
+   "Observational Study",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "34415807",
+  "doi": "10.1148/rg.2021200144",
+  "journal": "Radiographics",
+  "year": "2021",
+  "vol": "41",
+  "issue": "5",
+  "pages": "1509-1530",
+  "title": "Prostatic Artery Embolization: Indications, Preparation, Techniques, Imaging Evaluation, Reporting, and Complications.",
+  "authors": [
+   "Dias US",
+   "de Moura MRL",
+   "Viana PCC",
+   "de Assis AM",
+   "Marcelino ASZ",
+   "Moreira AM",
+   "Leite CC",
+   "Cerri GG",
+   "Carnevale FC",
+   "Horvat N"
+  ],
+  "aff": "From the Departments of Radiology (U.S.D., M.R.L.d.M., P.C.C.V., A.S.Z.M., C.C.L., G.G.C.) and Interventional Radiology (M.R.L.d.M., P.C.C.V., A.M.d.A., A.M.M., F.C.C.), Hospital Sírio-Libanês, Adma Jafet 91, Bela Vista, São Paulo, SP 01308-050, Brazil; Departments of Radiology (M.R.L.d.M., P.C.C.V., C.C.L., G.G.C.) and Interventional Radiology (M.R.L.d.M., P.C.C.V., A.M.d.A., A.M.M., F.C.C.), University of São Paulo, São Paulo, Brazil; and Department of Radiology, Memorial Sloan Kettering Cancer Center, New York, NY (N.H.).",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) is a noncancerous growth of the transitional zone of the prostate, which surrounds the prostatic urethra. Consequently, it can cause lower urinary tract symptoms (LUTS) and bladder outlet obstruction symptoms that may substantially reduce a patient's quality of life. Several treatments are available for BPH, including medications such as α-blockers and 5α-reductase inhibitors and surgical options including transurethral resection of the prostate and prostatectomy. Recently, prostatic artery embolization (PAE) has emerged as a minimally invasive treatment option for selected men with BPH and moderate to severe LUTS. Adequate pre- and postprocedural evaluations with clinical examinations and questionnaires, laboratory tests, and urodynamic and imaging examinations (particularly US, MRI, and CT) are of key importance to achieve successful treatment. Considering that the use of PAE has been increasing in tertiary hospital facilities, radiologists and interventional radiologists should be aware of the main technical concepts of PAE and the key features to address in imaging reports in pre- and postprocedural settings.RSNA, 2021."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "29967947",
+  "doi": "10.1007/s00345-018-2368-6",
+  "journal": "World J Urol",
+  "year": "2018",
+  "vol": "37",
+  "issue": "2",
+  "pages": "299-308",
+  "title": "Do patients have to choose between ejaculation and miction? A systematic review about ejaculation preservation technics for benign prostatic obstruction surgical treatment.",
+  "authors": [
+   "Lebdai S",
+   "Chevrot A",
+   "Doizi S",
+   "Pradere B",
+   "Delongchamps NB",
+   "Benchikh A",
+   "Cornu JN",
+   "Della Negra E",
+   "Fourmarier M",
+   "Misraï V",
+   "Theveniaud PE",
+   "Descazeaud A",
+   "Robert G"
+  ],
+  "aff": "Urology Department, University Hospital of Angers, CHU Angers, 4 rue Larrey, 49933, Angers Cedex 9, France.",
+  "abstract": [
+   "Ejaculatory dysfunction is the most common side effect related to surgical treatment of benign prostatic obstruction (BPO). Nowadays, modified surgical techniques and non-ablative techniques have emerged with the aim of preserving antegrade ejaculation. Our objective was to conduce a systematic review of the literature regarding efficacy on ejaculatory preservation of modified endoscopic surgical techniques, and mini-invasive non-ablatives techniques for BPO management.",
+   "A systematic review of the literature was carried out on the PubMed database using the following MESH terms: \"Prostatic Hyperplasia/surgery\" and \"Ejaculation\", in combination with the following keywords: \"ejaculation preservation\", \"photoselective vaporization of the prostate\", \"photoselective vapo-enucleation of the prostate\", \"holmium laser enucleation of the prostate\", \"thulium laser\", \"prostatic artery embolization\", \"urolift\", \"rezum\", and \"aquablation\".",
+   "The ejaculation preservation rate of modified-TURP ranged from 66 to 91%. The ejaculation preservation rate of modified-prostate photo-vaporization ranged from 87 to 96%. The only high level of evidence studies available compared prostatic urethral lift (PUL) and aquablation versus regular TURP in prospective randomized-controlled trials. The ejaculation preservation rate of either PUL or aquablation compared to regular TURP was 100 and 90 versus 34%, respectively.",
+   "Non-ablative therapies and modified endoscopic surgical techniques seemed to be reasonable options for patients eager to preserve their ejaculatory functions."
+  ],
+  "types": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "33449181",
+  "doi": "10.1007/s00330-020-07663-2",
+  "journal": "Eur Radiol",
+  "year": "2021",
+  "vol": "31",
+  "issue": "7",
+  "pages": "4929-4946",
+  "title": "Efficacy and safety of prostatic artery embolization for benign prostatic hyperplasia: a systematic review and meta-analysis of randomized controlled trials.",
+  "authors": [
+   "Xiang P",
+   "Guan D",
+   "Du Z",
+   "Hao Y",
+   "Yan W",
+   "Wang Y",
+   "Liu Y",
+   "Liu D",
+   "Ping H"
+  ],
+  "aff": "Department of Urology, Beijing Tongren Hospital, Capital Medical University, No1. Dongjiaomingxiang street, Dongcheng District, Beijing, 100730, China.",
+  "abstract": [
+   "To investigate the efficacy and safety of prostatic artery embolization (PAE) vs. transurethral resection of the prostate (TURP) in patients affected by benign prostatic hyperplasia (BPH). We also reviewed mean changes from baseline in PAE at selected follow-up points.",
+   "PubMed, Web of Science, and Embase were searched up to May 1, 2020. Randomized controlled trials on PAE were collected according to specific inclusion and exclusion criteria. Meta-analyses were performed using RevMan 5.3, STATA 14, and GraphPad Prism 8. Pooled patient-reported scores and functional outcomes were calculated by using a fixed or random-effect model.",
+   "Eleven articles met our selection criteria and ten independent patient series were included in the final analysis. Pooled estimates suggested no significant difference between TURP and PAE for patient-reported outcomes including International Prostate Symptom Score (2.32 (- 0.44 to 5.09)) and quality of life (0.18 (- 0.41 to 0.77)) at 12 months. PAE was less effective regarding improvements in most functional outcomes such as maximum flow rate, prostate volume, and prostate-specific antigen. Moreover, PAE may be associated with relatively fewer complications, lower cost, and shorter hospitalization. After the PAE procedure, the overall weighted mean differences for all outcomes except sexual health scores were significantly improved from baseline during follow-up to 24 months.",
+   "PAE is non-inferior to TURP with regard to improving patient-reported outcomes, though most functional parameters undergo more changes after TURP than after PAE. Moreover, PAE can significantly continue to relieve symptoms for 24 months without causing serious complications.",
+   "• PAE is as effective as TURP in improving subjective symptom scores, with fewer complications and shorter hospitalization times. • PAE is inferior to TURP in the improvement of most functional outcomes. • Improvements due to PAE are durable during follow-up to 24 months."
+  ],
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "33102395",
+  "doi": "10.1016/j.prnil.2020.04.001",
+  "journal": "Prostate Int",
+  "year": "2020",
+  "vol": "8",
+  "issue": "3",
+  "pages": "130-133",
+  "title": "Prostatic artery embolization versus transurethral resection of the prostate in management of benign prostatic hyperplasia.",
+  "authors": [
+   "Radwan A",
+   "Farouk A",
+   "Higazy A",
+   "Samir YR",
+   "Tawfeek AM",
+   "Gamal MA"
+  ],
+  "aff": "Ain Shams University Hospitals, Cairo, Egypt.",
+  "abstract": [
+   "Transurethral resection of the prostate (TURP) is considered the gold standard surgical intervention for prostate size less than 80 g. Prostatic artery embolization (PAE) has been suggested as a minimally invasive interventional radiological procedure in the management of benign prostatic hyperplasia (BPH), especially by using the PErFecTED technique. We aim through our study to evaluate the efficacy and safety of PAE compared with those of monopolar transurethral resection of prostate (M-TURP) and bipolar transurethral resection of prostate (B-TURP) in treating lower urinary tract symptoms (LUTSs) secondary to BPH.",
+   "We randomized 60 patients into 3 equal groups representing M-TURP, B-TURP, and PAE. Patients were followed up at 1 and 6 months postoperatively with regard to the International prostate symptom score (IPSS) score; uroflowmetry; prostate volume by transrectal ultrasound; and postvoid residual urine.",
+   "The mean operative time was 59, 68, and 89 minutes for the M-TURP group, the B-TURP group, and the PAE group, respectively; only one patient, who represented 5% of the M-TURP group and 1.7% of the whole study population, developed transurethral resection syndrome. Four patients of the PAE group complained of postembolization syndrome, which represented 20% of the cases. Only two patients in our study, both belonging to the PAE group, developed acute urinary retention after catheter removal, representing 10% of the PAE group and 3.33% of the whole study population. The improvement in the IPSS score, the average uroflowmetry (Q-average) score, postvoid residual urine, and prostate volume reduction was noted in all groups, with more statistically significant improvement in each of the M-TURP and the B-TURP groups than in the PAE group.",
+   "PErFecTED technique is a novel way of embolization, with statistically significant improvement for patients complaining of LUTSs due to BPH in terms of improvement of IPSS, uroflowmetry, prostate size, and amount of postvoid residual urine, yet these results are still not comparable with either the results of M-TURP or B-TURP that still show more effective improvement."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "34768659",
+  "doi": "10.3390/jcm10215139",
+  "journal": "J Clin Med",
+  "year": "2021",
+  "vol": "10",
+  "issue": "21",
+  "pages": "",
+  "title": "Prostate Artery Embolization-Review of Indications, Patient Selection, Techniques and Results.",
+  "authors": [
+   "Naidu SG",
+   "Narayanan H",
+   "Saini G",
+   "Segaran N",
+   "Alzubaidi SJ",
+   "Patel IJ",
+   "Oklu R"
+  ],
+  "aff": "Division of Vascular & Interventional Radiology, Mayo Clinic Arizona, Phoenix, AZ 85054, USA.",
+  "abstract": [
+   "Lower urinary tract symptoms (LUTS) due to benign prostatic hypertrophy (BPH) are a very common problem in men ranging from mild urinary symptoms to recurrent urinary tract infections or renal failure. Numerous treatment options are available ranging from conservative medical therapies to more invasive surgical options. Prostate artery embolization (PAE) has emerged as a novel treatment option for this common problem with clinical efficacy comparable to the current surgical gold standard, transurethral resection of the prostate (TURP). PAE offers fewer complications and side effects without a need for general anesthesia or hospitalization. This review discusses the indications for prostate artery embolization in addition to LUTS, patient evaluation in patients with LUTS, PAE technique and clinical results, with an emphasis on efficacy and safety."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "34977145",
+  "doi": "10.3389/fsurg.2021.779571",
+  "journal": "Front Surg",
+  "year": "2021",
+  "vol": "8",
+  "issue": "",
+  "pages": "779571",
+  "title": "An Updated Meta-Analysis of the Efficacy and Safety of Prostatic Artery Embolization vs. Transurethral Resection of the Prostate in the Treatment of Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Xu Z",
+   "Zhou Z",
+   "Mu Y",
+   "Cai T",
+   "Gao Z",
+   "Liu L"
+  ],
+  "aff": "Second Clinical Medical College, Binzhou Medical University, Yantai, China.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) in the treatment of benign prostatic hyperplasia (BPH) has been introduced into clinical practice, but conclusive evidence of efficacy and safety has been lacking.To compare the efficacy and safety of prostatic artery embolization (PAE) vs. transurethral resection of prostate (TURP), we performed a meta-analysis of clinical trials.We searched randomized controlled trials (RCTs) from Pubmed, Embase, Wanfang, and CNKI from January 2000 to December 2020 and used RevMan 5.0 to analyze the data after five RCTs were included.The reducing of prostate volume (PV) [Median mean (MD) 14.87; 95% confidence interval (CI) 7.52-22.22;< 0.0001] and the increasing of maximum flow rate in free uroflowmetry (Qmax) (MD 3.73; 95% CI 0.19-7.27;= 0.004) were more obvious in TURP than in PAE; however, the rate of lower sexual dysfunction [odds ratio (OR) 0.12; 95% CI 0.05-0.30;< 0.00001] was lower in PAE compared with TURP. Meanwhile, no conspicuous difference in International Prostate Symptoms Score (IPSS) score (MD 1.42; 95% CI -0.92 to 3.75;= 0.23), quality of life (Qol) score (MD 0.21; 95% CI -0.31 to 0.73;= 0.43), post void residual (PVR) (MD 21.16; 95% CI -5.58 to 47.89;= 0.12), prostate-specific antigen (PSA) (MD 0.56; 95% CI -0.15 to 1.27;= 0.12), and complications (OR 0.90; 95% CI 0.20-4.05;= 0.89) between PAE and TURP group was shown.PAE may replace TURP as an alternative treatment for Benign prostatic hyperplasia (BPH) patients who do not want to have surgery or with operational contraindications."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "33308532",
+  "doi": "10.1016/j.tvir.2020.100695",
+  "journal": "Tech Vasc Interv Radiol",
+  "year": "2020",
+  "vol": "23",
+  "issue": "3",
+  "pages": "100695",
+  "title": "Prostate Artery Embolization: State of the Evidence and Societal Guidelines.",
+  "authors": [
+   "Young S",
+   "Golzarian J"
+  ],
+  "aff": "Department of Radiology, Division of Interventional Radiology, University of Minnesota, Minneapolis, MN.",
+  "abstract": [
+   "Medically refractory benign prostatic hyperplasia induced lower urinary tract symptoms is an extremely prevalent issue in older men. The current gold standard therapy transurethral resection of the prostate does produce urologic improvements but is also associated with higher than desired morbidity. This has led to the need to develop new minimally invasive means to treat this disease; prostate artery embolization (PAE) has emerged as one minimally invasive treatment option for these patients. The body of evidence which supports the use of PAE has grown quickly and substantially over the last decade. The goal of this review is to introduce and summarize the published urologic outcomes for PAE when utilized to treat benign prostatic hyperplasia induced lower urinary tract symptoms as well as document the established complication profile. Finally, the paper reviews current societal recommendations as they relate to PAE."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "40943896",
+  "doi": "10.3390/jcm14176135",
+  "journal": "J Clin Med",
+  "year": "2025",
+  "vol": "14",
+  "issue": "17",
+  "pages": "",
+  "title": "Comparison of Perioperative Outcomes for Prostate Artery Embolization Versus Transurethral Resection of the Prostate and Laser Enucleation for Benign Prostatic Hyperplasia: Results from the GRAND Study.",
+  "authors": [
+   "Pyrgidis N",
+   "Puhr-Westerheide D",
+   "Schulz GB",
+   "Fabritius MP",
+   "Kazmierczak PM",
+   "Seidensticker M",
+   "Ricke J",
+   "Stief C",
+   "Weinhold P",
+   "Marcon J",
+   "Keller P"
+  ],
+  "aff": "Department of Urology, University Hospital, LMU Munich, 81377 Munich, Germany.",
+  "abstract": [
+   "Prostate artery embolization (PAE) has emerged as a relatively new, minimally invasive alternative for the treatment of benign prostatic hyperplasia. We aimed to compare the perioperative outcomes and trends of PAE versus transurethral resection of the prostate (TURP) and laser enucleation.We used the GeRmAn Nationwide inpatient Data (GRAND), provided by the Research Data Center of the Federal Bureau of Statistics, and performed multiple patient-level analyses. Patients with prostate cancer, acute hematuria, and emergent referral to the hospital were excluded.Between 2017 and 2022, a total of 3665 PAEs were performed in Germany compared to 218,388 TURPs and 50,863 laser enucleations. Patients selected for PAE were slightly younger and presented with fewer comorbidities at baseline. The number of laser enucleations increased exponentially in these years, PAEs remained stable, whereas TURPs slightly decreased. Compared to PAE, laser enucleation was associated with higher odds of in-hospital incontinence (4.2% versus 2.7%, OR: 1.6, 95%CI: 1.3-1.9,< 0.001). On the contrary, PAE was associated with lower odds of in-hospital urinary retention and shorter length of hospital stay compared to TURP (3.2% versus 7.1%, OR: 2.2, 95%CI: 1.8-2.6,< 0.001, and a 2.6-day difference, 95%CI: 2.5-2.7,< 0.001, respectively) and laser enucleation (3.2% versus 5%, OR: 1.5, 95%CI: 1.3-1.8,< 0.001, and a 1.5-day difference, 95%CI: 1.4-1.6,< 0.001, respectively).PAE offers more favorable perioperative outcomes compared to TURP and laser enucleation, but the use of this relatively new procedure has remained nearly stable in recent years."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "26506952",
+  "doi": "10.1007/s00270-015-1202-4",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2015",
+  "vol": "39",
+  "issue": "1",
+  "pages": "44-52",
+  "title": "Transurethral Resection of the Prostate (TURP) Versus Original and PErFecTED Prostate Artery Embolization (PAE) Due to Benign Prostatic Hyperplasia (BPH): Preliminary Results of a Single Center, Prospective, Urodynamic-Controlled Analysis.",
+  "authors": [
+   "Carnevale FC",
+   "Iscaife A",
+   "Yoshinaga EM",
+   "Moreira AM",
+   "Antunes AA",
+   "Srougi M"
+  ],
+  "aff": "Interventional Radiology Unit, University of Sao Paulo Medical School, Av. Dr. Enéas de Carvalho Aguiar, 255, Sao Paulo, SP, 05403-001, Brazil.",
+  "abstract": [
+   "To compare clinical and urodynamic results of transurethral resection of the prostate (TURP) to original and PErFecTED prostate artery embolization (PAE) methods for benign prostatic hyperplasia.",
+   "We prospectively randomized 30 patients to receive TURP or original PAE (oPAE) and compared them to a cohort of patients treated by PErFecTED PAE, with a minimum of 1-year follow-up. Patients were assessed for urodynamic parameters, prostate volume, international prostate symptom score (IPSS), and quality of life (QoL).",
+   "All groups were comparable for all pre-treatment parameters except bladder contractility and peak urine flow rate (Q max), both of which were significantly better in the TURP group, and IIEF score, which was significantly higher among PErFecTED PAE patients than TURP patients. All groups experienced significant improvement in IPSS, QoL, prostate volume, and Q max. TURP and PErFecTED PAE both resulted in significantly lower IPSS than oPAE but were not significantly different from one another. TURP resulted in significantly higher Q max and significantly smaller prostate volume than either original or PErFecTED PAE but required spinal anesthesia and hospitalization. Two patients in the oPAE group with hypocontractile bladders experienced recurrence of symptoms and were treated with TURP. In the TURP group, urinary incontinence occurred in 4/15 patients (26.7 %), rupture of the prostatic capsule in 1/15 (6.7 %), retrograde ejaculation in all patients (100 %), and one patient was readmitted for temporary bladder irrigation due to hematuria.",
+   "TURP and PAE are both safe and effective treatments. TURP and PErFecTED PAE yield similar symptom improvement, but TURP is associated with both better urodynamic results and more adverse events."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "42573863",
+  "doi": "10.1007/s11934-026-01352-1",
+  "journal": "Curr Urol Rep",
+  "year": "2026",
+  "vol": "27",
+  "issue": "1",
+  "pages": "",
+  "title": "Prostatic Artery Embolization: A Contemporary Review of Efficacy, Safety, and Expanding Clinical Indications.",
+  "authors": [
+   "Tawfellos G",
+   "Zillo C",
+   "Gaupp FL",
+   "Sanekommu G"
+  ],
+  "aff": "Yale New Haven Hospital, New Haven, 06510, USA.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) has emerged as a minimally invasive treatment for a spectrum of prostatic conditions. Supported by a growing body of randomized and observational evidence, PAE now occupies an established role in the management of lower urinary tract symptoms (LUTS) secondary to benign prostatic hyperplasia (BPH) and is increasingly applied for refractory prostatic bleeding and hematospermia. A structured review of PubMed, Google Scholar, and MEDLINE was performed with priority given to studies published from 2020 onward, including randomized controlled trials, prospective multicenter studies, large observational cohorts, and current guideline statements. Outcomes of interest included technical success, symptom improvement, urodynamic parameters, postvoid residual volume, hematuria resolution, retreatment rates, and adverse events.",
+   "For BPH-related LUTS, PAE produces meaningful and durable symptom improvement. However, it consistently demonstrates inferior urodynamic outcomes and higher long-term retreatment rates compared with transurethral resection of the prostate (TURP) and holmium laser enucleation. PAE's advantages include lower periprocedural risk in medically high risk patients and early preservation of sexual and continence-related function. For refractory prostatic bleeding - including BPH-related, malignant, and post-procedural etiologies - retrospective and prospective series consistently report high technical success and clinically meaningful hemostasis, supporting its use in patients who are poor surgical candidates or who have failed transurethral surgery. Evidence for PAE in refractory hematospermia is limited to small case series and remains investigational. PAE is a safe, guideline-recognized treatment option for BPH that offers meaningful symptom relief with a favorable safety profile, though with less durable outcomes than transurethral surgery. It serves as a clinically valuable salvage or palliative option for refractory prostatic bleeding. Patient selection, shared decision-making with urology and interventional radiology, and realistic counseling about durability are essential to optimizing outcomes."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "28560549",
+  "doi": "10.1007/s00270-017-1700-7",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2017",
+  "vol": "40",
+  "issue": "11",
+  "pages": "1694-1697",
+  "title": "Cost Analysis of Prostate Artery Embolization (PAE) and Transurethral Resection of the Prostate (TURP) in the Treatment of Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Bagla S",
+   "Smirniotopoulos J",
+   "Orlando J",
+   "Piechowiak R"
+  ],
+  "aff": "Vascular Institute of Virginia, LLC, 14085 Crown Ct., Woodbridge, VA, 22193, USA.",
+  "abstract": [
+   "Prostatic arterial embolization (PAE) has emerged as a minimally invasive alternative to TURP; however, there are limited cost comparisons reported. The purpose of this study was to compare in-hospital direct costs of elective PAE and TURP in a hospital setting.",
+   "Institutional Review Board-approved retrospective review was performed on patients undergoing PAE and TURP from January to December 2014. Inclusion criteria included male patients greater than 40 years of age who presented for ambulatory TURP or PAE with no history of prior surgical intervention for BPH. Direct costs were categorized into the following categories: nursing and operating room or interventional room staffing, operating room or interventional supply costs, anesthesia supplies, anesthesia staffing, hospital room cost, radiology, and laboratory costs. Additionally, length of stay was evaluated for both groups.",
+   "The mean patient age for the TURP (n = 86) and PAE (n = 70) cohorts was 71.3 and 64.4 years, respectively (p < 0.0001). Intra-procedural supplies for PAE were significantly more costly than TURP ($1472.77 vs $1080.84, p < 0.0001). When including anesthesia supplies and nursing/staffing, costs were significantly more expensive for TURP than PAE ($2153.64 vs $1667.10 p < 0.0001). The average length of stay for the TURP group was longer at 1.38 versus 0.125 days for the PAE group. Total in-hospital costs for the TURP group ($5338.31, SD $3521.17) were significantly higher than for PAE ($1678.14, SD $442.0, p < 0.0001).",
+   "When compared to TURP, PAE was associated with significantly lower direct in-hospital costs and shorter hospital stay."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "34188733",
+  "doi": "",
+  "journal": "Ont Health Technol Assess Ser",
+  "year": "2021",
+  "vol": "21",
+  "issue": "6",
+  "pages": "1-139",
+  "title": "Prostatic Artery Embolization for Benign Prostatic Hyperplasia: A Health Technology Assessment.",
+  "authors": [],
+  "aff": "",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) is a noncancerous enlargement of the prostate that commonly affects older people with prostates and may lead to obstructive urinary symptoms. Symptoms may initially be mild but tend to worsen over time. Prostatic artery embolization (PAE) is an endovascular procedure to treat BPH, wherein an interventional radiologist inserts a catheter into the patient to inject tiny particles intended to reduce blood flow to the enlarged prostate, causing it to shrink in size. We conducted a health technology assessment on PAE for people with BPH, which included an evaluation of effectiveness, safety, cost-effectiveness, the budget impact of publicly funding PAE, and patient preferences and values.",
+   "We performed a systematic literature search of the clinical evidence. We assessed the risk of bias of each included study using the Cochrane Risk of Bias tool for randomized controlled trials (RCTs) and the Risk of Bias in Nonrandomized Studies-of Interventions (ROBINS-I) tool for observational studies. We assessed the quality of the body of evidence according to the Grading of Recommendations Assessment, Development, and Evaluation (GRADE) Working Group criteria. We performed a systematic review of the economic literature. We then assessed the cost-effectiveness of PAE compared with alternative treatments (i.e., transurethral resection of the prostate [TURP] or open simple prostatectomy [OSP]) using a Markov microsimulation model. The analysis was conducted from the Ontario Ministry of Health perspective over a time horizon of 6.5 years. We also analyzed the budget impact of publicly funding PAE in people with moderate to severe BPH in Ontario.",
+   "We included six studies in our systematic review. Four RCTs and one observational study compared PAE with TURP, and one observational study compared PAE with OSP. All studies had considerable risk-of-bias concerns. PAE may improve BPH symptoms and urodynamic measures, but we are uncertain whether PAE achieves better results than TURP (GRADE: Very low to Low). Compared with TURP, PAE may result in higher patient satisfaction and fewer adverse events (GRADE: Not assessed). Compared with OSP, PAE may result in smaller improvements in BPH symptoms and urodynamic measures and may lead to fewer adverse events, but the evidence is very uncertain (GRADE: Very low).We did not find any published cost-effectiveness studies in the economic literature review. Our primary economic evaluation showed that, compared with TURP, PAE has an incremental cost of $328 (95% CrI: -$686 to $1,423) and a very small incremental quality-adjusted life-year (QALY) of 0.007 (95% CrI: -0.004 to 0.018). The resulting incremental cost-effectiveness ratio (ICER) of PAE versus TURP is $44,930 per QALY gained. At the commonly used willingness-to-pay values of $50,000 and $100,000 per QALY, the cost-effectiveness of PAE is uncertain (52% and 68% probability, respectively, of being cost-effective compared with TURP). In a scenario analysis, we compared PAE with OSP for individuals with large prostates (who may be ineligible for TURP). We found that PAE is less costly (-$1,231; 95% CrI: -$2,457 to $69) and less effective (-0.12 QALYs; 95% CrI: -0.18 to -0.04). The resulting ICER of PAE versus OSP is $10,241 saved per QALY lost. At the commonly used willingness-to-pay value of $50,000 per QALY, PAE is unlikely to be cost-effective (2% probability of being cost-effective compared with OSP). Assuming a low uptake (i.e., an additional 10 to 50 procedures per year in years 1 to 5), we estimated that publicly funding PAE in Ontario would lead to an additional cost of about $11,400 over the next 5 years.People we spoke with who have lived experience with BPH reported on the negative impact it can have on their quality of life. Those who had received PAE reported a positive experience with the procedure and meaningful improvement in their symptoms.",
+   "Prostatic artery embolization may improve BPH symptoms and urodynamic measures, but we are uncertain if the procedure results in similar outcomes to those of TURP. Based on one observational study, PAE may result in smaller improvements compared with OSP, but we are very uncertain of the evidence. Compared with TURP and OSP, PAE may result in fewer adverse events. Longer-term comparative studies are needed to assess the durability and long-term adverse events of PAE, the potential need for reintervention after PAE, and how PAE compares with other available BPH treatment options.We found the cost-effectiveness of PAE compared with TURP to be uncertain. Also, PAE is unlikely to be cost-effective compared with OSP. If PAE is publicly funded in Ontario, the budget impact is estimated to be small over the next 5 years.People who have lived experience with BPH reported that PAE improves quality of life and reduces negative symptoms of BPH."
+  ],
+  "types": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "38202072",
+  "doi": "10.3390/jcm13010065",
+  "journal": "J Clin Med",
+  "year": "2023",
+  "vol": "13",
+  "issue": "1",
+  "pages": "",
+  "title": "Prostate Artery Embolization in the Treatment of Massive Intractable Bleeding from Prostatic Neoplasms: A Case Report and Systematic Review.",
+  "authors": [
+   "Moramarco L",
+   "Grande AM",
+   "Vertemati M",
+   "Aseni P"
+  ],
+  "aff": "Radiologia-Neuroradiologia Diagnostica ed Interventistica, Fondazione IRCCS Policlinico San Matteo, 27100 Pavia, Italy.",
+  "abstract": [
+   "Lower urinary tract symptoms (LUTS) and hematuria are common symptoms in men with neoplasms, mainly affecting the elderly population. Prostatic arterial embolization (PAE) is a minimally invasive procedure that has shown promising results in managing LUTS and massive intractable prostatic hematuria in patients with benign prostatic hyperplasia (BPH) and prostate cancer (PCa). A few studies, however, have provided valuable insights into the durability and efficacy of PAE focusing on the long-term effectiveness, quality of life, and cancer-specific control of hemostasis and urinary symptoms. As a result of concomitant cardiovascular conditions, these patients often take anticoagulants or antithrombotics, which can worsen their hematuria and clinical status. Transurethral resection of the prostate (TURP) is considered a very high-risk procedure, even without massive bleeding, and requires discontinuation of vitamin K antagonists and antiplatelet therapies. Such patients usually have their surgery postponed, and PAE should be considered a safe alternative treatment. We aimed to report a narrative review from 1976 to June 2023 of the current state of PAE for massive and intractable hematuria, highlighting recent developments in this technique, including prospective cohort studies, and focusing on long-term outcome, safety, and complication management of patients with prostatic neoplasms who develop significant hemorrhagic symptoms. Additionally, we present a case report and a simple algorithm for treating intractable bleeding in a 92-year-old man with PCa and massive hematuria."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "38600763",
+  "doi": "10.1111/bju.16304",
+  "journal": "BJU Int",
+  "year": "2024",
+  "vol": "134",
+  "issue": "2",
+  "pages": "155-165",
+  "title": "Systematic review and network meta-analysis of re-intervention rates of new surgical interventions for benign prostatic hyperplasia.",
+  "authors": [
+   "Shin BNH",
+   "Qu L",
+   "Rhee H",
+   "Chung E"
+  ],
+  "aff": "Department of Urology, Princess Alexandra Hospital, University of Queensland, Brisbane, Qld, Australia.",
+  "abstract": [
+   "To assess the re-intervention rates of new surgical benign prostatic hyperplasia (BPH) interventions, as the clinical durability of new surgical interventions for BPH is not widely known.",
+   "A critical review of new surgical BPH therapies namely 'UroLift®', 'Aquablation', 'Rezum', 'prostatic artery embolisation (PAE)' and 'temporary implantable nitinol device (iTIND)' was performed on PubMed, the Cochrane Library, and Embase databases between May 2010 and December 2022 according to the Preferred Reporting Items for Systematic Review and Meta-analyses (PRISMA) statement. All relevant articles were reviewed, and the risk of bias was evaluated using the Cochrane risk assessment tool and Newcastle-Ottawa Scale.",
+   "Of the 32 studies included, there were 10 randomised controlled trials and 22 prospective observational cohorts. A total of 2400 participants were studied with a median patient age of 66 years, a median prostate volume of 51.9 mL, and a median International Prostate Symptom Score of 22. The lowest re-intervention rate at 12 months was for Aquablation at 0.01%, followed by Rezum at 0.02%, iTIND at 0.03%, and PAE at 0.05%. Network meta-analysis (NMA) showed that the best-ranked treatment at 12 months was transurethral resection of the prostate (TURP), followed by Aquablation, iTIND, Rezum, and UroLift. Re-intervention rates with these new BPH interventions are comparable, although some interventions reported better outcomes than TURP in the shorter term.",
+   "While this systematic review and NMA showed that the re-intervention rate with these new surgical BPH interventions appears to be comparable to TURP in the short term, further studies are required to directly compare these various BPH procedures."
+  ],
+  "types": [
+   "Journal Article",
+   "Systematic Review",
+   "Network Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "34286370",
+  "doi": "10.1007/s00270-021-02920-3",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2021",
+  "vol": "44",
+  "issue": "11",
+  "pages": "1771-1777",
+  "title": "Prostatic Artery Embolization Versus Transurethral Resection of the Prostate: A Post Hoc Cost Analysis of a Randomized Controlled Clinical Trial.",
+  "authors": [
+   "Capdevila F",
+   "Insausti I",
+   "Galbete A",
+   "Sanchez-Iriso E",
+   "Montesino M"
+  ],
+  "aff": "Complejo Hospitalario de Navarra, Calle Irunlarrea 3, 31008, Pamplona, Spain.",
+  "abstract": [
+   "To perform a post hoc analysis of patient-incurred costs in a randomized controlled clinical trial comparing prostatic artery embolization (PAE) and transurethral resection of the prostate (TURP).",
+   "Patients older than 60 years with indication of TURP were randomized to PAE or TURP procedure. After intervention and hospital discharge, patients were follow-up during 12 months The associated patient costs were categorized according to the study period: pre-intervention, intervention, hospitalization, and follow-up. Several items for both groups were analyzed within each study period.",
+   "The mean total costs per patient were lower for PAE (€ 3,192.87) than for TURP (€ 3,974.57), with this difference of € 781.70 being significant (p = 0.026). For most evaluated items, the mean costs were significantly higher for TURP. No significant differences were observed in the mean costs of PAE (€ 1,468.00) and TURP (€ 1,684.25) procedures (p = 0.061). However, the histopathology analysis, recovery room stay, and intraoperative laboratory analysis increased the interventional costs for TURP (€ 1,999.70) compared with PAE (€ 1,468.00) (p < 0.001). No cost differences were observed between PAE (€ 725.26) and TURP (€ 556.22) during the 12 months of follow-up (p = 0.605). None of patients required a repeat intervention during the study period.",
+   "Considering the short-term follow-up, PAE was associated with significantly lower costs compared with TURP. Future investigations in the context of routine clinical practice should be aimed at comparing the long-term effectiveness of both procedures and determining their cost-effectiveness.",
+   "Level 1 (a-c)."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "27742235",
+  "doi": "10.1016/j.jvir.2016.08.004",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2016",
+  "vol": "27",
+  "issue": "11",
+  "pages": "1686-1697.e8",
+  "title": "Meta-Analysis of Prostatic Artery Embolization for Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Uflacker A",
+   "Haskal ZJ",
+   "Bilhim T",
+   "Patrie J",
+   "Huber T",
+   "Pisco JM"
+  ],
+  "aff": "Department of Radiology and Medical Imaging, Division of Vascular and Interventional Radiology, University of Virginia, 1215 Lee St., Charlottesville, VA 22908.",
+  "abstract": [
+   "To perform meta-analysis of available data on prostatic artery embolization (PAE).",
+   "Meta-analysis was conducted on articles published between November 2009 and December 2015. Peer-reviewed studies with > 5 patients and standard deviations and/or individual-level data on one or more of the following outcomes were included: prostate volume (PV), peak flow rate (Qmax), postvoid residual (PVR), International Prostate Symptom Score (IPSS), quality of life (QOL) score, International Index of Erectile Function (IIEF) score, and prostate-specific antigen (PSA) level. A random-effects meta-analysis was performed on the outcomes at 1, 3, 6, and 12 months after PAE compared with baseline values, with a P < .05 decision rule as the null hypothesis rejection criterion.",
+   "Nineteen of 268 studies were included in data collection, with 6 included in the meta-analysis. At 12 months, PV decreased by 31.31 cm(P < .001), PSA remained unchanged (P = .248), PVR decreased by 85.54 mL (P < .001), Qmax increased by 5.39 mL/s (P < .001), IPSS improved by 20.39 points (P < .001), QOL score improved by -2.49 points (P < .001), and IIEF was unchanged (P = 1.0). There were a total of 218 adverse events (AEs) among 662 patients (32.93%), with 216 being Society of Interventional Radiology class A/B (99%). The most common complications were rectalgia/dysuria (n = 60; 9.0%) and acute urinary retention (n = 52; 7.8%). No class D/E complications were reported.",
+   "PAE provided improvement in Qmax, PVR, IPSS, and QOL endpoints at 12 months, with a low incidence of serious AEs (0.3%), although minor AEs were common (32.93%). There was no adverse effect on erectile function."
+  ],
+  "types": [
+   "Journal Article",
+   "Meta-Analysis",
+   "Review",
+   "Video-Audio Media"
+  ]
+ },
+ {
+  "pmid": "40640416",
+  "doi": "10.1007/s00270-025-04107-6",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2025",
+  "vol": "48",
+  "issue": "9",
+  "pages": "1263-1277",
+  "title": "Effectiveness and Safety of Prostatic Artery Embolization for Patients with Prostate Cancer: A Systematic Review and Meta-Analysis.",
+  "authors": [
+   "Lucas-Cava V",
+   "Sánchez-Margallo FM",
+   "Sun F"
+  ],
+  "aff": "Endoluminal Therapy and Diagnosis Unit, Jesús Usón Minimally Invasive Surgery Centre, Road N-521, Km 41.8, 10071, Cáceres, Spain.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) has received attention to manage the urological symptoms in patients with prostate cancer (PCa). This meta-analysis evaluates its effectiveness and safety in patients with PCa.",
+   "A systematic review was performed by searching in PudMed and Web of Science databases for studies including either PAE or prostatic artery chemoembolization (PACE) in patients with PCa. Quantitative and qualitative analyses were performed. The primary outcomes were technical success, clinical success, oncological efficacy and adverse events (AEs). The secondary outcomes were International Prostate Symptoms Score (IPSS), quality of life (QoL), prostate volume (PV), and prostate-specific antigen (PSA).",
+   "Eleven single-arm studies with 151 participants were included. The pooled technical and clinical success rates were 95.53% (95%CI: 87.23, 99.95) and 90.31% (95%CI: 73.44, 99.85), respectively, whereas the oncological efficacy was 65.89% (95%CI: 32.18, 93.13). AEs showed low rates of minor 23.88% (95%CI: 8.88, 42.39) and major 0.6% (95%CI: 0.00, 3.67). Although, PAE tended to fewer AEs compared to PACE, 20.76% vs 31.03% for minor, and 1.01% vs 0.32% for major AEs, respectively. In addition, there was a statistically significant reduction in IPSS (- 10.24, 95%CI: - 14.60,- 5.89), QoL (- 2.28, 95%CI: - 3.25, - 1.32), PV (- 22.16, 95%CI: - 34.20, - 10.13), and PSA (- 7.32, 95%CI: - 12.34, - 2.29), with greater improvements after PACE. Overall, the studies showed a high risk of bias.",
+   "This meta-analysis revealed that PAE and PACE are feasible, effective, and safe techniques to control the urological symptoms in patients with PCa, and even as adyuvant treatment for local therapies."
+  ],
+  "types": [
+   "Journal Article",
+   "Systematic Review",
+   "Meta-Analysis"
+  ]
+ },
+ {
+  "pmid": "30292422",
+  "doi": "10.1016/j.euf.2018.09.005",
+  "journal": "Eur Urol Focus",
+  "year": "2018",
+  "vol": "5",
+  "issue": "6",
+  "pages": "1091-1100",
+  "title": "Prostatic Artery Embolization versus Standard Surgical Treatment for Lower Urinary Tract Symptoms Secondary to Benign Prostatic Hyperplasia: A Systematic Review and Meta-analysis.",
+  "authors": [
+   "Zumstein V",
+   "Betschart P",
+   "Vetterlein MW",
+   "Kluth LA",
+   "Hechelhammer L",
+   "Mordasini L",
+   "Engeler DS",
+   "Kessler TM",
+   "Schmid HP",
+   "Abt D"
+  ],
+  "aff": "Department of Urology, St. Gallen Cantonal Hospital, St. Gallen, Switzerland; Department of Urology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) has been introduced into clinical practice for the treatment of lower urinary tract symptoms secondary to benign prostatic hyperplasia (BPH-LUTS) despite a lack of high-level evidence.",
+   "To perform a systematic review and meta-analysis of clinical trials comparing efficacy and safety of PAE versus established surgical therapies.",
+   "Medline, Embase, and York CRD were searched up to June 23, 2018. Only comparative studies were included. The risk of bias was assessed by the Cochrane Collaboration tool. Meta-analyses were performed using RevMan 5.3.",
+   "Five studies including 708 patients met the selection criteria. Risk of bias was rated high for most of the studies. Mean reduction in the International Prostate Symptom Score was lower after PAE compared with standard surgical therapies (mean difference 3.80 points [95% confidence interval: 2.77-4.83]; p<0.001). PAE was less efficient regarding improvements in all functional parameters assessed including maximum urinary flow, post void residual, and reduction of prostate volume. In contrast, patient-reported erectile function (International Index of Erectile Function 5) was better after PAE and significantly fewer adverse events occurred after PAE.",
+   "Moderately strong evidence confirms efficacy and safety of PAE in the treatment of BPH-LUTS in the short term. Significant advantages regarding safety and sexual function, but clear disadvantages regarding all other patient-reported and functional outcomes were found for PAE. Large-scale randomized controlled trials including longer follow-up periods are mandatory before PAE can be considered as a standard therapy and to define the ideal indication for PAE in the management of BPH-LUTS.",
+   "We reviewed the role of prostatic artery embolization (PAE) in the treatment of symptoms associated with benign overgrowth of the prostate. The results suggest that PAE is not as effective as established surgical therapies but has fewer side effects. Further research is required to determine whether PAE is the best treatment for certain types of patients. PAE should, therefore, not yet be considered a standard treatment."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Meta-Analysis",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "37142802",
+  "doi": "10.1007/s00270-023-03443-9",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2023",
+  "vol": "46",
+  "issue": "8",
+  "pages": "1025-1035",
+  "title": "Cost-Utility Analysis of Prostatic Artery Embolization for Treatment of Lower Urinary Tract Symptoms.",
+  "authors": [
+   "Capdevila F",
+   "Insausti I",
+   "San Miguel R",
+   "Sanchez-Iriso E",
+   "Montesino M"
+  ],
+  "aff": "Department of Pharmacy, University Hospital of Navarre (HUN), Calle Irunlarrea 3, 31008, Pamplona, Spain.",
+  "abstract": [
+   "To perform a post hoc cost-utility analysis of a randomized controlled clinical trial comparing prostatic artery embolization (PAE) and transurethral resection of the prostate (TURP) in patients with lower urinary tract symptoms secondary to benign prostatic hyperplasia.",
+   "We conducted a cost-utility analysis over a 5-year period to compare PAE versus TURP from a Spanish National Health System perspective. Data were collected from a randomized clinical trial performed at a single institution. Effectiveness was measured as quality-adjusted life years (QALYs), and an incremental cost-effectiveness ratio (ICER) was derived from the cost and QALY values associated with these treatments. Further sensitivity analysis was performed to account for the impact of reintervention on the cost-effectiveness of both procedures.",
+   "At the 1-year follow-up, PAE resulted in mean cost per patient of €2904.68 and outcome of 0.975 QALYs per treatment. In comparison, TURP had cost €3846.72 per patient and its outcome was 0.953 QALYs per treatment. At 5 years, the cost for PAE and TURP were €4117.13 and €4297.58, and the mean QALY outcome was 4.572 and 4.487, respectively. Analysis revealed an ICER of €2121.15 saved per QALY gained when comparing PAE to TURP at long-term follow-up. Reintervention rate for PAE and TURP was 12% and 0%, respectively.",
+   "Compared to TURP, in short term, PAE could be considered a cost-effective strategy within the Spanish healthcare system for patients with lower urinary tract symptoms secondary to benign prostatic hyperplasia. However, in long term, the superiority is less apparent due to higher reintervention rates."
+  ],
+  "types": [
+   "Randomized Controlled Trial",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "38233575",
+  "doi": "10.1007/s00270-023-03650-4",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2024",
+  "vol": "47",
+  "issue": "5",
+  "pages": "632-639",
+  "title": "Efficacy of High-Dose Dexamethasone in Reducing the Symptoms of Postembolization Syndrome Following Prostatic Artery Embolization: Results of a Double-Blind Randomized Controlled Trial.",
+  "authors": [
+   "Svarc P",
+   "Stroomberg HV",
+   "Taudorf M",
+   "Brasso K",
+   "Lonn L",
+   "Røder A"
+  ],
+  "aff": "Department of Radiology, Rigshospitalet, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 9, 2100, Copenhagen, Denmark.",
+  "abstract": [
+   "To evaluate the efficacy of a single perioperative dose of dexamethasone in reducing postembolization syndrome following prostatic artery embolization.",
+   "We conducted a single-center double-blind randomized controlled trial from March 2021 to May 2022 (NCT04588857). Participants were randomized to receive either i.v. 24 mg dexamethasone or saline. The primary outcome measures were temperature, pain, and quality of life in the first 5 days following prostatic artery embolization. Sample size of 60 patients was needed for the assessment of primary outcomes. Participants were followed for 6 months and assessed for a variety of secondary outcome measures including inflammatory markers and lower urinary tract symptoms severity.",
+   "Due to lack of clinical effect and mild symptoms in the control group, the trial was terminated early. 31 participants (16 dexamethasone vs. 15 control) were enrolled and analyzed. A difference in mean temperature was observed on day 1 (37.23 ± 0.64 °C control vs 36.74 ± 0.41 °C dexamethasone, p = 0.02, 95% CI 0.09-0.89). Difference in pain (score out of 10) was seen only on day 5 (1.48 ± 1.2 control vs. 2.9 ± 2.24 dexamethasone, p = 0.04, 95% CI - 2.78-- 0.04). A difference in C-reactive protein values was observed on day 2 (108 [54-161] mg/l control vs 10 [5-33] mg/l dexamethasone, p < 0.01). No significant differences in other outcomes were observed. No side effects were recorded.",
+   "Twenty-four milligrams of dexamethasone bolus is safe but does not reduce postembolization syndrome following prostatic artery embolization."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "30499637",
+  "doi": "10.1111/bju.14632",
+  "journal": "BJU Int",
+  "year": "2018",
+  "vol": "124",
+  "issue": "1",
+  "pages": "134-144",
+  "title": "Outcome prediction of prostatic artery embolization: post hoc analysis of a randomized, open-label, non-inferiority trial.",
+  "authors": [
+   "Abt D",
+   "Müllhaupt G",
+   "Mordasini L",
+   "Güsewell S",
+   "Markart S",
+   "Zumstein V",
+   "Kessler TM",
+   "Schmid HP",
+   "Engeler DS",
+   "Hechelhammer L"
+  ],
+  "aff": "Department of Urology, St Gallen Cantonal Hospital, St Gallen, Switzerland.",
+  "abstract": [
+   "To identify predictors for different treatment outcomes after prostatic artery embolization (PAE) in the treatment of lower urinary tract symptoms secondary to benign prostatic hyperplasia.",
+   "A post hoc analysis of data derived from the 48 patients undergoing PAE in a randomized, open-label, non-inferiority trial was performed. Relative changes in the International Prostate Symptoms Score (IPSS), absolute changes in maximum urinary flow rate (Q), and relative changes in magnetic resonance imaging-assessed prostate volume from baseline to 12 weeks were defined as the outcomes measures of interest. Their association with various baseline characteristics and measures, technical details of PAE, and early postoperative measures were analysed using Spearman rank correlations and Wilcoxon rank-sum tests. The most promising predictors were further evaluated in receiver-operating characteristic (ROC) curve analyses.",
+   "Higher total prostate and central gland (i.e. central plus transitional zone) volumes were associated with more pronounced improvements in the IPSS (Spearman rank correlation [rs]: -0.35 and -0.34; P = 0.01 and P = 0.02, respectively) and the Q(rs: 0.31 and 0.39; P = 0.05 and P = 0.01, respectively). ROC curve analyses suggested that volumes of 39 and 38 mL for total prostate and central gland volume, respectively, would be the optimal thresholds with which to predict PAE success as measured by the IPSS. Other anatomical characteristics of the prostate, such as the central gland index, also showed an even more distinct correlation to the improvement in Q(rs: 0.46, P = 0.003). The relative changes in prostate volume were clearly dependent on the technical performance of PAE. Occurrence of postoperative pain and blood levels of prostate-specific antigen and C-reactive protein emerged as potential early-stage outcome predictors after PAE.",
+   "Baseline and peri-operative findings might help to guide patient selection and outcome prediction for PAE. Patients with larger prostates have a higher chance of success with PAE. Larger-scale clinical trials including a longer follow-up are warranted to further elucidate the most suitable patients for PAE."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't",
+   "Equivalence Trial"
+  ]
+ },
+ {
+  "pmid": "30661948",
+  "doi": "10.1016/j.jvir.2018.09.029",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2019",
+  "vol": "30",
+  "issue": "2",
+  "pages": "217-224",
+  "title": "Predictability and Inducibility of Detachment of Prostatic Central Gland Tissue after Prostatic Artery Embolization: Post Hoc Analysis of a Randomized Controlled Trial.",
+  "authors": [
+   "Hechelhammer L",
+   "Müllhaupt G",
+   "Mordasini L",
+   "Markart S",
+   "Güsewell S",
+   "Betschart P",
+   "Schmid HP",
+   "Engeler DS",
+   "Abt D"
+  ],
+  "aff": "Department of Radiology and Nuclear Medicine, Kantonsspital St. Gallen, Rorschacherstrasse 95, 9007 St. Gallen, Switzerland.",
+  "abstract": [
+   "To assess the frequency and potential predictors of prostatic central gland tissue detachment (CGD), an enucleation-like reaction that sporadically occurred in a randomized controlled trial assessing efficacy and safety of prostatic artery embolization (PAE).",
+   "Trial data were analyzed to identify patients with CGD after PAE. Clinical parameters, MR imaging findings, technical details of PAE, and periinterventional data were compared between patients with and without CGD to identify parameters for prediction, induction, or early detection of CGD after PAE.",
+   "CGD occurred after PAE in 3 of 48 patients (6.3%); these cases had good functional outcomes, but CGD was associated with increased risk of ejaculatory dysfunction and occurrence of complications. Frequency of preoperative transurethral bladder catheterization (100% vs 13.3%; P = .005), central gland index (mean ± standard deviation, 0.86 ± 0.02 vs 0.69 ± 0.14; P < .001), amount of particles applied (1.93 mL ± 0.12 vs 0.96 mL ± 0.36; P < .001), maximum early postoperative pain score (7.33 ± 2.08 vs 1.89 ± 2.40; P = .009), and blood C-reactive protein (CRP) levels after 48 hours (69.0 vs 18.58 mg/dL; P = .045) and 1 week (113.50 vs 5.16 mg/dL; P = .004) were significantly higher in cases of CGD.",
+   "CGD is a rare reaction that might be triggered by prostatic zonal anatomy, embolization technique, and mechanical or inflammatory processes. It should be considered in patients with severe postoperative pain and high CRP levels who experience voiding dysfunction after PAE to avoid complications. Investigation of larger cohorts might further elucidate this tissue response."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "31029381",
+  "doi": "10.1016/j.jvir.2019.02.014",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2019",
+  "vol": "30",
+  "issue": "5",
+  "pages": "638-644",
+  "title": "Prostatic Artery Embolization for Benign Prostatic Hyperplasia: Prospective Randomized Trial of 100-300 μm versus 300-500 μm versus 100- to 300-μm + 300- to 500-μm Embospheres.",
+  "authors": [
+   "Torres D",
+   "Costa NV",
+   "Pisco J",
+   "Pinheiro LC",
+   "Oliveira AG",
+   "Bilhim T"
+  ],
+  "aff": "Department of Interventional Radiology, Hospital Saint Louis, Rua Luz Soriano No. 182, 1200-249, Lisbon, Portugal; Department of Radiology, NOVA Medical School, Faculdade de Ciências Médicas, Universidade Nova de Lisboa, Lisbon, Portugal.",
+  "abstract": [
+   "This study compared the safety and efficacy of prostatic arterial embolization (PAE) with that of trisacryl gelatin microspheres of different sizes for treatment of benign prostatic hyperplasia (BPH).",
+   "This study consisted of a single-center, randomized controlled clinical trial in 138 patients who underwent PAE for BPH between July 2015 and December 2016. Patients were randomized to PAE using microspheres of different sizes: group A patients were treated with microspheres 100-300 μm, group B with 300-500 μm, and group C with 100-300 μm followed by 300-500 μm. All patients were evaluated before and at 1, 3, 6, 12, and 18 months after PAE. Baseline data were comparable across the 3 groups, using the following mean International Prostate Symptom Score/quality of life (IPSS/QoL); prostate volume (PV) scores, respectively: 23.0/4.14; 87.9 cm(group A); 23.0/4.09; 89.0 cm(group B); and 24.2/4.29; 81.0 cm(group C) (P > 0.05).",
+   "Mean IPSS/QoL scores; PV after PAE were: 9.98/2.49; 65.1 cm(group A); 8.24/2.26; 63.1 cm(group B); and 10.1/2.69; 53.1 cm(group C) (P = 0.23; P = 0.39; P = 0.24). There were 26 clinical failures. The cumulative probabilities of clinical success at 18 months were 76.7% in group A, 82.6% in group B, and 83.3% in group C (P = 0.68). Nontarget embolization was prevented in 6 patients by coil embolization. All adverse events were mild and self-limited with rates of 86.0% in group A (37 of 43); 41.3% in group B (19 of 46); and 58.3% in group C (28 of 48) (P < 0.001). Dysuria was the most frequent adverse event (28 of 137 [20.4%]).",
+   "PAE outcomes were not significantly different among microspheres of different sizes. The use of 100- to 300-μm microspheres was associated with an increased risk of minor adverse events."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "35688786",
+  "doi": "10.1016/j.acra.2022.05.007",
+  "journal": "Acad Radiol",
+  "year": "2022",
+  "vol": "30",
+  "issue": "4",
+  "pages": "689-697",
+  "title": "Initial Experience Using Digital Variance Angiography in Context of Prostatic Artery Embolization in Comparison with Digital Subtraction Angiography.",
+  "authors": [
+   "Alizadeh LS",
+   "Gyánó M",
+   "Góg I",
+   "Szigeti K",
+   "Osváth S",
+   "Kiss JP",
+   "Yel I",
+   "Koch V",
+   "Grünewald LD",
+   "Vogl TJ",
+   "Booz C"
+  ],
+  "aff": "The Institute for Interventional and Diagnostic Radiology, University Hospital Frankfurt, Germany.",
+  "abstract": [
+   "In previous clinical studies digital variance angiography (DVA) provided higher contrast-to-noise ratio (CNR) and better image quality in lower extremity angiography than digital subtraction angiography (DSA). Our aim was to investigate whether DVA has similar quality reserve in prostatic artery embolization (PAE). The secondary aim was to explore the potential advantages of the color-coded DVA (ccDVA) technology in PAE.",
+   "This retrospective study evaluated 108 angiographic acquisitions from 30 patients (mean ± SD age 68.0 ± 8.9, range 41-87) undergoing PAE between May and October 2020. DSA and DVA images were generated from the same unsubtracted acquisition, and their CNR was calculated. Visual evaluation of DVA and DSA image quality was performed by four experienced interventional radiologists in a randomized, blinded manner. The diagnostic value of DSA and ccDVA images was also evaluated using clinically relevant criteria (visibility of small [< 2.5 mm] and large arteries [> 2.5 mm], feeding arteries and tissue blush) in a paired comparison. Data were analysed by the Wilcoxon signed rank test or the binomial test, the interrater agreement was determined by the Kendall W or Fleiss Kappa analysis.",
+   "DVA provided 4.11 times higher median CNR than DSA (IQR: 1.72). The visual score of DVA images (4.40 ± 0.05) was significantly higher than that of DSA (3.39 ± 0.07, p < 0.001). The Kendall W analysis showed moderate but significant agreement (W= 0.38, W= 0.53). The preference of ccDVA images was significantly higher in all criteria (63-89%) with an interrater agreement of 58-79%. The Fleiss Kappa range was 0.02-0.18, significant in all criteria except large vessels.",
+   "Our data show that DVA provides higher CNR and better image quality in PAE. This quality reserve might be used for dose management (reduction of radiation dose and contrast agent volume), and ccDVA technology has also a high potential to assist PAE interventions in the future."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "31587950",
+  "doi": "10.1016/j.jvir.2019.06.019",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2019",
+  "vol": "30",
+  "issue": "11",
+  "pages": "1798-1806",
+  "title": "Randomized Clinical Trial of Balloon Occlusion versus Conventional Microcatheter Prostatic Artery Embolization for Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Bilhim T",
+   "Costa NV",
+   "Torres D",
+   "Pisco J",
+   "Carmo S",
+   "Oliveira AG"
+  ],
+  "aff": "Interventional Radiology Unit, Saint Louis Hospital, R. Luz Soriano 182, Lisbon 1200-249, Portugal; Interventional Radiology Unit, Centro Hospitalar Universitário de Lisboa Central, Lisbon, Portugal; Nova Medical School, Faculdade de Ciências Médicas, Universidade Nova de Lisboa, Lisbon, Portugal.",
+  "abstract": [
+   "To compare balloon occlusion prostatic artery embolization (bPAE) with conventional microcatheter PAE (cPAE).",
+   "In this single-center trial, between November 2017 and November 2018, 89 patients with symptomatic benign prostatic hyperplasia were randomly assigned to cPAE (n = 43) or bPAE (n = 46). All patients received embolization with 300-500 μm Embosphere microspheres and were evaluated before and 1 and 6 months after PAE. Primary outcome measure was change from baseline in International Prostate Symptom Score (IPSS). Student t test was used for between-group comparisons of change from baseline, and paired t test was used for within-group comparisons.",
+   "At baseline, groups were identical (P > .05). Unilateral PAE was performed in 4 patients receiving cPAE and 3 patients receiving bPAE (9.30% and 6.52%, P = .708). Procedural and fluoroscopy times, dose area product, air kerma, embolic volume, and mean prostate-specific antigen (PSA) 24 hours after PAE did not differ between groups (P > .05). Coils were used in 6 patients receiving cPAE and 4 patients receiving bPAE (14.0% and 8.70%, P = .51). Assessments at 6 months after PAE showed mean IPSS reduction was 7.58 ± 6.88 after cPAE and 8.30 ± 8.12 after bPAE (P = .65); mean prostate volume reduction was 21.9 cm± 51.6 (18.2%) after cPAE and 6.15 cm± 14.6 (7.3%) after bPAE (P = .05); mean PSA reduction was 0.9 ng/mL ± 2.22 after cPAE and 0.22 ng/mL ± 1.65 after bPAE (P = .10). Penile skin lesions (n = 3) and rectal bleeding (n = 2) were documented only in patients receiving cPAE (11.9%, P = .01). No major adverse events occurred.",
+   "bPAE is as effective as cPAE in treating benign prostatic hyperplasia with a potential to reduce nontarget embolization."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "32249193",
+  "doi": "10.1016/j.jvir.2019.12.810",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2020",
+  "vol": "31",
+  "issue": "6",
+  "pages": "882-890",
+  "title": "Randomized Comparison of Prostatic Artery Embolization versus Transurethral Resection of the Prostate for Treatment of Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Insausti I",
+   "Sáez de Ocáriz A",
+   "Galbete A",
+   "Capdevila F",
+   "Solchaga S",
+   "Giral P",
+   "Bilhim T",
+   "Isaacson A",
+   "Urtasun F",
+   "Napal S"
+  ],
+  "aff": "Department of Interventional Radiology, Complejo Hospitalario de Navarra, Pamplona, Spain.",
+  "abstract": [
+   "To compare clinical and functional outcomes of prostatic artery embolization (PAE) with those of transurethral resection of the prostate (TURP) for the treatment of lower urinary tract symptoms (LUTS) secondary to benign prostatic hyperplasia (BPH).",
+   "Noninferiority randomized trial was conducted involving men over 60 years of age with LUTS secondary to BPH. From November 2014 to January 2017, 45 patients were randomized to PAE (n = 23) or to TURP (n = 22). PAE was performed with 300- to 500-μm microspheres with the patient under local anesthesia, whereas bipolar TURP was performed with the patients under spinal or general anesthesia. Primary outcomes were changes in peak urinary flow (Q) and international prostate symptoms score (IPSS) from baseline to 12 months. Quality of life (QoL), and prostate volume (PV) changes from baseline to 12 month were secondary outcomes. Adverse events were compared using the Clavien classification.",
+   "Mean Qincreased from 6.1 mL/s in the PAE group and from 9.6 mL/s in the TURP patients (P = .862 for noninferiority), and mean IPSS reduction was 21.0 points for PAE and 18.2 points for TURP subjects (P = .080) at 12 months. A greater QoL improvement was reported in the PAE group (3.78 points for PAE and 3.09 points for TURP; P = .002). Mean PV reduction was 20.5 cm³ (34.2%) for PAE subjects and 44.7 cm³ (71.2%) for TURP subjects (P < .001). There were fewer adverse events reported in the PAE group than in the TURP group (n = 15 vs n = 47; P < .001).",
+   "Reduction of LUTS in the PAE group was similar to that in the TURP group at 12 months, with fewer complications secondary to PAE. Long-term follow-up is needed to compare the durability of the symptomatic improvement from each procedure."
+  ],
+  "types": [
+   "Comparative Study",
+   "Equivalence Trial",
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "25425136",
+  "doi": "10.1186/1471-2490-14-94",
+  "journal": "BMC Urol",
+  "year": "2014",
+  "vol": "14",
+  "issue": "",
+  "pages": "94",
+  "title": "Prostatic artery embolization versus conventional TUR-P in the treatment of benign prostatic hyperplasia: protocol for a prospective randomized non-inferiority trial.",
+  "authors": [
+   "Abt D",
+   "Mordasini L",
+   "Hechelhammer L",
+   "Kessler TM",
+   "Schmid HP",
+   "Engeler DS"
+  ],
+  "aff": "Department of Urology, Cantonal Hospital St, Gallen, Rorschacherstrasse 95, St, Gallen 9007, Switzerland.",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) is a prevalent entity in elderly men and transurethral resection of the prostate (TURP) still represents the gold standard of surgical treatment despite its considerable perioperative morbidity. Recently, prostatic artery embolization (PAE) was described as a novel effective and less invasive treatment alternative. Despite promising first results, PAE still has to be considered experimental due to a lack of good quality studies. Prospective randomized controlled trials comparing PAE with TUR-P are highly warranted.",
+   "This is a single-centre, prospective, randomized, non-inferiority trial comparing treatment effects and adverse events of PAE and TURP in a tertiary referral centre. One hundred patients who are electable for both treatment options are randomized to either PAE or TURP. Changes of the International Prostate Symptom Score (IPSS) after 3 months are defined as primary endpoint. Changes in bladder diaries, laboratory analyses, urodynamic investigations and standardised questionnaires are assessed as secondary outcome measures. In addition contrast-enhanced magnetic resonance imaging of the pelvis before and after the interventions will provide crucial information regarding morphological changes and vascularisation of the prostate. Adverse events will be assessed on every follow-up visit in both treatment arms according to the National Cancer Institute Common Terminology Criteria for Adverse events and the Clavien classification.",
+   "The aim of this study is to assess whether PAE represents a valid treatment alternative to TURP in patients suffering from BPH in terms of efficacy and safety.",
+   "ClinicalTrials.gov NCT02054013."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "30297313",
+  "doi": "10.1016/j.jvir.2018.06.019",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2018",
+  "vol": "29",
+  "issue": "12",
+  "pages": "1694-1702",
+  "title": "Comparison of Clinical Outcomes of Prostatic Artery Embolization with 50-μm Plus 100-μm Polyvinyl Alcohol (PVA) Particles versus 100-μm PVA Particles Alone: A Prospective Randomized Trial.",
+  "authors": [
+   "Wang MQ",
+   "Zhang JL",
+   "Xin HN",
+   "Yuan K",
+   "Yan J",
+   "Wang Y",
+   "Zhang GD",
+   "Fu JX"
+  ],
+  "aff": "Department of Interventional Radiology, Chinese PLA General Hospital, Beijing 100853, P.R. China.",
+  "abstract": [
+   "To evaluate the safety and efficacy of prostatic artery embolization (PAE) using the combination of 50-μm and 100-μm polyvinyl alcohol (PVA) particles versus 100-μm PVA particles alone in the treatment of patients with symptomatic benign prostatic hyperplasia (BPH).",
+   "Over a 5-year period, 120 patients treated with PAE for lower urinary tract symptoms (LUTS) secondary to BPH were randomized to undergo embolization with 50-μm plus 100-μm PVA particles (group A) or 100-μm PVA particles alone (group B). Mean follow-up time was 34 months (range, 12-57 mo). There were no differences between groups regarding baseline data. Primary outcome measurements included change in International Prostate Symptom Score (IPSS) and incidence of adverse events. Secondary outcome measurements included procedure-associated pain, prostate ischemia measured on magnetic resonance (MR) imaging 1 week after PAE, and changes over time in quality of life (QOL) questionnaire, peak urinary flow rate (Q), postvoid residual (PVR) volume, prostate volume (PV), prostate-specific antigen (PSA) level, and International Index of Erectile Function (IIEF) were evaluated. Recurrence of LUTS following PAE was defined as relief of LUTS temporally but increased IPSS ≥ 8 or QOL score ≥ 3 or decrease in Qto < 7 mL/s.",
+   "Mean follow-up periods were 35 months ± 22 in group A and 33 months ± 25 in group B (P = .629). No differences between groups regarding procedural details, pain scores, or adverse events were noted (P > .05). At 24 month of follow-up, patients in group A had a greater decrease in mean IPSS (18.7 ± 12.5 vs 14.8 ± 13.5), QOL score (3.7 ± 1.5 vs 2.4 ± 1.8), Q(10.5 mL ± 9.5 vs 6.8 mL ± 5.0), PVR (92.0 mL ± 75.0 vs 60.0 mL ± 55.0), and PV (37.0 mL ± 19.5 vs 25.5 mL ± 15.0) compared with patients in group B (P < .05 for all). Mean ratios of prostate ischemic volume at 1 week after PAE were 70% ± 20 in group A and 41% ± 25 in group B (P = .021); mean PSA levels at 24 hour after PAE were 92.5 ng/mL ± 55.0 in group A and 77.5 ng/mL ± 45.0 in group B (P = .031); LUTS recurrence rates were 3.6% in group A and 14.6% in group B (P = .024). The mean IIEF-5 was not significantly different from baseline in either group.",
+   "PAE with 50-μm plus 100-μm PVA particles resulted in greater improvement in clinical and imaging outcomes and no significant differences in adverse events compared with 100-μm PVA particles alone."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "41483205",
+  "doi": "10.1007/s00330-025-12235-3",
+  "journal": "Eur Radiol",
+  "year": "2026",
+  "vol": "36",
+  "issue": "6",
+  "pages": "4682-4692",
+  "title": "Digital variance angiography enables up to 80% reduction in stationary acquisition radiation dose during prostatic artery embolization: a prospective randomized trial.",
+  "authors": [
+   "Alizadeh LS",
+   "Vogl TJ",
+   "Rafi W",
+   "Caruso M",
+   "Elek R",
+   "Osvath S",
+   "Nica A",
+   "Gruenewald LD",
+   "Yel I",
+   "Goekduman A",
+   "Koch V",
+   "Dimitrova M",
+   "D'Angelo T",
+   "Booz C"
+  ],
+  "aff": "Department of Diagnostic and Interventional Radiology, University Hospital Frankfurt, Frankfurt, Germany.",
+  "abstract": [
+   "Digital variance angiography (DVA) has demonstrated superior image quality compared to digital subtraction angiography (DSA), but its potential remains underexplored for complex procedures.",
+   "This prospective randomized controlled trial enrolled 70 patients (mean ± SD age: 69.23 ± 8.7, range 53-96) undergoing PAE between January and October 2023. Patients were randomized to normal dose (ND) DSA (n = 35) or ultra-low dose (ULD) DSA (n = 35), with the latter reducing target detector dose by 72% for stationary acquisitions only. Radiation dose analysis was limited to stationary acquisitions, as only these series were acquired using the modified low-dose protocol. Dose-area product (DAP), contrast-to-noise ratios (CNR), and visual image quality of DSA and DVA images were compared. Three experienced interventional radiologists conducted a randomized, blinded 5-point Likert evaluation of large and small vessels, tissue blush, and background noise. Statistical analysis included Mann-Whitney tests, Spearman correlation, Kendall Tau B, and Bangdiwala's B for interrater agreement.",
+   "The ULD protocol reduced stationary acquisition-related DAP by up to 80% compared to controls (580 ± 66 vs 2872 ± 396 µGym²/patient, p < 0.001). DVA showed significantly higher CNR in both groups, with median CNR/CNRratios of 3.85 in ND and 4.60 in ULD. DVA images achieved significantly higher scores for small vessels and tissue blush visualization (p < 0.001; CNR: 4.10 vs 2.88; Likert rating: 2.79 vs 1.58).",
+   "DVA enables substantial radiation dose reduction in PAE while maintaining superior image quality versus DSA, potentially improving angiographic safety and efficacy.",
+   "Question DVA is useful in reducing dose and enhancing image quality, yet it was not validated for complex angiographic procedures. Findings DVA provides better qualitative and quantitative image quality than DSA with reduced dose for prostatic artery embolizations. Clinical relevance DVA significantly improves image quality in Prostatic Artery Embolization compared to DSA, which allows up to 80% reduction in radiation burden to patients and interventionalists alike, while it also maintains diagnostic image quality."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "35655035",
+  "doi": "10.1007/s00270-022-03165-4",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2022",
+  "vol": "45",
+  "issue": "9",
+  "pages": "1339-1348",
+  "title": "Prostatic Artery Embolization (PAE) Using Polyethylene Glycol Microspheres: Safety and Efficacy in 81 Patients.",
+  "authors": [
+   "Insausti I",
+   "Galbete A",
+   "Lucas-Cava V",
+   "de Ocáriz AS",
+   "Solchaga S",
+   "Monreal R",
+   "de la Cuesta AM",
+   "Alfaro R",
+   "Sun F",
+   "Montesino M",
+   "Urtasun F",
+   "Bilbao Jaureguízar JI"
+  ],
+  "aff": "Department of Interventional Radiology, Hospital Universitario de Navarra, Pamplona, Spain.",
+  "abstract": [
+   "To evaluate the safety and efficacy of prostatic artery embolization (PAE) using polyethylene glycol microspheres (PEGM) in patients with lower urinary tract symptoms secondary to benign prostatic hyperplasia (BPH).",
+   "This multicentric prospective study enrolled 81 patients who underwent PAE with 400 ± 75 µm PEGM (HydroPearl®, Terumo, Japan). Results from baseline and 1-, 3-, 6-, and 12-month follow-ups were assessed for subjective outcomes including International Prostate Symptoms Score (IPSS), Quality of life (QoL), and International Index of Erectile Function, and objective outcomes such as peak urinary flow (Qmax) and post-void residual volume (PVR). The visual analogue scale, satisfaction questionnaire, prostatic volume, and prostatic specific antigen levels were also evaluated. Complications were documented using the modified Clavien-Dindo classification.",
+   "Technical success was obtained in all patients. Clinical success was achieved in 78.5% of patients. Before PAE, 54.3% of patients had an indwelling catheter which was removed in 75% of them after procedure. A statistically significant decrease was observed in IPSS and QoL from baseline to 12 months (20.14 vs 5.89; 4.8 vs 0.63, P < .01), respectively. Objective outcomes also showed a statistically significant improvement in Qmax (+ 114.9%; P < .01), achieving a maximum urinary flow of 14.2 mL/sec, and PVR (decrease 58%; P < .05) at 12 months. Minor complications (Clavien-Dindo grades I-II) occurred in 13.6% of patients, without major complications observed.",
+   "PAE with PEGM is safe and effective treatment in patients with symptomatic BPH, with a significant improvement in both subjective and objective outcomes."
+  ],
+  "types": [
+   "Journal Article",
+   "Multicenter Study"
+  ]
+ },
+ {
+  "pmid": "35484049",
+  "doi": "10.1016/j.euf.2022.04.005",
+  "journal": "Eur Urol Focus",
+  "year": "2022",
+  "vol": "8",
+  "issue": "2",
+  "pages": "384-387",
+  "title": "Prostatic Artery Embolisation: Do We Still Need It and for Whom?",
+  "authors": [
+   "Abt D",
+   "Lyatoshinsky P",
+   "Schmid HP",
+   "Müllhaupt G"
+  ],
+  "aff": "Department of Urology, Spitalzentrum Biel, Centre Hospitalier Bienne, Biel, Switzerland.",
+  "abstract": [
+   "Prostatic artery embolisation (PAE) is now endorsed by international evidence-based guidelines as a treatment for lower urinary tract symptoms presumed secondary to benign prostatic obstruction (LUTS/BPO) for selected patients. PAE is a truly minimally invasive technique, with proven efficacy and safety demonstrated for the short- to mid-term. As it has a unique treatment approach (endovascular instead of transurethral), its profile and ideal application differ clearly from other treatments for LUTS/BPO, which must be considered for patient selection. This mini review examines the role of PAE in the treatment of LUTS/BPO on the basis of current evidence. PATIENT SUMMARY: For properly selected patients, prostatic artery embolisation (PAE), in which arteries feeding the prostate are blocked in a nonsurgical procedure, is one of the treatment options for obstruction of urine outflow caused by benign enlargement of the prostate. This article examines the role of PAE according to the evidence available in the literature."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "33612376",
+  "doi": "10.1016/j.eururo.2021.02.008",
+  "journal": "Eur Urol",
+  "year": "2021",
+  "vol": "80",
+  "issue": "1",
+  "pages": "34-42",
+  "title": "Prostatic Artery Embolisation Versus Transurethral Resection of the Prostate for Benign Prostatic Hyperplasia: 2-yr Outcomes of a Randomised, Open-label, Single-centre Trial.",
+  "authors": [
+   "Abt D",
+   "Müllhaupt G",
+   "Hechelhammer L",
+   "Markart S",
+   "Güsewell S",
+   "Schmid HP",
+   "Mordasini L",
+   "Engeler DS"
+  ],
+  "aff": "Department of Urology, School of Medicine, University of St. Gallen, St. Gallen, Switzerland.",
+  "abstract": [
+   "Prostatic artery embolisation (PAE) for the treatment of lower urinary tract symptoms secondary to benign prostatic obstruction (LUTS/BPO) still remains under investigation.",
+   "To compare the efficacy and safety of PAE and transurethral resection of the prostate (TURP) in the treatment of LUTS/BPO at 2 yr of follow-up.",
+   "A randomised, open-label trial was conducted. There were 103 participants aged ≥40 yr with refractory LUTS/BPO.",
+   "PAE versus TURP.",
+   "International Prostate Symptoms Score (IPSS) and other questionnaires, functional measures, prostate volume, and adverse events were evaluated. Changes from baseline to 2 yr were tested for differences between the two interventions with standard two-sided tests.",
+   "The mean reduction in IPSS after 2 yr was 9.21 points after PAE and 12.09 points after TURP (difference of 2.88 [95% confidence interval 0.04-5.72]; p =  0.047). Superiority of TURP was also found for most other patient-reported outcomes except for erectile function. PAE was less effective than TURP regarding the improvement of maximum urinary flow rate (3.9 vs 10.23 ml/s, difference of -6.33 [-10.12 to -2.54]; p <  0.001), reduction of postvoid residual urine (62.1 vs 204.0 ml; 141.91 [43.31-240.51]; p =  0.005), and reduction of prostate volume (10.66 vs 30.20 ml; 19.54 [7.70-31.38]; p =  0.005). Adverse events were less frequent after PAE than after TURP (total occurrence n = 43 vs 78, p =  0.005), but the distribution among severity classes was similar. Ten patients (21%) who initially underwent PAE required TURP within 2 yr due to unsatisfying clinical outcomes, which prevented further assessment of their outcomes and, therefore, represents a limitation of the study.",
+   "Inferior improvements in LUTS/BPO and a relevant re-treatment rate are found 2 yr after PAE compared with TURP. PAE is associated with fewer complications than TURP. The disadvantages of PAE regarding functional outcomes should be considered for patient selection and counselling.",
+   "Prostatic artery embolisation is safe and effective. However, compared with transurethral resection of the prostate, its disadvantages regarding subjective and objective outcomes should be considered for individual treatment choices."
+  ],
+  "types": [
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "32418877",
+  "doi": "10.1016/j.euf.2020.04.012",
+  "journal": "Eur Urol Focus",
+  "year": "2020",
+  "vol": "7",
+  "issue": "3",
+  "pages": "608-611",
+  "title": "Radiation Exposure During Prostatic Artery Embolisation: A Systematic Review and Calculation of Associated Risks.",
+  "authors": [
+   "Zumstein V",
+   "Binder J",
+   "Güsewell S",
+   "Betschart P",
+   "Pratsinis M",
+   "Müllhaupt G",
+   "Hechelhammer L",
+   "Schmid HP",
+   "Abt D"
+  ],
+  "aff": "Department of Urology, Kantonsspital St. Gallen, St. Gallen, Switzerland.",
+  "abstract": [
+   "Although evidence supporting the efficacy and safety of prostatic artery embolisation (PAE) is increasing, potential associated risks of ionising radiation in this context remain largely unknown. We systematically reviewed reports on radiation exposure (RE) during PAE in the literature and estimated the risk RE poses using a Monte Carlo dose calculation algorithm. Of 842 studies screened, 22 were included. The overall mean dose area product (DAP) was 181.6 Gy∙cm(95% confidence interval 125.7-262.4). The risk model for the effects of RE in a 66-yr-old patient exposed to DAP of 200 Gy∙cmshowed that the probability of cancer death from the intervention was 0.117%. The highest specific lifetime risk was expected for leukaemia (0.061%). Wide DAP variation between individual studies (medians ranging from 33.2 to 863.4 Gy∙cm) indicate large potential to reduce RE during PAE at some study centres. RE must be included in patient counselling on PAE, especially for younger patients. PATIENT SUMMARY: We systematically assessed radiation exposure during prostatic artery embolisation (PAE) in the literature and simulated the associated risks in a computer model. PAE exposes patients to very low but not negligible risks, which are most relevant for younger men. This should be discussed with patients before PAE."
+  ],
+  "types": [
+   "Journal Article",
+   "Systematic Review"
+  ]
+ },
+ {
+  "pmid": "31831295",
+  "doi": "10.1016/j.eururo.2019.11.010",
+  "journal": "Eur Urol",
+  "year": "2019",
+  "vol": "77",
+  "issue": "3",
+  "pages": "354-362",
+  "title": "Randomised Clinical Trial of Prostatic Artery Embolisation Versus a Sham Procedure for Benign Prostatic Hyperplasia.",
+  "authors": [
+   "Pisco JM",
+   "Bilhim T",
+   "Costa NV",
+   "Torres D",
+   "Pisco J",
+   "Pinheiro LC",
+   "Oliveira AG"
+  ],
+  "aff": "Interventional Radiology Unit, Hôpital Saint-Louis, Lisbon, Portugal.",
+  "abstract": [
+   "Prostatic artery embolisation (PAE) has been associated with an improvement of lower urinary tract symptoms associated with benign prostatic hyperplasia (LUTS/BPH), but conclusive evidence of efficacy from randomised controlled clinical trials has been lacking.",
+   "To assess the safety and efficacy of PAE compared with a sham procedure in the treatment of LUTS/BPH.",
+   "A randomised, single-blind, sham-controlled superiority clinical trial was conducted in 80 males ≥45yr with severe LUTS/BPH refractory to medical treatment from 2014 to 2019 in a private clinic, with efficacy assessments at 6 and 12 mo after randomisation. One patient in the PAE group and three in the sham group did not complete the study.",
+   "Patients were randomised 1:1 upon successful catheterisation of a prostatic artery to either PAE or a sham PAE procedure without embolisation. After 6 mo, all 38 patients randomised to the sham group who completed the single-blind period underwent PAE, and both groups completed a 6-mo open period.",
+   "An intention-to-treat analysis of all randomised patients was performed. The coprimary outcomes were the change from baseline to 6 mo in the International Prostate Symptom Score (IPSS) and the quality of life (QoL) score at 6 mo, analysed with analysis of covariance and t test, respectively.",
+   "Mean age was 63.8±6.0yr, baseline IPSS 26.4±3.87, and QoL score 4.43±0.52. At 6 mo, patients in the PAE arm had a greater improvement in IPSS, with a difference in the change from baseline of 13.2 (95% confidence interval [CI] 10.2-16.2, p<0.0001), and a better QoL score at 6 mo (difference: 2.13; 95% CI 1.57-2.68, p<0.0001) than the patients in the sham arm. The improvements in IPSS and QoL in the sham group 6 mo after they performed PAE were, respectively, 13.6±9.19 (p<0.0001) and 2.05 ± 1.71 (p<0.0001). Adverse events occurred in 14 (35.0%) patients after PAE and in 13 (32.5%) after sham, with one serious adverse event in the sham group during the open period. No treatment failures occurred. Limitations include a single-centre trial, only severe LUTS/BPH, and follow-up limited to 12 mo.",
+   "The improvements in subjective and objective variables after PAE are far superior from those due to the placebo effect.",
+   "Clearly superior efficacy of prostatic artery embolisation (PAE) compared with a sham procedure was found in this study, which supports the use of PAE in patients with typical symptoms associated with benign prostatic hyperplasia."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't",
+   "Equivalence Trial"
+  ]
+ },
+ {
+  "pmid": "29921613",
+  "doi": "10.1136/bmj.k2338",
+  "journal": "BMJ",
+  "year": "2018",
+  "vol": "361",
+  "issue": "",
+  "pages": "k2338",
+  "title": "Comparison of prostatic artery embolisation (PAE) versus transurethral resection of the prostate (TURP) for benign prostatic hyperplasia: randomised, open label, non-inferiority trial.",
+  "authors": [
+   "Abt D",
+   "Hechelhammer L",
+   "Müllhaupt G",
+   "Markart S",
+   "Güsewell S",
+   "Kessler TM",
+   "Schmid HP",
+   "Engeler DS",
+   "Mordasini L"
+  ],
+  "aff": "Department of Urology, St Gallen Cantonal Hospital, 9007 St Gallen, Switzerland",
+  "abstract": [
+   "To compare prostatic artery embolisation (PAE) with transurethral resection of the prostate (TURP) in the treatment of lower urinary tract symptoms secondary to benign prostatic hyperplasia in terms of patient reported and functional outcomes.",
+   "Randomised, open label, non-inferiority trial.",
+   "Urology and radiology departments of a Swiss tertiary care centre.",
+   "103 patients aged ≥40 years with refractory lower urinary tract symptoms secondary to benign prostatic hyperplasia were randomised between 11 February 2014 and 24 May 2017; 48 and 51 patients reached the primary endpoint 12 weeks after PAE and TURP, respectively.",
+   "PAE performed with 250-400 μm microspheres under local anaesthesia versus monopolar TURP performed under spinal or general anaesthesia.",
+   "Primary outcome was change in international prostate symptoms score (IPSS) from baseline to 12 weeks after surgery; a difference of less than 3 points between treatments was defined as non-inferiority for PAE and tested with a one sidedtest. Secondary outcomes included further questionnaires, functional measures, magnetic resonance imaging findings, and adverse events; changes from baseline to 12 weeks were compared between treatments with two sided tests for superiority.",
+   "Mean reduction in IPSS from baseline to 12 weeks was -9.23 points after PAE and -10.77 points after TURP. Although the difference was less than 3 points (1.54 points in favour of TURP (95% confidence interval -1.45 to 4.52)), non-inferiority of PAE could not be shown (P=0.17). None of the patient reported secondary outcomes differed significantly between treatments when tested for superiority; IPSS also did not differ significantly (P=0.31). At 12 weeks, PAE was less effective than TURP regarding changes in maximum rate of urinary flow (5.1915.34 mL/s; difference 10.15 (95% confidence interval -14.67 to -5.63); P<0.001), postvoid residual urine (-86.36-199.98 mL; 113.62 (39.25 to 187.98); P=0.003), prostate volume (-12.17-30.27 mL; 18.11 (10.11 to 26.10); P<0.001), and desobstructive effectiveness according to pressure flow studies (56%93% shift towards less obstructive category; P=0.003). Fewer adverse events occurred after PAE than after TURP (3670 events; P=0.003).",
+   "The improvement in lower urinary tract symptoms secondary to benign prostatic hyperplasia seen 12 weeks after PAE is close to that after TURP. PAE is associated with fewer complications than TURP but has disadvantages regarding functional outcomes, which should be considered when selecting patients. Further comparative study findings, including longer follow-up, should be evaluated before PAE can be considered as a routine treatment.",
+   "Clinicaltrials.gov NCT02054013."
+  ],
+  "types": [
+   "Comparative Study",
+   "Equivalence Trial",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "24475799",
+  "doi": "10.1148/radiol.13122803",
+  "journal": "Radiology",
+  "year": "2013",
+  "vol": "270",
+  "issue": "3",
+  "pages": "920-8",
+  "title": "Benign prostatic hyperplasia: prostatic arterial embolization versus transurethral resection of the prostate--a prospective, randomized, and controlled clinical trial.",
+  "authors": [
+   "Gao YA",
+   "Huang Y",
+   "Zhang R",
+   "Yang YD",
+   "Zhang Q",
+   "Hou M",
+   "Wang Y"
+  ],
+  "aff": "From the Department of Radiology, Institute of Surgery Research, Daping Hospital, Third Military Medical University, Chongqing 400042, China (Y.G., Y.W.); Interventional Radiology and Medical Imaging Center (Y.G., Y.H., R.Z., M.H.); and Department of Urology (Y.Y., Q.Z.), the 273th Hospital of Chinese PLA, Xinjiang, China.",
+  "abstract": [
+   "To compare prostatic arterial embolization (PAE) and transurethral resection of the prostate (TURP) in the care of patients with benign prostatic hyperplasia (BPH).",
+   "This prospective randomized clinical trial was approved by the institutional review board. A total of 114 patients provided written informed consent and were randomly assigned to undergo PAE (n = 57) or TURP (n = 57). The groups were compared regarding relevant adverse events and complications. Functional results--including improvement of International Prostate Symptom Score (IPSS), quality of life (QOL), peak urinary flow, postvoiding residual urine volume, prostate-specific antigen (PSA) level, and prostate volume--were assessed at 1-, 3-, 6-, 12-, and 24-month follow-up between January 20, 2007, and January 31, 2012. Student t test, χ(2) test, Fisher exact test, and repeated measures analysis of variance were used, as appropriate.",
+   "Overall technical success rates for TURP and PAE were 100% and 94.7%, respectively; the clinical failure rates were 3.9% and 9.4%, respectively. The six functional results showed improvements after TURP and PAE at all follow-up time points when compared with preoperative values (P = .001). However, the TURP group showed greater degrees of improvement in the IPSS, QOL, peak urinary flow, and postvoiding residual urine volume at 1 and 3 months, as well as greater reductions in the PSA level and prostate volume at all follow-up time points, when compared with the PAE group (P < .05). The PAE group showed more overall adverse events and complications (P = .029), mostly related to acute urinary retention (25.9%), postembolization syndrome (11.1%), and treatment failures (5.3% technical; 9.4% clinical).",
+   "Both procedures resulted in significant clinical improvements in the treatment of BPH. However, the advantages of the PAE procedure must be weighed against the potential for technical and clinical failures in a minority of patients."
+  ],
+  "types": [
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ]
+ },
+ {
+  "pmid": "36561798",
+  "doi": "10.1055/s-0042-1759690",
+  "journal": "Semin Intervent Radiol",
+  "year": "2022",
+  "vol": "39",
+  "issue": "6",
+  "pages": "555-561",
+  "title": "Prostatic Artery Embolization: Technical Pearls.",
+  "authors": [
+   "Bhatia A",
+   "Maini A",
+   "Bhatia S"
+  ],
+  "aff": "Seth G.S. Medical College and King Edward Memorial Hospital, Mumbai, India.",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) is a condition that primarily affects men between the fourth and seventh decades of life, occurring due to enlargement of the prostate which subsequently causes compression of the prostatic urethra causing chronic obstruction of the urinary outflow tract. BPH can cause significant quality-of-life issues such as urinary hesitancy, intermittency, decreased urinary stream, a sensation of incomplete emptying, dysuria, urinary retention, hematuria, and nocturia. Several medical and surgical treatment modalities are available for the treatment of lower urinary tract symptoms and other BPH-related sequela; however, increasingly prostate artery embolization is being utilized in this patient population. Technical demands for this procedure in this population can be significant. This article describes the optimal techniques, tricks, and advanced imaging techniques that can be used to achieve desired technical outcomes."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "41173451",
+  "doi": "10.1016/j.jvir.2025.10.033",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2025",
+  "vol": "37",
+  "issue": "2",
+  "pages": "107902",
+  "title": "Standardized Technique for Prostatic Artery Embolization: A Delphi Consensus Study on Optimized Methods and Emerging Concepts.",
+  "authors": [
+   "Rostambeigi N",
+   "Sapoval M",
+   "Bilhim T",
+   "McClure T",
+   "McWilliams JP",
+   "Carnevale FC",
+   "Kovács A",
+   "Little MW",
+   "Bhatia S",
+   "Parikh NS",
+   "Young SJ",
+   "Ayyagari R",
+   "Mouli SK",
+   "Golzarian J"
+  ],
+  "aff": "Mallinckrodt Institute of Radiology, Washington University, Vascular and Intrventional Radiology, St. Louis, Missouri.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) is a safe and effective treatment for management of lower urinary tract symptoms in men with benign prostatic hyperplasia. Despite its clinical effectiveness, PAE remains technically demanding, necessitating standardized procedural steps to optimize outcomes. Although complete standardization is limited by patient-specific anatomical variations and operator-dependent factors, this paper is aimed at establishing a consensus.",
+   "Following Delphi methodology, a panel of 14 international experts conducted a consensus study to establish evidence-based technical recommendations for PAE. The panel focused on 6 key procedural domains: preprocedural imaging requirements, antibiotic prophylaxis before and after PAE, arterial access, techniques for identification and cannulation of prostatic artery, embolization techniques and materials, and strategies to prevent nontarget embolization.",
+   "This article synthesizes expert opinion and current literature to provide a structured framework for performing PAE. Preprocedural imaging requirements are assessed, and their values are explained. Periprocedural antibiotic prophylaxis is described in different practices. The pros and cons of different arterial access sites are presented. Details on recommended supplies and angiographic techniques are outlined. The available embolic agents and technical details to achieve complete embolization are discussed. Furthermore, the established techniques to avoid nontarget embolization are discussed in stepwise fashion and their safety profiles are presented. Finally, emerging concepts such as the use of liquid embolic agents and coil-out technique for adjunctive coil occlusion of prostatic artery are discussed.",
+   "While acknowledging procedural heterogeneity, the panel presents the most effective technical methods. Large-scale studies are warranted to validate or modify these recommendations."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "40376221",
+  "doi": "10.1055/s-0045-1804908",
+  "journal": "Semin Intervent Radiol",
+  "year": "2025",
+  "vol": "42",
+  "issue": "2",
+  "pages": "213-218",
+  "title": "Anatomy for Prostatic Artery Embolization.",
+  "authors": [
+   "Khunte M",
+   "Laage Gaupp FM"
+  ],
+  "aff": "Warren Alpert School of Medicine of Brown University, Providence, Rhode Island.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) is a minimally invasive treatment for patients with moderate to severe lower urinary tract symptoms and/or urinary retention due to benign prostatic hyperplasia (BPH), as well as hematuria secondary to prostatic bleeding. PAE achieves its therapeutic effect by inducing ischemic necrosis and reducing prostatic volume, while also decreasing neuromuscular tone. This dual mechanism addresses both the static and dynamic components of bladder outflow obstruction associated with BPH. PAE is technically challenging and necessitates in-depth knowledge of the complex and variable anatomy of the pelvic vasculature. Successful outcomes depend on precise identification of the prostatic artery and recognition of anastomoses to surrounding structures to minimize the risk of nontarget embolization and associated complications. This article reviews the prostatic arterial anatomy and explores the role of advanced imaging techniques for preprocedural planning and intraprocedural guidance to optimize procedural safety and efficacy."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "39532156",
+  "doi": "10.1016/j.jvir.2024.11.002",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2024",
+  "vol": "36",
+  "issue": "3",
+  "pages": "456-466",
+  "title": "Prostatic Artery Embolization: Mid- to Long-Term Outcomes in 1,075 Patients.",
+  "authors": [
+   "Bhatia S",
+   "Bhatia A",
+   "Richardson AJ",
+   "Richardson K",
+   "Issa C",
+   "Kumar JG",
+   "Jalaiean H",
+   "Kava B",
+   "Shah HN"
+  ],
+  "aff": "Department of Interventional Radiology, University of Miami, Miller School of Medicine, Miami, Florida.",
+  "abstract": [
+   "To assess the mid- to long-term safety and effectiveness of prostatic artery embolization (PAE) at a single-center cohort of 1,075 patients.",
+   "This institutional review board-approved retrospective study included patients with moderate-to-severe lower urinary tract symptoms (LUTS) or urinary retention who underwent PAE from January 2014 to July 2023. Patients were assessed at 1, 3, 6, and 12 months after PAE and yearly thereafter. The International Prostate Symptom Score (IPSS), quality of life (QoL) score, International Index of Erectile Function-5 (IIEF-5) score, prostate-specific antigen (PSA), prostate volume (PV), postvoid residual, benign prostatic obstruction (BPO) medication usage, urinary catheter status, and further prostatic interventions were assessed. Adverse events were recorded and classified using the Society of Interventional Radiology (SIR) adverse events (AEs) severity classification.",
+   "The mean follow-up was 458.4 days (SD ± 559.5). The mean age was 70.4 years (SD ± 9.0), the median (interquartile range) PV was 107 g (76-150 g), and the median preprocedural IPSS, QoL, and IIEF-5 scores and PSA level were 23 (18-28), 5 (4-6), 17 (10-21), and 4.7 ng/mL (2.6-8), respectively. In the LUTS subgroup, at 1-3, 6-12, and 48-60 months, the median IPSS values were 7 (4-12, P < .001), 6 (3-11, P < .001), and 9 (4-15, P < .001), respectively. The QoL scores at the same time points were 2 (1-2, P < .001), 1 (0-2, P < .001), 2 (0-3, P < .001), respectively. Of 126 patients in the retention cohort, 119 (94%) were catheter-free at the 3-month follow-up. Ninety-patients (16% of reintervention eligible patients) required a second prostatic intervention up to 60 months after PAE. After PAE, 65.5% of patients were BPO medication-free at 1 year. Seven patients (0.65%) had severe AEs according to the SIR AE severity classification: (a) transient ischemic attacks, 3; (b) urosepsis, 2 (treated in the inpatient setting with intravenous antibiotics); and (c) prostate sloughing, 2 (needing transurethral resection of the prostate). All AEs resolved without permanent sequelae.",
+   "In a large cohort with long-term longitudinal follow-up, PAE showed significant, sustained long-term relief of LUTS, improved QoL, low reintervention rate, and high BPO medication-free rates. Ninety-four percent of catheter-dependent patients at baseline were catheter-free at 3 months."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "39074551",
+  "doi": "10.1016/j.jvir.2024.07.018",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2024",
+  "vol": "35",
+  "issue": "12",
+  "pages": "1855-1861",
+  "title": "Early Outcomes of Prostatic Artery Embolization using n-Butyl Cyanoacrylate Liquid Embolic Agent: A Safety and Feasibility Study.",
+  "authors": [
+   "Bamshad D",
+   "Sanghvi J",
+   "Galla N",
+   "Geffner A",
+   "Menon K",
+   "Bishay V",
+   "Shilo D",
+   "Garcia-Reyes K",
+   "Lookstein R",
+   "Rastinehad A",
+   "Fischman A"
+  ],
+  "aff": "Department of Diagnostic, Molecular and Interventional Radiology, Icahn School of Medicine at Mount Sinai, New York, New York.",
+  "abstract": [
+   "This retrospective study evaluated the feasibility, safety, and short-term effectiveness of prostatic artery embolization (PAE) using n-butyl cyanoacrylate (nBCA) glue embolization in 244 patients from June 2022 through May 2024. Technical success, defined as bilateral glue embolization, was achieved in 95% of cases. The median fluoroscopy time was 22.2 minutes (interquartile range [IQR], 17.1-30.0 minutes), and the median air kerma was 753 mGy (IQR, 417-1,559 mGy). Compared with baseline, statistically significant improvements were observed at 7.1 weeks for the International Prostate Symptom Score (9.5 [SD ± 6.0] vs 20.5 [SD ± 6.7]; P < .01), quality of life (1.8 [SD ± 1.5] vs 4.0 [SD ± 1.1]; P < .01), Q(10.4 mL/s [SD ± 6.3] vs 6.1 mL/s [SD ± 2.5]; P < .01), and prostate grand volume at 6 months (113.3 mL [SD ± 69.3] vs 156.6 mL [SD ± 104.6]; P < .01). These results demonstrate the use of nBCA for PAE as a technically feasible and safe option with excellent short-term outcomes."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "35489786",
+  "doi": "10.1016/j.jvir.2022.01.014",
+  "journal": "J Vasc Interv Radiol",
+  "year": "2022",
+  "vol": "33",
+  "issue": "5",
+  "pages": "558-563.e1",
+  "title": "Nontarget Radiopaque Embolic Deposition during Prostatic Artery Embolization.",
+  "authors": [
+   "Brown B",
+   "Yu H",
+   "Bagla S",
+   "Isaacson A"
+  ],
+  "aff": "Department of Radiology, University of North Carolina, Chapel Hill, North Carolina.",
+  "abstract": [
+   "This study evaluated detectable nontarget embolization (NTE) during prostatic artery embolization (PAE) and the safety and efficacy of using radiopaque particles in PAE. Ten patients aged >40 years with prostate glands of >50 mL and refractory lower urinary tract symptoms were analyzed. Unenhanced computed tomography scans at baseline and at 3 months after PAE, using 40-90-μm radiopaque spherical embolic beads, were compared to assess the NTE. Growth models evaluated changes from baseline to 3, 6, and 12 months in International Prostate Symptom Score (IPSS), peak urine flow rate (Qmax), quality of life (QoL), International Index of Erectile Function (IIEF), and postvoid residual (PVR). The IPSS, QoL, and Qmax improved at all time points (P < .05), with no trend in PVR or IIEF. Adverse events that occurred were minor. Radiographic NTE was seen in all patients, correlating at times with postprocedural symptoms (eg, rectal pain). Symptoms were not correlated with the NTE in some patients, whereas other patients remained asymptomatic despite NTE."
+  ],
+  "types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ]
+ },
+ {
+  "pmid": "35532245",
+  "doi": "10.1115/1.4054515",
+  "journal": "J Biomech Eng",
+  "year": "2022",
+  "vol": "144",
+  "issue": "11",
+  "pages": "",
+  "title": "Guiding the Prostatic Artery Embolization Procedure With Computational Fluid Dynamics.",
+  "authors": [
+   "Mahmoudi M",
+   "Jennings C",
+   "Pereira K",
+   "Hall AF",
+   "Arzani A"
+  ],
+  "aff": "Department of Mechanical Engineering, Northern Arizona University, Flagstaff, AZ 86011.",
+  "abstract": [
+   "Benign prostatic hyperplasia (BPH) is a common disease associated with lower urinary tract symptoms and is the most frequent benign tumor in men. To reduce BPH therapy complications, prostatic artery embolization (PAE) was developed to replace the surgical options. PAE is a minimally invasive technique in which emboli are injected into the prostate arteries (PA), obstructing the blood flow in the hypervascular nodules. In this work, a personalized PAE treatment strategy was proposed using patient-specific computational fluid dynamics (CFD). First, the hemodynamics environment in the iliac arterial tree considering a large network of bifurcations was studied. The results showed complex blood flow patterns in the iliac arterial network. Subsequently, the transport of embolic particulates during PAE for the standard horizontal and hypothetical vertical patient positioning was simulated using Lagrangian particle tracking. Emboli of different sizes were released at various locations across the iliac arterial tree. The emboli entering the PA were mapped back to their initial location to create emboli release maps (ERMs). The obtained ERMs during the standard patient positioning for smaller emboli at certain release locations showed distinct regions in which if the emboli were released within these regions, all of them would reach the PA without nontarget embolization. During the hypothetical vertical patient positioning, the larger emboli formed a larger coherent region in the ERMs. Our patient-specific model can be used to find the best spatial location for emboli injection and perform the embolization procedure with minimal off-target delivery."
+  ],
+  "types": [
+   "Journal Article"
+  ]
+ },
+ {
+  "pmid": "29538167",
+  "doi": "10.1097/MOU.0000000000000495",
+  "journal": "Curr Opin Urol",
+  "year": "2018",
+  "vol": "28",
+  "issue": "3",
+  "pages": "284-287",
+  "title": "Prostatic artery embolization for benign prostatic hyperplasia: a review.",
+  "authors": [
+   "Young S",
+   "Golzarian J"
+  ],
+  "aff": "Division of Interventional Radiology, Department of Radiology, University of Minnesota, Minneapolis, Minnesota, USA.",
+  "abstract": [
+   "Over the last several years prostate artery embolization (PAE) has been developed as a minimally invasive technique for the treatment of benign prostatic hyperplasia induced lower urinary tract symptoms. This review aims to elucidate the data available on this developing technique and identify areas requiring further investigation.",
+   "Recent studies have demonstrated that PAE is able to deliver excellent clinical outcomes in terms of International Prostate Symptom Score, quality-of-life score, maximum urinary flow rate, post-void residual, and prostate volume reduction. These outcomes have been accomplished with a very low complication profile. Several authors have also been able to demonstrate good outcomes with PAE in the setting of large prostates, a challenge for some other minimally invasive techniques. However, it is important to note that the majority of studies published have been retrospective in nature, and the two prospective clinical trials have had several weaknesses.",
+   "Initial data on PAE shows it can provide excellent clinical outcomes with patients experiencing minimal complications. However, more high-quality, high-level data are needed particularly in regards to long-term outcomes to determine durability."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "32878325",
+  "doi": "10.3390/diagnostics10090659",
+  "journal": "Diagnostics (Basel)",
+  "year": "2020",
+  "vol": "10",
+  "issue": "9",
+  "pages": "",
+  "title": "Postembolization Syndrome after Prostatic Artery Embolization: A Systematic Review.",
+  "authors": [
+   "Svarc P",
+   "Taudorf M",
+   "Nielsen MB",
+   "Stroomberg HV",
+   "Røder MA",
+   "Lönn L"
+  ],
+  "aff": "Department of Radiology, Rigshospitalet, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 9, 2100 Copenhagen, Denmark.",
+  "abstract": [
+   "Postembolization syndrome (PES) is the most common side effect of vascular embolization of solid organs. The aim of this review was to determine the incidence of PES and its individual components after prostatic artery embolization (PAE). A systematic review with a pre-specified search strategy for PubMed, Embase, Web of Science and Cochrane Library was performed according to PRISMA guidelines. Studies in English regarding PAE in humans with 10 or more participants were eligible for inclusion. No restrictions on participant demographics or PAE technique were imposed. The search returned 378 references, of which 32 studies with a total of 2116 patients met the inclusion criteria. The results for overall PES frequency and individual PES components were presented as median (interquartile range, ()). Overall median PES frequency was 25.5% (12.5-45.8). The two most frequent individual PES components were dysuria/urethral burning and local pain, with a median frequency of 21.7% (13.8-33.3) and 20% (5.4-29.4), respectively. Most outcome measures were characterized by a marked lack of uniformity and inconsistency in reporting across studies. Development of a uniform reporting system would help the clinicians recognize and treat PES accordingly."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ },
+ {
+  "pmid": "32913563",
+  "doi": "10.4329/wjr.v12.i8.172",
+  "journal": "World J Radiol",
+  "year": "2020",
+  "vol": "12",
+  "issue": "8",
+  "pages": "172-183",
+  "title": "Sonographic evaluation of prostatic artery embolization: Far beyond size measurements.",
+  "authors": [
+   "Moschouris H",
+   "Dimakis A",
+   "Anagnostopoulou A",
+   "Stamatiou K",
+   "Malagari K"
+  ],
+  "aff": "Radiology Department, General Hospital \"Tzanio\", Piraeus 18536, Greece.",
+  "abstract": [
+   "Prostatic artery embolization (PAE) has gained acceptance as a minimally invasive, safe and effective treatment of symptomatic benign prostatic hyperplasia. Radiologic imaging is an indispensable part of post-interventional evaluation of PAE and serves both clinical and investigational purposes. In this context, ultrasonography (US) has a central and multifaceted role. Gray-scale US is routinely utilized for measurement of significant outcome parameters (prostatic volume, intra-vesical prostatic protrusion and post-void residual volume) before and after PAE. Improvement of these parameters may become more obvious one-month post-PAE, or later. Contrast-enhanced US (CEUS) with intravenous administration of a second-generation echo-enhancer can demonstrate prostatic infarcts (as enhancement defects) immediately post-PAE and monitor their resolution over time. The volume of prostatic infarcts can also be measured and compared to prostatic volume. Prostatic infarction is a definite sign of the local efficacy of PAE and a predictor of prostate shrinkage and (at least in some patients) of clinical success. CEUS can also be performed intraoperatively in the angio-suite, for on-site evaluation of the ischemic effect; a variation of this technique, with intraarterial (instead of intravenous) administration of diluted echo enhancer, can also be applied intraoperatively, to map the embolized territory and to prevent non-target embolization. Initial experience with US-elastographic techniques (shear-wave and strain elastography) has shown that they can detect and quantify the improvement of tissue elasticity post-PAE, thus providing new insights into the therapeutic mechanisms of this treatment. With utilization of high-end equipment, experience and standardized imaging protocols, US could be the primary modality for imaging evaluation of PAE."
+  ],
+  "types": [
+   "Journal Article",
+   "Review"
+  ]
+ }
+]
