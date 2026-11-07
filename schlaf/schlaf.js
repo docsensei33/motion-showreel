@@ -1,31 +1,35 @@
 /* ==========================================================================
    „Ein normaler Schlaf bedeutet, man legt sich am Abend ins Bett
     und man steht in der Frühe wieder auf."
-   Kinetic-typography / character piece, 1920×1080, 12 s, no audio.
+   Kinetic-typography / character piece, 1920×1080, no audio.
+   Cut to the voice-over: the spoken sentence lasts 4.011 s.
    Every frame is a pure function of time; all timings live in T below,
    so the piece can be re-timed to a voice-over in one place.
+   ?fps=25 sets the frame rate, ?tail=1.5 adds seconds of run-out after the line.
    ========================================================================== */
 'use strict';
 (() => {
 
-const W = 1920, H = 1080, DUR = 12;
-const FPS = +(new URLSearchParams(location.search).get('fps') || 60);
+const Q = new URLSearchParams(location.search);
+const SPEECH = 4.011;
+const W = 1920, H = 1080, DUR = SPEECH + +(Q.get('tail') || 0);
+const FPS = +(Q.get('fps') || 60);
 const TAU = Math.PI * 2, CX = W / 2;
 const RENDER = /[?&]render/.test(location.search);
 if (RENDER) document.documentElement.classList.add('render');
 
 // ------------------------------------------------------------- TIMING (s)
 const T = {
-  // Akt 1 — „Ein normaler Schlaf bedeutet,"
-  ein: 0.45, normaler: 0.72, schlaf: 1.3, bedeutet: 2.35, eq: 2.55, outA: 3.15,
-  // Akt 2 — „man legt sich am Abend ins Bett"
-  figIn: 3.5, man: 3.7, legt: 3.88, sich: 4.06, am: 4.5, abend: 4.64, ins: 5.3, bett: 5.46,
-  crouch: 4.4, jump: 4.58, land: 5.05, blanket: 5.3, lie: 5.06,
-  // Nacht
-  lightsOut: 6.0, ffA: 6.45, ffB: 8.55, outB: 6.05,
-  // Akt 3 — „und man steht in der Frühe wieder auf."
-  und: 7.45, man2: 7.6, steht: 7.78, in: 8.35, der: 8.47, fruehe: 8.6, wieder: 9.05, auf: 9.3,
-  wake: 8.72, getUp: 8.86, stand: 9.3, stretch: 9.95,
+  // „Ein normaler Schlaf bedeutet,"  (word onsets, seconds into the line)
+  ein: 0.0, normaler: 0.15, schlaf: 0.59, bedeutet: 0.73, eq: 0.92, eqDrop: 1.02, outA: 1.18, bedPop: 1.26,
+  // „man legt sich am Abend ins Bett" — the jump lands on „Bett"
+  figIn: 1.2, man: 1.29, legt: 1.43, sich: 1.58, am: 1.72, abend: 1.87, ins: 2.16, bett: 2.31,
+  crouch: 1.78, jump: 1.92, land: 2.31, blanket: 2.35, lie: 2.31, outB: 2.4,
+  // night time-lapse: moon arc 22:00 -> 06:30, sunrise on „Frühe"
+  lightsOut: 2.31, ffA: 2.42, ffB: 3.25,
+  // „und man steht in der Frühe wieder auf." — he lands on his feet on „auf"
+  und: 2.53, man2: 2.67, steht: 2.82, in: 2.96, der: 3.11, fruehe: 3.25, wieder: 3.54, auf: 3.83,
+  wake: 3.27, getUp: 3.48, stand: 3.86, stretch: 4.35,
 };
 
 // ------------------------------------------------------------- palette
@@ -81,14 +85,13 @@ const STAND_L = [360, 690], LIE = [1000, 675], STAND_R = [1460, 690];
 
 // ------------------------------------------------------------- sky
 const SKY = [
-  [0.0, '#0A0B1A', '#0A0B1A', '#10112A'],
-  [3.2, '#0A0B1A', '#0A0B1A', '#10112A'],
-  [4.3, '#1B1442', '#4A2468', '#FF7B47'],
-  [5.8, '#130F36', '#2E1B57', '#B8445C'],
-  [7.0, '#05071A', '#0A0F30', '#18204E'],
-  [8.3, '#05071A', '#0A0F30', '#18204E'],
-  [9.5, '#1C2A64', '#6A5AA6', '#FFB070'],
-  [10.9, '#28468F', '#8E86C9', '#FFD6A0'],
+  [0.0, '#1E1748', '#4F2A6E', '#FF8A4C'],
+  [1.3, '#1B1442', '#4A2468', '#FF7B47'],
+  [2.25, '#130F36', '#2E1B57', '#B8445C'],
+  [2.62, '#05071A', '#0A0F30', '#18204E'],
+  [3.05, '#05071A', '#0A0F30', '#18204E'],
+  [3.6, '#1C2A64', '#6A5AA6', '#FFB070'],
+  [4.3, '#28468F', '#8E86C9', '#FFD6A0'],
   [99, '#28468F', '#8E86C9', '#FFD6A0'],
 ].map(([t, ...c]) => [t, ...c.map(hex)]);
 function skyAt(t) {
@@ -96,13 +99,13 @@ function skyAt(t) {
   const a = SKY[i], b = SKY[i + 1], p = E.inOutSine(prog(t, a[0], b[0]));
   return [1, 2, 3].map(k => mixC(a[k], b[k], p));
 }
-const nightAmt = t => smooth(prog(t, 5.6, 7.0)) * (1 - smooth(prog(t, 8.4, 9.6)));
+const nightAmt = t => smooth(prog(t, 2.2, 2.6)) * (1 - smooth(prog(t, 3.1, 3.6)));
 const STARS = (() => { const r = mulberry32(42), s = []; for (let i = 0; i < 170; i++) s.push([r() * W, r() * (HOR - 60), 0.6 + r() * 1.8, r() * TAU, 0.5 + r() * 2]); return s; })();
 
 // ------------------------------------------------------------- clock
 // seconds of the day shown at time t
 function clockSec(t) {
-  const s0 = 21 * 3600 + 59 * 60 + 54;           // 21:59:54 -> 22:00:00 at T.lightsOut
+  const s0 = 22 * 3600 - T.lightsOut;           // flips to 22:00 exactly at T.lightsOut
   if (t < T.ffA) return s0 + t;
   const a = s0 + T.ffA, b = 24 * 3600 + 6.5 * 3600;   // 06:30 next morning
   if (t < T.ffB) return lerp(a, b, E.inOutCubic(prog(t, T.ffA, T.ffB)));
@@ -114,20 +117,19 @@ const hhmm = s => { const m = Math.floor(s / 60); return [Math.floor(m / 60) % 2
 // phrase -> lines -> words { s, f, col, t, kind }
 const PHRASES = [
   { out: T.outA, lines: [
-    { y: 330, words: [{ s: 'Ein', f: U(110), t: T.ein }, { s: 'normaler', f: SERIF(170), col: C.amber, t: T.normaler, kind: 'serif' }] },
-    { y: 640, words: [{ s: 'Schlaf', f: U(240, 900), t: T.schlaf, kind: 'breathe' }], eq: true },
-    { y: 805, words: [{ s: 'bedeutet,', f: SERIF(96), t: T.bedeutet, kind: 'serif' }] },
+    { y: 215, out: 1.16, words: [{ s: 'Ein', f: U(100), t: T.ein }, { s: 'normaler', f: SERIF(150), col: C.amber, t: T.normaler, kind: 'serif' }, { s: 'Schlaf', f: U(100, 900), t: T.schlaf }] },
+    { y: 345, out: 1.56, words: [{ s: 'bedeutet,', f: SERIF(110), t: T.bedeutet, kind: 'serif' }], eq: true },
   ] },
   { out: T.outB, dreamy: true, lines: [
-    { y: 230, words: [{ s: 'man', f: U(96), t: T.man }, { s: 'legt', f: U(96), t: T.legt, kind: 'lie' }, { s: 'sich', f: U(96), t: T.sich }] },
-    { y: 382, words: [{ s: 'am', f: U(96), t: T.am }, { s: 'Abend', f: SERIF(142), col: C.amber, t: T.abend, kind: 'serif' }, { s: 'ins', f: U(96), t: T.ins }, { s: 'Bett', f: U(96), t: T.bett, kind: 'dip' }] },
+    { y: 215, out: 2.43, words: [{ s: 'man', f: U(100), t: T.man }, { s: 'legt', f: U(100), t: T.legt, kind: 'lie' }, { s: 'sich', f: U(100), t: T.sich }] },
+    { y: 352, out: 2.8, words: [{ s: 'am', f: U(100), t: T.am }, { s: 'Abend', f: SERIF(146), col: C.amber, t: T.abend, kind: 'serif' }, { s: 'ins', f: U(100), t: T.ins }, { s: 'Bett', f: U(100), t: T.bett, kind: 'dip' }] },
   ] },
   { out: 99, lines: [
-    { y: 230, words: [{ s: 'und', f: U(88), t: T.und }, { s: 'man', f: U(88), t: T.man2 }, { s: 'steht', f: U(88), t: T.steht, kind: 'stand' }] },
-    { y: 378, words: [{ s: 'in', f: U(88), t: T.in }, { s: 'der', f: U(88), t: T.der }, { s: 'Frühe', f: SERIF(132), col: C.gold, t: T.fruehe, kind: 'serif' }, { s: 'wieder', f: U(88), t: T.wieder }, { s: 'auf.', f: U(88), t: T.auf, kind: 'hop' }] },
+    { y: 215, words: [{ s: 'und', f: U(92), t: T.und }, { s: 'man', f: U(92), t: T.man2 }, { s: 'steht', f: U(92), t: T.steht, kind: 'stand' }] },
+    { y: 350, words: [{ s: 'in', f: U(92), t: T.in }, { s: 'der', f: U(92), t: T.der }, { s: 'Frühe', f: SERIF(136), col: C.gold, t: T.fruehe, kind: 'serif' }, { s: 'wieder', f: U(92), t: T.wieder }, { s: 'auf.', f: U(92), t: T.auf, kind: 'hop' }] },
   ] },
 ];
-const EQ = { w: 150, h: 24, gap: 30 };
+const EQ = { w: 120, h: 18, gap: 22 };
 let laidOut = false;
 function layoutAll(ctx) {
   if (laidOut) return; laidOut = true;
@@ -139,10 +141,10 @@ function layoutAll(ctx) {
       wd.letters = [...wd.s].map((ch, k) => { const x0 = measure(ctx, wd.f, wd.s.slice(0, k)), x1 = measure(ctx, wd.f, wd.s.slice(0, k + 1)); return { ch, c: (x0 + x1) / 2, w: x1 - x0 }; });
       w += wd.w + (i ? sp : 0);
     });
-    if (ln.eq) w += 70 + EQ.w;
+    if (ln.eq) w += 50 + EQ.w;
     let x = CX - w / 2;
     ln.words.forEach(wd => { wd.x = x; x += wd.w + sp; });
-    if (ln.eq) ln.eqX = x - sp + 70;
+    if (ln.eq) ln.eqX = x - sp + 50;
   }
 }
 
@@ -154,37 +156,35 @@ function drawWord(ctx, wd, y, t, exitP, idx, dreamy) {
     let dy = 0, sx = 1, sy = 1, rot = 0, a = 1, clip = false;
     const kind = wd.kind;
     if (kind === 'serif') {
-      const p = prog(u, k * 0.035, k * 0.035 + 0.6);
+      const p = prog(u, k * 0.016, k * 0.016 + 0.34);
       a = clamp(p * 2.5); dy = (1 - E.outBack(p, 1.4)) * 60; const s = lerp(0.75, 1, E.outBack(p, 2)); sx = sy = s; rot = (1 - E.outCubic(p)) * -0.25;
     } else if (kind === 'stand') {
       // letters start lying flat on the baseline and spring upright
-      const s = spring(u - k * 0.06, 2.2, 7.5);
-      a = clamp((u - k * 0.06) * 8); sy = lerp(0.08, 1, s); sx = lerp(1.35, 1, Math.min(1, s));
+      const s = spring(u - k * 0.03, 3.4, 12);
+      a = clamp((u - k * 0.03) * 14); sy = lerp(0.08, 1, s); sx = lerp(1.35, 1, Math.min(1, s));
     } else {
       clip = true;
-      const p = E.outExpo(prog(u, k * 0.028, k * 0.028 + 0.55));
+      const p = kind === 'hop' ? E.outBack(prog(u, k * 0.01, k * 0.01 + 0.13), 2.2) : E.outExpo(prog(u, k * 0.014, k * 0.014 + 0.3));
       dy = (1 - p) * wd.size * 1.25;
       if (kind === 'breathe') {
-        const b = smooth(prog(u, 0.6, 1.0));
-        sy = sx = 1 + 0.03 * b * Math.sin(TAU * (t - k * 0.09) / 2.4);
       }
       if (kind === 'lie') {
         // „legt" lies down when the character lands in bed
-        const s = spring(t - T.lie - (n - 1 - k) * 0.04, 2.0, 7);
+        const s = spring(t - T.lie - (n - 1 - k) * 0.02, 3.2, 11);
         sy = lerp(1, 0.6, s); sx = lerp(1, 1.15, s);
       }
-      if (kind === 'dip') dy += 14 * hump(t - T.land, 0.07);
+      if (kind === 'dip') dy += 14 * hump(t - T.land, 0.05);
       if (kind === 'hop') {
-        const h = t - T.stand - k * 0.07;
-        dy -= 46 * Math.sin(Math.PI * clamp(h / 0.34)) * (h > 0 && h < 0.34 ? 1 : 0);
-        if (h > 0.34 && h < 0.6) { const q = (h - 0.34) / 0.26; sy = 1 - 0.18 * Math.sin(Math.PI * q); sx = 1 + 0.12 * Math.sin(Math.PI * q); }
+        const h = t - T.stand + 0.06 - k * 0.025;
+        dy -= 34 * Math.sin(Math.PI * clamp(h / 0.16)) * (h > 0 && h < 0.16 ? 1 : 0);
+        if (h > 0.16 && h < 0.3) { const q = (h - 0.16) / 0.14; sy = 1 - 0.16 * Math.sin(Math.PI * q); sx = 1 + 0.1 * Math.sin(Math.PI * q); }
       }
     }
     // exits
     if (exitP > 0) {
       const ep = clamp(exitP * 1.6 - (idx * 0.08 + k * 0.02));
-      if (dreamy) { dy -= E.inCubic(ep) * 90; a *= 1 - smooth(ep); }
-      else { dy -= E.inExpo(ep) * 260; a *= 1 - ep; }
+      if (dreamy) { dy -= E.inCubic(ep) * 60; a *= 1 - smooth(ep); }
+      else { dy -= E.inCubic(ep) * 120; a *= 1 - ep; }
     }
     if (a <= 0.003) return;
     const lx = wd.x + L.c + (dreamy && exitP > 0 ? (L.c - wd.w / 2) * 0.12 * smooth(exitP) : 0);
@@ -195,14 +195,14 @@ function drawWord(ctx, wd, y, t, exitP, idx, dreamy) {
   });
 }
 
-const lineShift = (ln, t) => ln.eq ? (70 + EQ.w) / 2 * (1 - E.outExpo(prog(t, T.eq - 0.15, T.eq + 0.4))) : 0;
+const lineShift = (ln, t) => ln.eq ? (50 + EQ.w) / 2 * (1 - E.outExpo(prog(t, T.eq - 0.06, T.eq + 0.2))) : 0;
 function drawText(ctx, t) {
   layoutAll(ctx);
   for (const ph of PHRASES) {
-    const exitP = prog(t, ph.out, ph.out + (ph.dreamy ? 0.7 : 0.45));
-    if (exitP >= 1) continue;
     let idx = 0;
     for (const ln of ph.lines) {
+      const out = ln.out ?? ph.out, exitP = prog(t, out, out + 0.16);
+      if (exitP >= 1) { idx += ln.words.length; continue; }
       ctx.save(); ctx.translate(lineShift(ln, t), 0);
       for (const wd of ln.words) drawWord(ctx, wd, ln.y, t, exitP, idx++, ph.dreamy);
       ctx.restore();
@@ -213,7 +213,7 @@ function drawText(ctx, t) {
 // ------------------------------------------------------------- the „=" that becomes the bed
 function eqBars(ctx, t) {
   layoutAll(ctx);
-  const ln = PHRASES[0].lines[1], cap = capH(ctx, U(240, 900));
+  const ln = PHRASES[0].lines[1], cap = capH(ctx, U(100));
   const mid = ln.y - cap / 2, x = ln.eqX + lineShift(ln, t);
   return [
     { x, y: mid - EQ.gap / 2 - EQ.h, w: EQ.w, h: EQ.h },
@@ -222,16 +222,17 @@ function eqBars(ctx, t) {
 }
 function drawBed(ctx, t) {
   const [b1, b2] = eqBars(ctx, t);
-  const draw = prog(t, T.eq, T.eq + 0.4);
+  const draw = prog(t, T.eq, T.eq + 0.12);
   if (draw <= 0) return;
-  const m = E.inOutExpo(prog(t, T.outA, T.outA + 0.55));
-  const sink = 12 * hump(t - T.land, 0.07) + 2.5 * Math.sin(TAU * t / 3.2) * smooth(prog(t, 5.4, 6)) * (1 - smooth(prog(t, T.getUp, T.getUp + 0.2)));
-  const dipUp = 8 * hump(t - T.getUp - 0.02, 0.06);
+  const m = E.inOutCubic(prog(t, T.eqDrop, T.eqDrop + 0.28));
+  const thud = hump(t - T.eqDrop - 0.28, 0.04);
+  const sink = 6 * thud + 12 * hump(t - T.land, 0.05) + 2.5 * Math.sin(TAU * (t - T.land) / 1.0) * smooth(prog(t, T.land + 0.2, T.land + 0.5)) * (1 - smooth(prog(t, T.getUp, T.getUp + 0.15)));
+  const dipUp = 8 * hump(t - T.getUp - 0.02, 0.05);
   const tgtM = { x: BED.x0 + 20, y: BED.matT + sink - dipUp, w: BED.x1 - BED.x0 - 40, h: BED.matB - BED.matT };
   const tgtB = { x: BED.x0, y: BED.matB, w: BED.x1 - BED.x0, h: BED.baseB - BED.matB };
   const L = (a, b) => ({ x: lerp(a.x, b.x, m), y: lerp(a.y, b.y, m), w: lerp(a.w, b.w, m), h: lerp(a.h, b.h, m) });
   const r1 = L(b1, tgtM), r2 = L(b2, tgtB);
-  const grow = k => E.outBack(prog(t, T.outA + 0.42 + k * 0.06, T.outA + 0.8 + k * 0.06), 2.2);
+  const grow = k => E.outBack(prog(t, T.bedPop + k * 0.04, T.bedPop + 0.24 + k * 0.04), 2.2);
 
   // floor shadow
   const sh = grow(0);
@@ -255,26 +256,26 @@ function drawBed(ctx, t) {
   if (pw > 0) { ctx.save(); ctx.translate(805, BED.matT + sink - dipUp - 14); ctx.scale(pw, pw); ctx.fillStyle = C.pillow; rrect(ctx, -58, -18, 116, 36, 18); ctx.restore(); }
 }
 function drawFootboard(ctx, t) {
-  const g = E.outBack(prog(t, T.outA + 0.6, T.outA + 0.98), 2.2);
+  const g = E.outBack(prog(t, T.bedPop + 0.1, T.bedPop + 0.34), 2.2);
   if (g <= 0) return;
   const hh = 112 * g; ctx.fillStyle = C.violet; rrect(ctx, BED.x1 - 36, BED.baseB - hh, 36, hh, [14, 14, 4, 4]);
 }
 
 // ------------------------------------------------------------- nightstand + alarm clock
 function drawNightstand(ctx, t) {
-  const g = E.outBack(prog(t, T.outA + 0.5, T.outA + 0.9), 1.8);
+  const g = E.outBack(prog(t, T.bedPop + 0.04, T.bedPop + 0.28), 1.8);
   if (g <= 0) return;
   ctx.save(); ctx.translate(580, HOR); ctx.scale(1, g); ctx.translate(-580, -HOR);
   ctx.fillStyle = C.violetD; rrect(ctx, 505, 740, 150, HOR - 740, [10, 10, 2, 2]);
   ctx.fillStyle = rgba(C.paper, 0.12); rrect(ctx, 520, 780, 120, 4, 2);
   ctx.restore();
-  const cg = E.outBack(prog(t, T.outA + 0.7, T.outA + 1.05), 2.5);
+  const cg = E.outBack(prog(t, T.bedPop + 0.12, T.bedPop + 0.36), 2.5);
   if (cg <= 0) return;
   ctx.save(); ctx.translate(580, 740); ctx.scale(cg, cg);
   ctx.fillStyle = '#15122E'; rrect(ctx, -70, -70, 140, 70, 16);
   const s = clockSec(t), ff = t > T.ffA && t < T.ffB;
   const colon = ff || fract(s) < 0.5;
-  const str = hhmm(s), glow = t < T.lightsOut ? C.coral : (t < 9.4 ? C.coral : C.gold);
+  const str = hhmm(s), glow = t < T.fruehe ? C.coral : C.gold;
   ctx.font = MONO(34); ctx.textAlign = 'center'; ctx.fillStyle = glow;
   ctx.shadowColor = glow; ctx.shadowBlur = 18;
   ctx.fillText(colon ? str : str.replace(':', ' '), 0, -22);
@@ -286,32 +287,32 @@ function drawNightstand(ctx, t) {
 // ------------------------------------------------------------- the sleeper
 function pose(t) {
   const p = { x: STAND_L[0], y: STAND_L[1], rot: 0, sx: 1, sy: 1, s: 0, lie: 0, eyes: 1 };
-  p.s = E.outBack(prog(t, T.figIn, T.figIn + 0.45), 2.2);
+  p.s = E.outBack(prog(t, T.figIn, T.figIn + 0.28), 2.2);
   if (t < T.jump) {
     p.sy = 1 + 0.012 * Math.sin(TAU * t / 2.2) - 0.16 * smooth(prog(t, T.crouch, T.jump)); p.sx = 2 - p.sy;
   } else if (t < T.land) {
     const q = prog(t, T.jump, T.land);
-    p.x = lerp(STAND_L[0], LIE[0], q); p.y = lerp(STAND_L[1], LIE[1], q) - 115 * 4 * q * (1 - q);
+    p.x = lerp(STAND_L[0], LIE[0], q); p.y = lerp(STAND_L[1], LIE[1], q) - 60 * 4 * q * (1 - q);
     p.rot = -Math.PI / 2 * E.inOutCubic(q); p.lie = E.inOutCubic(q);
     p.sy = 1 + 0.14 * Math.sin(Math.PI * q); p.sx = 1 / p.sy;
   } else if (t < T.getUp) {
     p.x = LIE[0]; p.y = LIE[1]; p.rot = -Math.PI / 2; p.lie = 1;
-    const sq = hump(t - T.land, 0.05);
-    p.sx = 1 - 0.28 * sq + 0.035 * Math.sin(TAU * t / 3.2) * smooth(prog(t, 5.4, 6)); p.sy = 1 + 0.1 * sq;
+    const sq = hump(t - T.land, 0.045);
+    p.sx = 1 - 0.28 * sq + 0.035 * Math.sin(TAU * (t - T.land) / 1.0) * smooth(prog(t, T.land + 0.2, T.land + 0.5)); p.sy = 1 + 0.1 * sq;
   } else if (t < T.stand) {
     const q = prog(t, T.getUp, T.stand);
-    p.x = lerp(LIE[0], STAND_R[0], q); p.y = lerp(LIE[1], STAND_R[1], q) - 95 * 4 * q * (1 - q);
+    p.x = lerp(LIE[0], STAND_R[0], q); p.y = lerp(LIE[1], STAND_R[1], q) - 30 * 4 * q * (1 - q);
     p.rot = -Math.PI / 2 * (1 - E.outBack(q, 1.6)); p.lie = 1 - q;
     p.sy = 1 + 0.16 * Math.sin(Math.PI * q); p.sx = 1 / p.sy;
   } else {
     p.x = STAND_R[0]; p.y = STAND_R[1];
-    const sq = hump(t - T.stand, 0.05), st = Math.sin(Math.PI * prog(t, T.stretch, T.stretch + 0.9));
+    const sq = hump(t - T.stand, 0.04), st = Math.sin(Math.PI * prog(t, T.stretch, T.stretch + 0.9));
     p.sy = 1 - 0.22 * sq + 0.09 * st + 0.012 * Math.sin(TAU * t / 2.2); p.sx = 1 + 0.16 * sq - 0.06 * st;
     p.rot = 0.04 * Math.sin(Math.PI * prog(t, T.stretch, T.stretch + 0.9) * 2) * st;
   }
   // eyes: open (1) / closed (0)
-  const closed = smooth(prog(t, 5.25, 5.55)) * (1 - smooth(prog(t, T.wake, T.wake + 0.12)));
-  let blink = 0; for (const bt of [4.05, 9.75, 10.95, 11.25]) blink = Math.max(blink, hump(t - bt, 0.05) * 1.0);
+  const closed = smooth(prog(t, T.land + 0.05, T.land + 0.16)) * (1 - smooth(prog(t, T.wake, T.wake + 0.07)));
+  let blink = 0; for (const bt of [0.9, 4.6, 5.3]) blink = Math.max(blink, hump(t - bt, 0.05) * 1.0);
   p.eyes = clamp(1 - closed - blink);
   return p;
 }
@@ -338,21 +339,21 @@ function drawSleeper(ctx, t) {
   ctx.restore();
 }
 function drawBlanket(ctx, t) {
-  const on = E.outCubic(prog(t, T.blanket, T.blanket + 0.5));
-  const off = E.inOutCubic(prog(t, T.wake - 0.12, T.getUp + 0.05));
+  const on = E.outCubic(prog(t, T.blanket, T.blanket + 0.22));
+  const off = E.inOutCubic(prog(t, T.wake, T.getUp + 0.03));
   const reach = on * (1 - off);
   if (reach <= 0.001) return;
-  const breathe = 3 * Math.sin(TAU * t / 3.2) * smooth(prog(t, 5.4, 6));
+  const breathe = 3 * Math.sin(TAU * (t - T.land) / 1.0) * smooth(prog(t, T.land + 0.2, T.land + 0.5));
   const right = BED.x1 - 30, left = lerp(right, 885, reach);
   ctx.fillStyle = C.coral;
   ctx.beginPath(); ctx.roundRect(left, 628 - breathe, right - left, 100 + breathe, [26, 10, 10, 26]); ctx.fill();
   ctx.fillStyle = 'rgba(255,255,255,0.18)'; ctx.fillRect(left + 18, 628 - breathe + 16, Math.max(0, 26 * reach), 84);
 }
 function drawZs(ctx, t) {
-  for (let i = 0; i < 4; i++) {
-    const t0 = 6.55 + i * 0.5, u = (t - t0) / 1.5;
+  for (let i = 0; i < 3; i++) {
+    const t0 = T.land + 0.25 + i * 0.2, u = (t - t0) / 0.75;
     if (u <= 0 || u >= 1 || t > T.wake) continue;
-    const a = Math.sin(Math.PI * u) * (1 - smooth(prog(t, T.wake - 0.2, T.wake)));
+    const a = Math.sin(Math.PI * u) * (1 - smooth(prog(t, T.wake - 0.1, T.wake)));
     ctx.save(); ctx.globalAlpha = a; ctx.font = SERIF(34 + i * 10 + u * 18); ctx.fillStyle = C.lilac; ctx.textAlign = 'center';
     ctx.translate(830 + u * 140 + Math.sin(u * 6 + i) * 18, 600 - u * 170); ctx.rotate(-0.25 + Math.sin(u * 4) * 0.15);
     ctx.fillText('z', 0, 0); ctx.restore();
@@ -382,15 +383,15 @@ const [moonC, moonX] = mk(160, 160);
 function drawCelestial(ctx, t) {
   ctx.save(); ctx.beginPath(); ctx.rect(-300, -300, W + 600, HOR + 300); ctx.clip();
   // evening sun sinking at the west end of the arc
-  const ds = prog(t, 3.25, 6.25);
+  const ds = prog(t, 0, T.land + 0.05);
   if (ds > 0 && ds < 1) {
-    const a = smooth(prog(t, 3.25, 3.9));
-    const x = lerp(205, 150, E.inOutSine(ds)), y = lerp(600, HOR + 100, E.inOutSine(ds));
+    const a = 1;
+    const x = lerp(250, 150, E.inOutSine(ds)), y = lerp(560, HOR + 100, E.inOutSine(ds));
     glowAt(ctx, x, y, 560, C.amber, 0.45 * a);
     ctx.globalAlpha = a; ctx.fillStyle = C.amber; disc(ctx, x, y, 74); ctx.globalAlpha = 1;
   }
   // the night arc: one unbroken line from evening to morning
-  const plan = smooth(prog(t, 6.15, 6.6)) * (1 - smooth(prog(t, 10.2, 11)) * 0.5);
+  const plan = smooth(prog(t, T.land, T.ffA + 0.1)) * (1 - smooth(prog(t, 4.3, 5)) * 0.5);
   if (plan > 0) {
     ctx.save(); ctx.setLineDash([2, 14]); ctx.lineCap = 'round'; ctx.strokeStyle = rgba(C.paper, 0.28 * plan); ctx.lineWidth = 3;
     ctx.beginPath(); ctx.ellipse(ARC.cx, ARC.cy, ARC.rx, ARC.ry, 0, Math.PI, TAU); ctx.stroke(); ctx.restore();
@@ -399,14 +400,14 @@ function drawCelestial(ctx, t) {
   if (t > T.ffA) {
     const phi = Math.PI * (1 - mp);
     ctx.save(); ctx.lineCap = 'round';
-    const trailCol = mixC(hex(C.paper), hex(C.gold), smooth(prog(t, 8.4, 9.4)));
+    const trailCol = mixC(hex(C.paper), hex(C.gold), smooth(prog(t, T.ffB - 0.1, T.ffB + 0.35)));
     ctx.shadowColor = rgb(trailCol, 0.9); ctx.shadowBlur = 22; ctx.strokeStyle = rgb(trailCol, 0.95); ctx.lineWidth = 5;
     ctx.beginPath(); ctx.ellipse(ARC.cx, ARC.cy, ARC.rx, ARC.ry, 0, Math.PI, Math.PI + Math.PI * mp + 1e-4); ctx.stroke();
     ctx.restore();
     // moon -> sun
     const [mx, my] = arcPt(phi);
-    const toSun = E.inOutCubic(prog(t, T.ffB - 0.05, T.ffB + 0.65));
-    const rise = E.outCubic(prog(t, T.ffB + 0.2, DUR));
+    const toSun = E.inOutCubic(prog(t, T.ffB - 0.04, T.ffB + 0.3));
+    const rise = E.outCubic(prog(t, T.ffB + 0.1, T.ffB + 2.6));
     const sx = lerp(mx, 1690, rise), sy = lerp(my, 655, rise);
     const r = lerp(30, 78, toSun);
     glowAt(ctx, sx, sy, lerp(160, 680, toSun), toSun > 0.01 ? C.gold : C.paper, lerp(0.35, 0.62, toSun));
@@ -432,74 +433,29 @@ function drawGround(ctx, t) {
   g.addColorStop(0, rgb(gc)); g.addColorStop(1, rgb(mixC(gc, [0, 0, 0], 0.5)));
   ctx.fillStyle = g; ctx.fillRect(-300, HOR, W + 600, H - HOR + 300);
   // horizon line + hour ticks
-  const lp = E.outExpo(prog(t, 0.0, 0.9));
+  const lp = E.outExpo(prog(t, 0.0, 0.45));
   ctx.strokeStyle = rgba(C.paper, 0.45); ctx.lineWidth = 2;
   ctx.beginPath(); ctx.moveTo(CX - lp * W * 0.6, HOR); ctx.lineTo(CX + lp * W * 0.6, HOR); ctx.stroke();
   for (let i = 0; i <= 24; i++) {
-    const x = 120 + i * 70, d = Math.abs(x - CX) / 900, p = E.outBack(prog(t, 0.15 + d * 0.5, 0.45 + d * 0.5), 2);
+    const x = 120 + i * 70, d = Math.abs(x - CX) / 900, p = E.outBack(prog(t, 0.05 + d * 0.25, 0.25 + d * 0.25), 2);
     if (p <= 0) continue;
     ctx.strokeStyle = rgba(C.paper, i % 6 === 0 ? 0.45 : 0.2); ctx.lineWidth = 2;
     const h = (i % 6 === 0 ? 16 : 8) * p; ctx.beginPath(); ctx.moveTo(x, HOR + 6); ctx.lineTo(x, HOR + 6 + h); ctx.stroke();
   }
   // arc end labels
-  const l1 = E.outExpo(prog(t, 6.2, 6.7)), l2 = E.outExpo(prog(t, T.ffB - 0.1, T.ffB + 0.4));
+  const l1 = E.outExpo(prog(t, T.land, T.land + 0.25)), l2 = E.outExpo(prog(t, T.ffB - 0.08, T.ffB + 0.2));
   ctx.font = MONO(24); ctx.textAlign = 'center';
   if (l1 > 0) { ctx.fillStyle = rgba(C.paper, 0.8 * l1); ctx.fillText('22:00', 180, HOR + 58 + (1 - l1) * 20); }
   if (l2 > 0) { ctx.fillStyle = rgba(C.gold, 0.95 * l2); ctx.fillText('06:30', 1740, HOR + 58 + (1 - l2) * 20); }
 }
 
-// big rolling odometer of the night's time-lapse
-function drawOdometer(ctx, t) {
-  const a = smooth(prog(t, 6.62, 6.95)) * (1 - smooth(prog(t, T.und - 0.2, T.und + 0.1)));
-  if (a <= 0) return;
-  const s = clockSec(t), mins = s / 60;
-  const f = MONO(190), cw = measure(ctx, f, '0'), cap = capH(ctx, f);
-  const y = 330, x0 = CX - cw * 2.5;
-  const digit = [m => Math.floor(Math.floor(m / 60) % 24 / 10), m => Math.floor(m / 60) % 24 % 10, null, m => Math.floor(m % 60 / 10), m => Math.floor(m % 10)];
-  const place = [600, 60, 0, 10, 1];
-  ctx.save(); ctx.globalAlpha = a; ctx.font = f; ctx.textAlign = 'center'; ctx.lineWidth = 2.5; ctx.strokeStyle = C.paper; ctx.fillStyle = C.paper;
-  for (let i = 0; i < 5; i++) {
-    const x = x0 + cw * (i + 0.5);
-    if (i === 2) { ctx.fillText(':', x, y); continue; }
-    const v = place[i], rem = mins % v, roll = smooth(clamp((rem / v - 0.75) / 0.25));
-    const cur = digit[i](mins), nxt = digit[i](mins + v - rem + 1e-6);
-    ctx.save(); ctx.beginPath(); ctx.rect(x - cw / 2, y - cap - 14, cw, cap + 28); ctx.clip();
-    ctx.strokeText(String(cur), x, y - roll * (cap + 40));
-    ctx.strokeText(String(nxt), x, y + (1 - roll) * (cap + 40));
-    ctx.restore();
-  }
-  ctx.restore();
-}
-
 // ------------------------------------------------------------- camera: push in at dusk, pull back for the night arc, settle at dawn
-const CAM = [[0, 1, 960, 540], [3.0, 1.02, 960, 540], [4.3, 1.11, 900, 565], [6.0, 1.12, 900, 565], [7.3, 0.985, 960, 556],
-  [8.6, 0.985, 960, 556], [10.3, 1.06, 990, 598], [99, 1.08, 990, 600]];
+const CAM = [[0, 1.12, 960, 500], [1.25, 1.14, 945, 502], [2.3, 1.16, 925, 505], [2.62, 1.08, 960, 500],
+  [3.2, 1.08, 960, 500], [4.0, 1.12, 975, 505], [99, 1.15, 985, 512]];
 function camera(t) {
   let i = 0; while (t > CAM[i + 1][0]) i++;
   const a = CAM[i], b = CAM[i + 1], p = E.inOutSine(prog(t, a[0], b[0]));
   return [lerp(a[1], b[1], p), lerp(a[2], b[2], p), lerp(a[3], b[3], p)];
-}
-
-// ------------------------------------------------------------- act 1: a faint ticking dial behind the type
-function drawClockFace(ctx, t) {
-  const a = smooth(prog(t, 0.1, 0.9)) * (1 - smooth(prog(t, T.outA - 0.1, T.outA + 0.45)));
-  if (a <= 0) return;
-  const ox = 960, oy = 520, R = 460;
-  ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round';
-  for (let i = 0; i < 60; i++) {
-    const p = E.outBack(prog(t, 0.1 + i * 0.012, 0.5 + i * 0.012), 2);
-    if (p <= 0) continue;
-    const ang = i / 60 * TAU - Math.PI / 2, big = i % 5 === 0, len = (big ? 28 : 12) * p;
-    ctx.strokeStyle = rgba(C.paper, big ? 0.22 : 0.1); ctx.lineWidth = big ? 3 : 2;
-    ctx.beginPath(); ctx.moveTo(ox + Math.cos(ang) * R, oy + Math.sin(ang) * R); ctx.lineTo(ox + Math.cos(ang) * (R - len), oy + Math.sin(ang) * (R - len)); ctx.stroke();
-  }
-  // second hand steps once per second with a little overshoot
-  const sec = clockSec(t), step = Math.floor(sec) + E.outBack(clamp(fract(sec) / 0.16), 3);
-  const ang = step / 60 * TAU - Math.PI / 2;
-  ctx.strokeStyle = rgba(C.coral, 0.4); ctx.lineWidth = 3;
-  ctx.beginPath(); ctx.moveTo(ox - Math.cos(ang) * 60, oy - Math.sin(ang) * 60); ctx.lineTo(ox + Math.cos(ang) * (R - 44), oy + Math.sin(ang) * (R - 44)); ctx.stroke();
-  ctx.fillStyle = rgba(C.coral, 0.5); disc(ctx, ox, oy, 7);
-  ctx.restore();
 }
 
 // ------------------------------------------------------------- frame
@@ -508,10 +464,8 @@ function drawScene(ctx, t) {
   const [cs, cx, cy] = camera(t);
   ctx.translate(W / 2, H / 2); ctx.scale(cs, cs); ctx.translate(-cx, -cy);
   drawSky(ctx, t);
-  drawClockFace(ctx, t);
   drawCelestial(ctx, t);
   drawGround(ctx, t);
-  drawOdometer(ctx, t);
   drawNightstand(ctx, t);
   drawBed(ctx, t);
   drawSleeper(ctx, t);
@@ -542,8 +496,6 @@ function post(ctx, t) {
   ctx.translate(-Math.floor(hash(fi) * 512), -Math.floor(hash(fi + 0.5) * 512));
   ctx.fillStyle = grainPat; ctx.fillRect(0, 0, W + 512, H + 512); ctx.restore();
   // fade in from black
-  const fin = 1 - smooth(prog(t, 0, 0.35));
-  if (fin > 0) { ctx.fillStyle = `rgba(0,0,0,${fin})`; ctx.fillRect(0, 0, W, H); }
 }
 
 // ------------------------------------------------------------- motion-blur renderer
@@ -553,8 +505,9 @@ const [, wctx] = mk(W, H, true);
 let acc = null;
 function samplesAt(t) {
   const within = (a, b) => t > a && t < b;
-  if (within(T.jump - 0.05, T.land + 0.15) || within(T.getUp - 0.05, T.stand + 0.15) || within(T.outA - 0.05, T.outA + 0.7)) return 20;
-  if (within(T.ffA, T.ffB + 0.2)) return 14;
+  if (within(T.jump - 0.05, T.land + 0.12) || within(T.getUp - 0.05, T.stand + 0.12) || within(T.eqDrop - 0.03, T.eqDrop + 0.4)) return 24;
+  if (within(T.ffA, T.ffB + 0.3)) return 16;
+  return 12;
   return 8;
 }
 function renderFrame(fi, opts = {}) {
@@ -579,6 +532,7 @@ window.reel = { W, H, FPS, DUR, T, ready, frame(fi, o) { renderFrame(fi, o); ret
 
 if (!RENDER) {
   const pp = document.getElementById('pp'), scrub = document.getElementById('scrub'), tc = document.getElementById('tc');
+  scrub.max = DUR;
   let playing = true, start = performance.now(), pos = 0;
   const now = () => playing ? ((performance.now() - start) / 1000) % DUR : pos;
   const toggle = () => { if (playing) { pos = now(); playing = false; pp.textContent = 'PLAY'; } else { start = performance.now() - pos * 1000; playing = true; pp.textContent = 'PAUSE'; } };
