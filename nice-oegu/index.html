@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NICE vs. ÖGU — 25. April 2018</title>
+<style>
+  @font-face { font-family: 'Fraunces'; font-style: italic; font-weight: 600; src: url(../fonts/Fraunces-600i.ttf); }
+  @font-face { font-family: 'Inter'; font-weight: 500; src: url(../fonts/Inter-500.ttf); }
+  @font-face { font-family: 'Inter'; font-weight: 800; src: url(../fonts/Inter-800.ttf); }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 500; src: url(../fonts/JetBrainsMono-500.ttf); }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 800; src: url(../fonts/JetBrainsMono-800.ttf); }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; }
+  canvas { display: block; width: min(100vw, 177.78vh); height: min(56.25vw, 100vh); cursor: pointer; }
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px; display: flex; gap: 12px; align-items: center;
+        background: linear-gradient(transparent, rgba(0,0,0,.7)); color: #F4EFE6; font-size: 12px; opacity: 0; transition: opacity .3s; }
+  body:hover #ui { opacity: 1; }
+  #ui input { flex: 1; accent-color: #FFB547; }
+  #ui button { background: #FFB547; color: #0A0B1A; border: 0; font: 800 12px 'JetBrains Mono', monospace; padding: 8px 14px; border-radius: 99px; cursor: pointer; }
+  .render #ui { display: none; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="ui"><button id="pp">PAUSE</button><input id="scrub" type="range" min="0" max="14" step="0.001" value="0"><span id="tc">00.000</span></div>
+<script src="vergleich.js"></script>
+</body>
+</html>
