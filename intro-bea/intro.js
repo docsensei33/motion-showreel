@@ -382,7 +382,7 @@ const EL = [
     if (b1 > 0.3) { ctx.save(); ctx.globalAlpha *= prog(b1, 0.3, 1); ctx.fillStyle = C.amber; ctx.fillRect(ZX, 276, 720 * 22.8 / 80 * b1, 26);
       txt(ctx, 'davon KI: 22,8 Mrd.', ZX + 8, 323, 20, { w: 500, col: C.amber }); ctx.restore(); }
     rise(ctx, 'Potenzial pro Jahr durch Digitalisierung & KI', ZX, 360, 26, t, 37.6, { w: 500 });
-    source(ctx, 'Quelle: McKinsey, „KI und Digitalisierung: 80 Mrd. € Potenzial"', ZX, 392, t, 38.0);
+    source(ctx, 'Quelle: McKinsey, „KI und Digitalisierung: 80 Mrd. € Potenzial“', ZX, 392, t, 38.0);
     const v2 = Math.round(19 * E.outCubic(prog(TF, 39.4, 39.8)));
     slam(ctx, t, 39.4, ZX + 160, 470, () => txt(ctx, v2 + ' Mrd. €', ZX - 4, 500, 96, { col: C.white }), { from: 1.35 });
     ctx.save(); ctx.globalAlpha *= fadeIn(t, 39.4); bar(ctx, ZX, 522, 720, 26, 19 / 80 * E.outCubic(prog(t, 39.5, 40.2)), C.red, 'rgba(255,255,255,0.12)'); ctx.restore();

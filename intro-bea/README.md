@@ -19,7 +19,7 @@ Die Videodateien liegen nicht im Repo, weil sie zu groß sind. Du bekommst sie d
 | `intro-bea_OVERLAY_ProRes4444_alpha_25fps.mov` | **Empfohlen.** ProRes 4444 mit Transparenz. Einfach als oberste Spur bei 00:00 anlegen (Premiere, DaVinci, Final Cut, After Effects). |
 | `intro-bea_OVERLAY_alpha_25fps.webm` | Sehr klein (VP9 mit Alpha), z. B. für DaVinci, CapCut oder das Web |
 | `intro-bea_OVERLAY_fill_25fps.mp4` + `…_matte_25fps.mp4` | Für jedes Schnittprogramm: Fill über Matte (Premiere: Effekt „Spurmaske", DaVinci: „Matte"). |
-| `intro-bea_VORSCHAU_25fps.mp4` | Animatic: Beas Standbilder als Platzhalter für die A-Roll, graue Karten als Platzhalter für die B-Roll, darüber das Overlay. Enthält Beas Foto und ist deshalb nicht im Repo. |
+| `intro-bea_VORSCHAU.mp4` | Animatic: Beas Standbilder als Platzhalter für die A-Roll, graue Karten als Platzhalter für die B-Roll, darüber das Overlay. Enthält Beas Foto und ist deshalb nicht im Repo. |
 
 **Andere Bildrate** (z. B. 30 oder 50 fps): `node render.mjs --page "intro-bea/index.html?mode=overlay&fps=50"`. Danach mit ffmpeg wie oben kodieren.
 **Timing anpassen:** Alle Zeiten stehen im Array `EL` in [`intro.js`](intro.js) (absolute Sekunden).
