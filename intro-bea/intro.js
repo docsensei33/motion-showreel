@@ -58,6 +58,7 @@ const E = {
 };
 const hump = (u, k = 0.05) => u <= 0 ? 0 : (u / k) * Math.exp(1 - u / k);
 const hash = n => fract(Math.sin(n * 127.1 + 311.7) * 43758.5453123);
+let TF = 0;                                       // Bildzeit: Zähler springen nicht innerhalb der Belichtung
 function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 function mk(w, h, read = false) { const c = document.createElement('canvas'); c.width = w; c.height = h; return [c, c.getContext('2d', { willReadFrequently: read })]; }
 const de = (v, d = 0) => v.toFixed(d).replace('.', ',');
@@ -117,6 +118,7 @@ function bar(ctx, x, y, w, h, p, col, track = 'rgba(255,255,255,0.22)') {
   ctx.save(); shadow(ctx, 20); ctx.fillStyle = track; ctx.fillRect(x, y, w, h); noShadow(ctx);
   ctx.fillStyle = col; ctx.fillRect(x, y, w * clamp(p), h); ctx.restore();
 }
+const fadeIn = (t, t0) => E.outCubic(prog(t, t0, t0 + 0.3));
 function rrect(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); }
 
 // ------------------------------------------------------------- widgets
@@ -131,8 +133,8 @@ function ppg(p) {                                 // Pulskurve (Plethysmogramm)
 }
 function oximeter(ctx, t, x, y) {
   const w = 600, h = 300;
-  const drop = E.inOutCubic(prog(t, 11.6, 12.4));
-  const v = Math.round(lerp(98, 85, drop) - (drop <= 0 && hash(Math.floor(t * 1.5)) > 0.65 ? 1 : 0));
+  const drop = E.inOutCubic(prog(TF, 11.6, 12.4));
+  const v = Math.round(lerp(98, 85, drop) - (drop <= 0 && hash(Math.floor(TF * 1.5)) > 0.65 ? 1 : 0));
   const col = v >= 95 ? C.green : v >= 90 ? C.amber : C.alarm;
   const alarm = v < 90 ? 0.5 + 0.5 * Math.sin(t * TAU * 2.2) : 0;
   shadow(ctx, 70); ctx.fillStyle = '#1B1D24'; rrect(ctx, x, y, w, h, 46); ctx.fill(); noShadow(ctx);
@@ -281,7 +283,7 @@ const EL = [
   // 2,23 „Weil …"  — Studie: DGINA-Umfrage 2026
   [2.30, 3.78, (ctx, t) => {
     kicker(ctx, 'NOTAUFNAHMEN IN DEUTSCHLAND', ZX, 200, t, 2.30);
-    const p = E.outExpo(prog(t, 2.32, 2.75)), v = Math.round(45 * E.outCubic(prog(t, 2.35, 3.0)));
+    const p = E.outExpo(prog(t, 2.32, 2.75)), v = Math.round(45 * E.outCubic(prog(TF, 2.35, 3.0)));
     ctx.save(); ctx.globalAlpha *= clamp(p * 2); txt(ctx, v + ' %', ZX - 6, 362 + (1 - p) * 30, 168); ctx.restore();
     bar(ctx, ZX, 392, 600, 12, 0.45 * E.outCubic(prog(t, 2.35, 3.0)), C.red);
     rise(ctx, 'waren am Stichtag überlastet', ZX, 458, 40, t, 2.55);
@@ -297,7 +299,7 @@ const EL = [
   // 5,20 „Du kriegst einen Facharzttermin …"  — Wartezeit Ø 42 Tage
   [5.30, 7.85, (ctx, t) => {
     kicker(ctx, 'WARTEZEIT AUF EINEN FACHARZTTERMIN', ZX, 200, t, 5.30);
-    const p = E.outExpo(prog(t, 5.35, 5.8)), v = Math.round(lerp(33, 42, E.inOutCubic(prog(t, 5.6, 6.5))));
+    const p = E.outExpo(prog(t, 5.35, 5.8)), v = Math.round(lerp(33, 42, E.inOutCubic(prog(TF, 5.6, 6.5))));
     ctx.save(); ctx.globalAlpha *= clamp(p * 2); txt(ctx, 'Ø ' + v + ' Tage', ZX - 4, 352 + (1 - p) * 30, 136); ctx.restore();
     const b = E.outCubic(prog(t, 5.7, 6.5));
     txt(ctx, '2019', ZX, 414, 22, { w: 500 }); bar(ctx, ZX + 80, 398, 430 * 33 / 42, 18, b, C.white, 'rgba(255,255,255,0.18)'); txt(ctx, '33', ZX + 92 + 430 * 33 / 42 * b, 414, 22, { w: 500 });
@@ -355,14 +357,14 @@ const EL = [
   // 27,20 Klemmbrett → Computer abtippen  — Studie: Nutzung der ePA
   [27.35, 32.90, (ctx, t) => {
     kicker(ctx, 'ELEKTRONISCHE PATIENTENAKTE', ZX, 165, t, 27.35);
-    const p1 = E.outExpo(prog(t, 27.55, 28.0)), v1 = Math.round(73 * E.outCubic(prog(t, 27.6, 28.4)));
+    const p1 = E.outExpo(prog(t, 27.55, 28.0)), v1 = Math.round(73 * E.outCubic(prog(TF, 27.6, 28.4)));
     ctx.save(); ctx.globalAlpha *= clamp(p1 * 2); txt(ctx, v1 + ' Mio.', ZX - 4, 272 + (1 - p1) * 24, 100); ctx.restore();
     rise(ctx, 'Akten angelegt', ZX, 314, 30, t, 27.8, { w: 500 });
-    bar(ctx, ZX, 334, 640, 16, E.outCubic(prog(t, 27.8, 28.6)), 'rgba(255,255,255,0.9)');
-    const p2 = E.outExpo(prog(t, 29.2, 29.65)), v2 = 5.85 * E.outCubic(prog(t, 29.25, 30.0));
+    ctx.save(); ctx.globalAlpha *= fadeIn(t, 27.7); bar(ctx, ZX, 334, 640, 16, E.outCubic(prog(t, 27.8, 28.6)), 'rgba(255,255,255,0.9)'); ctx.restore();
+    const p2 = E.outExpo(prog(t, 29.2, 29.65)), v2 = 5.85 * E.outCubic(prog(TF, 29.25, 30.0));
     ctx.save(); ctx.globalAlpha *= clamp(p2 * 2); txt(ctx, de(v2, 2) + ' Mio.', ZX - 4, 444 + (1 - p2) * 24, 100, { col: C.white }); ctx.restore();
     rise(ctx, 'nutzen sie aktiv  ·  ≈ 8 %', ZX, 486, 30, t, 29.45, { w: 500 });
-    bar(ctx, ZX, 506, 640, 16, 0.08 * E.outCubic(prog(t, 29.5, 30.3)), C.red);
+    ctx.save(); ctx.globalAlpha *= fadeIn(t, 29.3); bar(ctx, ZX, 506, 640, 16, 0.08 * E.outCubic(prog(t, 29.5, 30.3)), C.red); ctx.restore();
     source(ctx, 'gematik-Daten via BfDI-Datenbarometer · G+G-Umfrage · Herbst 2026', ZX, 556, t, 30.4);
   }],
   // 33,00 „Wie viel man mit KI … sparen kann? Das hat mir McKinsey ausgerechnet."
@@ -373,7 +375,7 @@ const EL = [
   }],
   // 37,00 „80 Milliarden. Das gesamte … Gesetz spart 19 Milliarden."
   [37.00, 41.95, (ctx, t) => {
-    const p1 = E.outExpo(prog(t, 37.05, 37.35)), v1 = Math.round(80 * E.outCubic(prog(t, 37.05, 37.5)));
+    const p1 = E.outExpo(prog(t, 37.05, 37.35)), v1 = Math.round(80 * E.outCubic(prog(TF, 37.05, 37.5)));
     slam(ctx, t, 37.05, ZX + 220, 210, () => txt(ctx, v1 + ' Mrd. €', ZX - 4, 250, 108), { from: 1.35 });
     const b1 = E.outCubic(prog(t, 37.2, 38.0));
     bar(ctx, ZX, 276, 720, 26, b1, 'rgba(255,255,255,0.92)');
@@ -381,9 +383,9 @@ const EL = [
       txt(ctx, 'davon KI: 22,8 Mrd.', ZX + 8, 323, 20, { w: 500, col: C.amber }); ctx.restore(); }
     rise(ctx, 'Potenzial pro Jahr durch Digitalisierung & KI', ZX, 360, 26, t, 37.6, { w: 500 });
     source(ctx, 'Quelle: McKinsey, „KI und Digitalisierung: 80 Mrd. € Potenzial"', ZX, 392, t, 38.0);
-    const v2 = Math.round(19 * E.outCubic(prog(t, 39.4, 39.8)));
+    const v2 = Math.round(19 * E.outCubic(prog(TF, 39.4, 39.8)));
     slam(ctx, t, 39.4, ZX + 160, 470, () => txt(ctx, v2 + ' Mrd. €', ZX - 4, 500, 96, { col: C.white }), { from: 1.35 });
-    bar(ctx, ZX, 522, 720, 26, 19 / 80 * E.outCubic(prog(t, 39.5, 40.2)), C.red, 'rgba(255,255,255,0.12)');
+    ctx.save(); ctx.globalAlpha *= fadeIn(t, 39.4); bar(ctx, ZX, 522, 720, 26, 19 / 80 * E.outCubic(prog(t, 39.5, 40.2)), C.red, 'rgba(255,255,255,0.12)'); ctx.restore();
     rise(ctx, 'GKV-Spargesetz: Einsparvolumen 2027', ZX, 584, 26, t, 39.8, { w: 500 });
     source(ctx, 'Quelle: BMG · GKV-Beitragssatzstabilisierungsgesetz', ZX, 614, t, 40.2);
   }],
@@ -414,7 +416,7 @@ const EL = [
   // 64,00 „Das ist die erste Generation, wo es uns nicht besser geht als unseren Eltern."  — Studie
   [64.10, 67.45, (ctx, t) => {
     kicker(ctx, 'UMFRAGE', ZX, 190, t, 64.1);
-    const p = E.outExpo(prog(t, 64.2, 64.6)), v = Math.round(52 * E.outCubic(prog(t, 64.25, 64.95)));
+    const p = E.outExpo(prog(t, 64.2, 64.6)), v = Math.round(52 * E.outCubic(prog(TF, 64.25, 64.95)));
     ctx.save(); ctx.globalAlpha *= clamp(p * 2); txt(ctx, v + ' %', ZX - 6, 350 + (1 - p) * 30, 168); ctx.restore();
     rise(ctx, 'erwarten: Künftigen Generationen', ZX, 420, 36, t, 64.5);
     rise(ctx, 'wird es schlechter gehen.', ZX, 466, 36, t, 64.65);
@@ -425,7 +427,7 @@ const EL = [
     const f = E.outBack(prog(t, 67.65, 67.95), 2);
     if (f > 0) { ctx.save(); ctx.translate(ZX + 22, 158); ctx.scale(f, f); flagCH(ctx, -22, -22, 44); ctx.restore(); }
     kicker(ctx, 'SCHWEIZ', ZX + 62, 170, t, 67.7);
-    const p = E.outExpo(prog(t, 67.85, 68.3)), v = Math.round(43 * E.outCubic(prog(t, 67.9, 68.6)));
+    const p = E.outExpo(prog(t, 67.85, 68.3)), v = Math.round(43 * E.outCubic(prog(TF, 67.9, 68.6)));
     ctx.save(); ctx.globalAlpha *= clamp(p * 2); txt(ctx, v + ' %', ZX - 6, 320 + (1 - p) * 30, 160); ctx.restore();
     rise(ctx, 'der Ärzt:innen haben ein', ZX, 376, 36, t, 68.2);
     rise(ctx, 'ausländisches Diplom', ZX, 420, 36, t, 68.35);
@@ -456,7 +458,7 @@ const EL = [
   // 86,00 (lacht) … „wenn man so jemanden einlädt …"  — Fakten zu den Kassen
   [86.05, 91.95, (ctx, t) => {
     kicker(ctx, 'GESETZLICHE KRANKENKASSEN', ZX, 190, t, 86.05);
-    const p = E.outExpo(prog(t, 86.15, 86.55)), v = Math.round(lerp(420, 93, E.outCubic(prog(t, 86.2, 87.3))));
+    const p = E.outExpo(prog(t, 86.15, 86.55)), v = Math.round(lerp(420, 93, E.outCubic(prog(TF, 86.2, 87.3))));
     ctx.save(); ctx.globalAlpha *= clamp(p * 2); txt(ctx, String(v), ZX - 6, 342 + (1 - p) * 30, 160);
     txt(ctx, 'Kassen', ZX + tw(ctx, String(v), 160) + 14, 342 + (1 - p) * 30, 44); ctx.restore();
     rise(ctx, 'Stand April 2026  ·  im Jahr 2000: 420', ZX, 392, 26, t, 86.6, { w: 500 });
@@ -528,6 +530,7 @@ const HITS = [1.42, 3.98, 8.30, 17.95, 21.6, 24.1, 26.35, 33.85, 37.05, 39.4, 42
 const samplesAt = t => HITS.some(h => t > h - 0.08 && t < h + 0.35) || (t > 24.1 && t < 24.7) ? 12 : 6;
 function renderFrame(fi, opts = {}) {
   const t0 = fi / FPS, n = opts.samples ?? samplesAt(t0), span = (opts.shutter ?? 0.5) / FPS;
+  TF = t0 + span / 2;
   if (n <= 1) { drawScene(octx, t0); return; }
   if (!acc) acc = new Float32Array(W * H * 4);
   acc.fill(0);
@@ -556,7 +559,7 @@ if (!RENDER) {
   pp.onclick = toggle; out.onclick = toggle;
   scrub.oninput = () => { pos = +scrub.value; start = performance.now() - pos * 1000; };
   ready.then(() => (function loop() {
-    const t = now(); drawScene(octx, t);
+    const t = now(); TF = t; drawScene(octx, t);
     if (playing) scrub.value = t;
     tc.textContent = `${String(Math.floor(t / 60)).padStart(2, '0')}:${t % 60 < 10 ? '0' : ''}${(t % 60).toFixed(2)}`;
     requestAnimationFrame(loop);
