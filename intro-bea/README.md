@@ -7,21 +7,28 @@ Das Intro ist eine Montage aus Beas O-Tönen mit drei Ebenen:
 3. **Text- und Grafik-Overlay** (dieser Ordner): 25 Elemente, synchron zu den O-Tönen.
 
 ## Wo der Text sitzt
-Bea sitzt links im Bild. Alle Texte und Datenkarten liegen deshalb in der **freien Zone rechts** (x 1090–1830 px bei 1920 px Breite). Dort stehen sie über der Holzwand und oberhalb der Mikrofonarme, damit sie Bea nie überdecken. Nur drei Punchlines stehen zentriert. Sie liegen bewusst über Vollbild-B-Roll: NOTAUFNAHMEN (BR01), ½ JAHR (BR02) und KÜRZUNGSORGIE (BR08).
+Bea sitzt links im Bild. **Alle** Texte und Datenkarten liegen deshalb in der **freien Zone rechts** (x 1090–1830 px bei 1920 px Breite). Dort stehen sie über der Holzwand und oberhalb der Mikrofonarme. So funktioniert das Overlay mit und ohne B-Roll und überdeckt Bea nie.
+Sobald Vollbild-B-Roll vorliegt, lassen sich die drei Punchlines (NOTAUFNAHMEN, ½ JAHR, KÜRZUNGSORGIE) optional groß in die Bildmitte setzen. Dafür mit `?layout=center` rendern.
 
 Die Schrift ist **Montserrat Bold** mit leichtem Schatten. Rot (#E63946) dient als Signalfarbe für Zahlen und Schlagworte.
 
 ## Dateien (25 fps, 1920×1080, Länge exakt 100,0 s)
-Die Videodateien liegen nicht im Repo, weil sie zu groß sind. Du bekommst sie direkt geschickt.
+Die Videodateien liegen nicht im Repo, weil sie zu groß sind. Du bekommst sie direkt geschickt. **Wichtig:** Im Schnitt immer eine `OVERLAY`-Datei verwenden, nie die Vorschau. In der Vorschau sind Platzhalter-Hintergründe fest eingebrannt.
 
 | Datei | Wofür |
 |---|---|
-| `intro-bea_OVERLAY_ProRes4444_alpha_25fps.mov` | **Empfohlen.** ProRes 4444 mit Transparenz. Einfach als oberste Spur bei 00:00 anlegen (Premiere, DaVinci, Final Cut, After Effects). |
-| `intro-bea_OVERLAY_alpha_25fps.webm` | Sehr klein (VP9 mit Alpha), z. B. für DaVinci, CapCut oder das Web |
-| `intro-bea_OVERLAY_fill_25fps.mp4` + `…_matte_25fps.mp4` | Für jedes Schnittprogramm: Fill über Matte (Premiere: Effekt „Spurmaske", DaVinci: „Matte"). |
-| `intro-bea_VORSCHAU.mp4` | Animatic: Beas Standbilder als Platzhalter für die A-Roll, graue Karten als Platzhalter für die B-Roll, darüber das Overlay. Enthält Beas Foto und ist deshalb nicht im Repo. |
+| `intro-bea_OVERLAY_transparent.webm` | Transparenz (VP9 mit Alpha), Schatten bleiben erhalten. **In CapCut zuerst diese testen.** |
+| `intro-bea_OVERLAY_greenscreen.mp4` | Grüner Hintergrund, ohne Schatten. In CapCut: Clip auswählen → **Chroma-Key** → Farbauswahl auf das Grün → Intensität erhöhen. Funktioniert in jedem Programm. |
+| `intro-bea_OVERLAY_schwarz_fuer-Bildschirm.mp4` | Schwarzer Hintergrund. In CapCut: **Mischmodus „Bildschirm"**. Das Schwarz verschwindet, dabei aber auch die Schatten, und die roten Balken wirken etwas heller. |
+| `intro-bea_OVERLAY_ProRes4444.mov` | ProRes 4444 mit Transparenz für Premiere, DaVinci, Final Cut und After Effects. In CapCut wird der Hintergrund teils schwarz. |
+| `intro-bea_VORSCHAU.mp4` | Nur zum Anschauen: Beas Standbilder als Platzhalter für die A-Roll, graue Karten als Platzhalter für die B-Roll. **Nicht für den Schnitt.** |
 
-**Andere Bildrate** (z. B. 30 oder 50 fps): `node render.mjs --page "intro-bea/index.html?mode=overlay&fps=50"`. Danach mit ffmpeg wie oben kodieren.
+### So geht's in CapCut Pro
+1. Beas Material liegt auf der **Hauptspur**. Dort keine automatische Hintergrundentfernung anwenden.
+2. Die Overlay-Datei kommt als **Overlay-Spur darüber**, beginnend bei 00:00, auf 100 % Größe.
+3. Ist der Hintergrund der WebM transparent, bist du fertig. Wird er schwarz, nimmst du die Greenscreen-Datei mit Chroma-Key oder die Schwarz-Datei mit Mischmodus „Bildschirm".
+
+**Andere Bildrate** (z. B. 30 oder 50 fps): `node render.mjs --page "intro-bea/index.html?mode=overlay&fps=50"`. Danach mit ffmpeg kodieren. `&shadow=0` liefert die Variante ohne Schatten für Greenscreen.
 **Timing anpassen:** Alle Zeiten stehen im Array `EL` in [`intro.js`](intro.js) (absolute Sekunden).
 
 ## Sounddesign

@@ -9,6 +9,8 @@
    ?mode=overlay  transparenter Hintergrund (Standard, für den Schnitt)
    ?mode=preview  mit Platzhalter-Hintergrund (Bea-Standbild / B-Roll-Slots)
    ?fps=25        Bildrate
+   ?layout=center die drei Punchlines mittig (nur mit Vollbild-B-Roll darunter)
+   ?shadow=0      ohne Schatten (für die Greenscreen-Variante)
    Alle Zeitpunkte sind absolute Sekunden auf der Intro-Timeline.
    ========================================================================== */
 'use strict';
@@ -18,6 +20,8 @@ const Q = new URLSearchParams(location.search);
 const W = 1920, H = 1080, DUR = 100;
 const FPS = +(Q.get('fps') || 25);
 const MODE = Q.get('mode') || 'overlay';
+const LAYOUT = Q.get('layout') || 'right';        // right: alles rechts (Standard)  ·  center: 3 Punchlines mittig (nur MIT B-Roll darunter)
+const NOSHADOW = Q.get('shadow') === '0';         // für die Greenscreen-Variante
 const RENDER = /[?&]render/.test(location.search);
 if (RENDER) document.documentElement.classList.add('render');
 const TAU = Math.PI * 2;
@@ -66,7 +70,7 @@ const de = (v, d = 0) => v.toFixed(d).replace('.', ',');
 // ------------------------------------------------------------- type kit (Montserrat Bold + leichter Schatten)
 const MS = (s, w = 700) => `${w} ${s}px "Montserrat"`;
 const ZX = 1090, ZR = 1830;                       // freie Zone rechts von Bea
-function shadow(ctx, size) { ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = Math.max(10, size * 0.2); ctx.shadowOffsetX = 0; ctx.shadowOffsetY = Math.max(2, size * 0.045); }
+function shadow(ctx, size) { if (NOSHADOW) return; ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = Math.max(10, size * 0.2); ctx.shadowOffsetX = 0; ctx.shadowOffsetY = Math.max(2, size * 0.045); }
 function noShadow(ctx) { ctx.shadowColor = 'rgba(0,0,0,0)'; ctx.shadowBlur = 0; ctx.shadowOffsetX = 0; ctx.shadowOffsetY = 0; }
 function txt(ctx, s, x, y, size, o = {}) {
   ctx.font = MS(size, o.w || 700); ctx.letterSpacing = (o.track || 0) + 'px'; ctx.textAlign = o.align || 'left';
@@ -144,7 +148,7 @@ function oximeter(ctx, t, x, y) {
   if (alarm > 0) { ctx.strokeStyle = `rgba(255,59,48,${0.25 + 0.75 * alarm})`; ctx.lineWidth = 6; rrect(ctx, x + 24, y + 24, w - 48, h - 48, 26); ctx.stroke(); }
   txt(ctx, 'SpO', x + 62, y + 92, 34, { col: 'rgba(255,255,255,0.75)', shadow: false });
   txt(ctx, '2', x + 62 + tw(ctx, 'SpO', 34), y + 100, 22, { col: 'rgba(255,255,255,0.75)', shadow: false });
-  ctx.save(); ctx.shadowColor = col; ctx.shadowBlur = 28; txt(ctx, String(v), x + 56, y + 236, 150, { col, shadow: false });
+  ctx.save(); if (!NOSHADOW) { ctx.shadowColor = col; ctx.shadowBlur = 28; } txt(ctx, String(v), x + 56, y + 236, 150, { col, shadow: false });
   ctx.shadowBlur = 0; ctx.shadowColor = 'rgba(0,0,0,0)';
   txt(ctx, '%', x + 56 + tw(ctx, String(v), 150) + 10, y + 236, 50, { col, shadow: false }); ctx.restore();
   const beat = t * 1.6, hb = Math.exp(-fract(beat) * 7);
@@ -254,7 +258,7 @@ function slashLine(ctx, L, u) {
   const p = E.outCubic(clamp(u / 0.1)), fade = 1 - prog(u, 0.12, 0.35);
   const [[ax, ay], [bx, by]] = L;
   ctx.save(); ctx.strokeStyle = `rgba(255,255,255,${fade})`; ctx.lineWidth = 5; ctx.lineCap = 'round';
-  ctx.shadowColor = 'rgba(255,255,255,0.9)'; ctx.shadowBlur = 24;
+  if (!NOSHADOW) { ctx.shadowColor = 'rgba(255,255,255,0.9)'; ctx.shadowBlur = 24; }
   ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(lerp(ax, bx, p), lerp(ay, by, p)); ctx.stroke(); ctx.restore();
 }
 function cutsElement(ctx, t) {
@@ -277,8 +281,13 @@ function cutsElement(ctx, t) {
 const EL = [
   // 0,00 „Die Notfallstationen sind ja massiv überlaufen."  (Vollbild-B-Roll BR01 → zentriert)
   [0.15, 2.20, (ctx, t) => {
-    rise(ctx, 'NOTAUFNAHMEN', 960, 470, 104, t, 0.30, { align: 'center', track: 8 });
-    slam(ctx, t, 1.42, 960, 590, () => boxText(ctx, 'MASSIV ÜBERLAUFEN', 960, 628, 92, t, 1.42, { align: 'center', dur: 0.22, track: 2 }), { from: 1.3 });
+    if (LAYOUT === 'center') {
+      rise(ctx, 'NOTAUFNAHMEN', 960, 470, 104, t, 0.30, { align: 'center', track: 8 });
+      slam(ctx, t, 1.42, 960, 590, () => boxText(ctx, 'MASSIV ÜBERLAUFEN', 960, 628, 92, t, 1.42, { align: 'center', dur: 0.22, track: 2 }), { from: 1.3 });
+      return;
+    }
+    rise(ctx, 'NOTAUFNAHMEN', ZX, 350, 76, t, 0.30, { track: 4 });
+    slam(ctx, t, 1.42, ZX + 330, 430, () => boxText(ctx, 'MASSIV ÜBERLAUFEN', ZX + 15, 460, 58, t, 1.42, { dur: 0.22 }), { from: 1.3 });
   }],
   // 2,23 „Weil …"  — Studie: DGINA-Umfrage 2026
   [2.30, 3.78, (ctx, t) => {
@@ -308,8 +317,13 @@ const EL = [
   }],
   // „… für wirklich dringliche Sachen in einem halben Jahr."  (Vollbild-B-Roll BR02 → zentriert)
   [7.85, 9.05, (ctx, t) => {
-    rise(ctx, 'für wirklich dringliche Sachen:', 960, 430, 46, t, 7.88, { align: 'center' });
-    slam(ctx, t, 8.30, 960, 600, () => boxText(ctx, '½ JAHR', 960, 660, 170, t, 8.30, { align: 'center', dur: 0.2, track: 4 }), { from: 1.35 });
+    if (LAYOUT === 'center') {
+      rise(ctx, 'für wirklich dringliche Sachen:', 960, 430, 46, t, 7.88, { align: 'center' });
+      slam(ctx, t, 8.30, 960, 600, () => boxText(ctx, '½ JAHR', 960, 660, 170, t, 8.30, { align: 'center', dur: 0.2, track: 4 }), { from: 1.35 });
+      return;
+    }
+    rise(ctx, 'für wirklich dringliche Sachen:', ZX, 300, 40, t, 7.88);
+    slam(ctx, t, 8.30, ZX + 300, 420, () => boxText(ctx, '½ JAHR', ZX + 30, 490, 150, t, 8.30, { dur: 0.2, track: 3 }), { from: 1.35 });
   }],
   // 9,10 „… Mutter hat eine Sauerstoffsättigung von 85 %."  /  „Die läuft mit 85 % rum."
   [9.20, 15.05, (ctx, t) => {
@@ -401,8 +415,13 @@ const EL = [
   }],
   // 47,00 „Das ist eine Kürzungsorgie."  (Vollbild-B-Roll BR08 → zentriert)
   [47.05, 49.45, (ctx, t) => {
-    rise(ctx, 'Das ist eine', 960, 432, 50, t, 47.12, { align: 'center' });
-    slam(ctx, t, 47.55, 960, 560, () => boxText(ctx, 'KÜRZUNGSORGIE', 960, 610, 140, t, 47.55, { align: 'center', dur: 0.2, track: 3 }), { from: 1.4 });
+    if (LAYOUT === 'center') {
+      rise(ctx, 'Das ist eine', 960, 432, 50, t, 47.12, { align: 'center' });
+      slam(ctx, t, 47.55, 960, 560, () => boxText(ctx, 'KÜRZUNGSORGIE', 960, 610, 140, t, 47.55, { align: 'center', dur: 0.2, track: 3 }), { from: 1.4 });
+      return;
+    }
+    rise(ctx, 'Das ist eine', ZX, 330, 46, t, 47.12);
+    slam(ctx, t, 47.55, ZX + 340, 400, () => boxText(ctx, 'KÜRZUNGSORGIE', ZX + 20, 440, 76, t, 47.55, { dur: 0.2 }), { from: 1.4 });
   }],
   // 49,50 „Wir reden 25 % Augenheilkunde weniger, 20 % … 15 bis 16 % bei den Kindern."  + 57,00 Sense: „schnipp, schnapp"
   [49.55, 59.75, (ctx, t) => cutsElement(ctx, t)],
