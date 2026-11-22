@@ -1,0 +1,97 @@
+﻿Start (s);Ende (s);Start TC @25fps;Ende TC @25fps;Spur;Inhalt
+0,00;2,23;00:00:00:00;00:00:02:06;BILD KI-B-Roll BR01;Notaufnahme-Flur, überfüllt (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+0,00;2,23;00:00:00:00;00:00:02:06;TON Bea (O-Ton);Die Notfallstationen sind ja massiv überlaufen.
+0,15;2,20;00:00:00:04;00:00:02:05;GRAFIK Overlay;NOTAUFNAHMEN / MASSIV ÜBERLAUFEN (zentriert, über BR01)
+1,42;1,42;00:00:01:11;00:00:01:11;SOUND Hit (Vorschlag);Impact: MASSIV ÜBERLAUFEN
+2,23;3,10;00:00:02:06;00:00:03:03;TON Bea (O-Ton);Weil
+2,30;3,78;00:00:02:07;00:00:03:19;GRAFIK Overlay;Datenkarte 45 % Notaufnahmen überlastet (DGINA 2026)
+2,30;2,30;00:00:02:07;00:00:02:07;SOUND Hit (Vorschlag);Tick/Counter: 45 %
+3,10;5,20;00:00:03:03;00:00:05:05;TON Bea (O-Ton);die Menschen keinen Zugang zu den Gesundheitssystemen haben.
+3,70;5,12;00:00:03:17;00:00:05:03;GRAFIK Overlay;Menschen haben KEINEN ZUGANG zum Gesundheitssystem
+3,98;3,98;00:00:04:00;00:00:04:00;SOUND Hit (Vorschlag);Impact: KEINEN ZUGANG
+5,20;9,10;00:00:05:05;00:00:09:03;TON Bea (O-Ton);Du kriegst einen Facharzttermin für wirklich dringliche Sachen in einem halben Jahr.
+5,30;7,85;00:00:05:07;00:00:07:21;GRAFIK Overlay;Datenkarte Ø 42 Tage Facharzt-Wartezeit (2019: 33)
+5,60;5,60;00:00:05:15;00:00:05:15;SOUND Hit (Vorschlag);Counter-Ticks 33 → 42
+6,60;9,10;00:00:06:15;00:00:09:03;BILD KI-B-Roll BR02;Wartezimmer, tickende Uhr (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+7,85;9,05;00:00:07:21;00:00:09:01;GRAFIK Overlay;½ JAHR (zentriert, über BR02)
+8,30;8,30;00:00:08:08;00:00:08:08;SOUND Hit (Vorschlag);Impact: ½ JAHR
+9,10;13,00;00:00:09:03;00:00:13:00;TON Bea (O-Ton);Ich habe eine kennengelernt, deren Mutter hat eine Sauerstoffsättigung von 85 %.
+9,20;15,05;00:00:09:05;00:00:15:01;GRAFIK Overlay;Pulsoximeter-Grafik 98 → 85 %, Normal 95–100 %
+10,50;13,00;00:00:10:12;00:00:13:00;BILD KI-B-Roll BR03;Ältere Frau, außer Atem (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+11,60;11,60;00:00:11:15;00:00:11:15;SOUND Hit (Vorschlag);Alarm-Ton: Oximeter fällt auf 85
+13,00;15,10;00:00:13:00;00:00:15:03;TON Bea (O-Ton);Die läuft mit einer 85%igen Sauerstoffsättigung rum.
+15,10;17,30;00:00:15:03;00:00:17:07;BILD KI-B-Roll BR04;Hausarzt schreibt Überweisung (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+15,10;19,10;00:00:15:03;00:00:19:03;TON Bea (O-Ton);Der Hausarzt sagt, Sie müssen zum Kardiologen. Wann hat sie einen Termin bekommen?
+15,25;17,55;00:00:15:06;00:00:17:14;GRAFIK Overlay;Zitat Hausarzt „Sie müssen zum Kardiologen.“
+17,60;21,05;00:00:17:15;00:00:21:01;GRAFIK Overlay;WANN? + tickende Uhr
+17,95;17,95;00:00:17:24;00:00:17:24;SOUND Hit (Vorschlag);Impact: WANN?
+19,10;21,10;00:00:19:03;00:00:21:03;TON Bea (O-Ton);Wisst ihr, wann sie einen Termin beim Kardiologen bekommen hat?
+19,15;19,15;00:00:19:04;00:00:19:04;SOUND Hit (Vorschlag);Uhr-Ticken bis 21,0
+21,10;24,10;00:00:21:03;00:00:24:02;BILD KI-B-Roll BR05;Sanduhr, Makro (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+21,10;24,10;00:00:21:03;00:00:24:02;TON Bea (O-Ton);Mit der Indikation der Sauerstoffsättigung von 85 %,
+21,15;24,02;00:00:21:04;00:00:24:00;GRAFIK Overlay;Indikation SpO₂ 85 % – deutlich zu niedrig
+21,60;21,60;00:00:21:15;00:00:21:15;SOUND Hit (Vorschlag);Impact: SpO₂ 85 %
+24,10;25,62;00:00:24:02;00:00:25:15;GRAFIK Overlay;Kalender blättert → JULI (nächsten Jahres)
+24,10;24,10;00:00:24:02;00:00:24:02;SOUND Hit (Vorschlag);Seiten-Flip-Ratsche → 24,55 Impact JULI
+24,10;25,10;00:00:24:02;00:00:25:03;TON Bea (O-Ton);im Juli nächsten Jahres.
+25,10;27,20;00:00:25:03;00:00:27:05;TON Bea (O-Ton);Deutschland hat die Digitalisierung verschlafen.
+25,70;27,15;00:00:25:17;00:00:27:04;GRAFIK Overlay;Digitalisierung VERSCHLAFEN
+26,35;26,35;00:00:26:09;00:00:26:09;SOUND Hit (Vorschlag);Impact: VERSCHLAFEN
+27,20;30,00;00:00:27:05;00:00:30:00;BILD KI-B-Roll BR06a;Klemmbrett, Notizen per Hand (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+27,20;33,00;00:00:27:05;00:00:33:00;TON Bea (O-Ton);Also da steht, Leute mit dem Clipboard, die schreiben mit. Dann gehen die zu ihrem Computer und tippen das ein.
+27,35;32,90;00:00:27:09;00:00:32:22;GRAFIK Overlay;Datenkarte ePA: 73 Mio. angelegt, 5,85 Mio. aktiv
+30,00;33,00;00:00:30:00;00:00:33:00;BILD KI-B-Roll BR06b;Abtippen am alten PC, Fax (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+33,00;37,00;00:00:33:00;00:00:37:00;BILD KI-B-Roll BR07;KI-Daten im Klinik-Kontrollraum (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+33,00;37,00;00:00:33:00;00:00:37:00;TON Bea (O-Ton);Wie viel man mit KI allein im deutschen Gesundheitssystem sparen kann? Das hat mir McKinsey ausgerechnet.
+33,15;36,95;00:00:33:04;00:00:36:24;GRAFIK Overlay;Wie viel könnte KI SPAREN?
+33,85;33,85;00:00:33:21;00:00:33:21;SOUND Hit (Vorschlag);Impact: KI SPAREN?
+37,00;41,95;00:00:37:00;00:00:41:24;GRAFIK Overlay;Balken 80 Mrd. € (davon KI 22,8) vs. 19 Mrd. € Spargesetz
+37,00;42,00;00:00:37:00;00:00:42:00;TON Bea (O-Ton);80 Milliarden. Das gesamte GKV-Beitragssatzstabilisierungsgesetz spart 19 Milliarden.
+37,05;37,05;00:00:37:01;00:00:37:01;SOUND Hit (Vorschlag);Großer Impact: 80 Mrd.
+39,40;39,40;00:00:39:10;00:00:39:10;SOUND Hit (Vorschlag);Impact: 19 Mrd.
+42,00;47,00;00:00:42:00;00:00:47:00;TON Bea (O-Ton);Das ist keine Reform. Eine Reform beinhaltet, dass du Dinge per se erstmal verbesserst.
+42,15;46,90;00:00:42:04;00:00:46:22;GRAFIK Overlay;Stempel KEINE REFORM.
+42,30;42,30;00:00:42:08;00:00:42:08;SOUND Hit (Vorschlag);Stempel: KEINE REFORM
+47,00;49,50;00:00:47:00;00:00:49:13;BILD KI-B-Roll BR08;Rotstift streicht Budget (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+47,00;49,50;00:00:47:00;00:00:49:13;TON Bea (O-Ton);Das ist eine Kürzungsorgie.
+47,05;49,45;00:00:47:01;00:00:49:11;GRAFIK Overlay;KÜRZUNGSORGIE (zentriert, über BR08)
+47,55;47,55;00:00:47:14;00:00:47:14;SOUND Hit (Vorschlag);Großer Impact: KÜRZUNGSORGIE
+49,50;52,00;00:00:49:13;00:00:52:00;BILD KI-B-Roll BR09a;Augenuntersuchung (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+49,50;57,00;00:00:49:13;00:00:57:00;TON Bea (O-Ton);Wir reden 25 % Augenheilkunde weniger, 20 % bei den Psychiatern, 15 bis 16 % bei den Kindern. Ja.
+49,55;59,75;00:00:49:14;00:00:59:19;GRAFIK Overlay;Beas Zahlen −25 / −20 / −15–16 %, Sensenschnitt bei 58,55 und 59,25
+50,38;50,38;00:00:50:10;00:00:50:10;SOUND Hit (Vorschlag);Hit: −25 %
+52,00;54,40;00:00:52:00;00:00:54:10;BILD KI-B-Roll BR09b;Leerer Therapieraum (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+52,68;52,68;00:00:52:17;00:00:52:17;SOUND Hit (Vorschlag);Hit: −20 %
+54,40;57,00;00:00:54:10;00:00:57:00;BILD KI-B-Roll BR09c;Kinderarzt mit Kind (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+55,08;55,08;00:00:55:02;00:00:55:02;SOUND Hit (Vorschlag);Hit: −15–16 %
+57,00;58,60;00:00:57:00;00:00:58:15;BILD KI-B-Roll BR10;Sense, Zeitlupe (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+57,00;60,00;00:00:57:00;00:01:00:00;TON Bea (O-Ton);Also wie mit so einer Sense, schnipp, schnapp.
+58,55;58,55;00:00:58:14;00:00:58:14;SOUND Hit (Vorschlag);Sensen-Swoosh 1 (schnipp)
+59,25;59,25;00:00:59:06;00:00:59:06;SOUND Hit (Vorschlag);Sensen-Swoosh 2 (schnapp)
+60,00;64,00;00:01:00:00;00:01:04:00;TON Bea (O-Ton);Aber wir sind doch faul. Deswegen sollte man Krankschreibung auch ab dem ersten Tag wieder einführen, dass jeder da hingeht.
+60,15;63,95;00:01:00:04;00:01:03:24;GRAFIK Overlay;„Aber wir sind doch faul.“ / Krankschreibung ab dem ersten Tag?
+62,15;62,15;00:01:02:04;00:01:02:04;SOUND Hit (Vorschlag);Impact: ab dem ersten Tag?
+64,00;67,50;00:01:04:00;00:01:07:13;BILD KI-B-Roll BR11;Junges Paar, Rechnungen (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+64,00;67,50;00:01:04:00;00:01:07:13;TON Bea (O-Ton);Das ist die erste Generation, wo es uns nicht besser geht als unseren Eltern.
+64,10;67,45;00:01:04:02;00:01:07:11;GRAFIK Overlay;Datenkarte 52 % erwarten schlechtere Zukunft (Bertelsmann/YouGov)
+67,50;71,00;00:01:07:13;00:01:11:00;BILD KI-B-Roll BR12;Zug durch die Schweizer Alpen (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+67,50;78,00;00:01:07:13;00:01:18:00;TON Bea (O-Ton);50 % in der Deutschschweiz sind deutscher Nationalität im Gesundheitswesen. ... Warum bildest du diese Leute in Deutschland aus und hältst sie nicht hier?
+67,65;72,90;00:01:07:16;00:01:12:23;GRAFIK Overlay;Datenkarte Schweiz 43 % ausländisches Diplom, knapp die Hälfte davon deutsch (FMH)
+73,00;77,90;00:01:13:00;00:01:17:23;GRAFIK Overlay;Warum bilden wir sie aus – und halten sie nicht?
+73,90;73,90;00:01:13:23;00:01:13:23;SOUND Hit (Vorschlag);Impact: und halten sie nicht?
+78,00;83,00;00:01:18:00;00:01:23:00;BILD KI-B-Roll BR13;TV-Studio vor dem Interview (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+78,00;80,00;00:01:18:00;00:01:20:00;TON Bea (O-Ton);Ich war im MDR in so einem Interview,
+78,15;85,95;00:01:18:04;00:01:25:24;GRAFIK Overlay;MDR-INTERVIEW / Vertreterin der Ersatzkassen / Zitat
+80,00;83,00;00:01:20:00;00:01:23:00;TON Bea (O-Ton);da saß so eine Vertreterin der Ersatzkassen, Lobbyisten halt,
+83,00;86,00;00:01:23:00;00:01:26:00;TON Bea (O-Ton);und danach sagt sie mir: wenn man die Krankenkassen reduziert, das bringt nichts,
+86,00;89,00;00:01:26:00;00:01:29:00;TON Bea (O-Ton);und ich habe da echt nur gesessen ... (lacht)
+86,05;91,95;00:01:26:01;00:01:31:24;GRAFIK Overlay;Datenkarte 93 Krankenkassen (2000: 420), Verwaltungskosten 12,6 Mrd. €
+86,20;86,20;00:01:26:05;00:01:26:05;SOUND Hit (Vorschlag);Counter-Ticks 420 → 93
+89,00;92,00;00:01:29:00;00:01:32:00;TON Bea (O-Ton);Wenn man so jemanden einlädt, dann weiß ich auch, was für eine Antwort kommt.
+92,00;96,00;00:01:32:00;00:01:36:00;BILD KI-B-Roll BR14;Kind mit Hörgerät (Vollbild, Prompt in B-ROLL-PROMPTS.md)
+92,00;94,00;00:01:32:00;00:01:34:00;TON Bea (O-Ton);Und wir reden jetzt von kleinen Kindern, die jetzt richtig hören können.
+92,10;95,55;00:01:32:02;00:01:35:14;GRAFIK Overlay;Kleine Kinder, die jetzt richtig hören können.
+93,05;93,05;00:01:33:01;00:01:33:01;SOUND Hit (Vorschlag);Impact: hören können
+94,00;100,00;00:01:34:00;00:01:40:00;TON Bea (O-Ton);Ich finde es schon wichtig, ob der Ton sauber und klangvoll ankommt oder ob da so ein Geräusch ankommt.
+95,65;99,90;00:01:35:16;00:01:39:23;GRAFIK Overlay;Wellenform sauber & klangvoll vs. Geräusch
+97,65;97,65;00:01:37:16;00:01:37:16;SOUND Hit (Vorschlag);Rauschen/Störgeräusch zur roten Welle

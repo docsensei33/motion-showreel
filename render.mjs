@@ -31,7 +31,7 @@ const WORKERS = +(args.workers ?? Math.max(1, Math.min(4, os.cpus().length)));
 const SAMPLES = args.samples ? +args.samples : undefined;
 const CRF = args.crf ?? '18';
 
-const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.ttf': 'font/ttf', '.css': 'text/css' };
+const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.ttf': 'font/ttf', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg' };
 const server = http.createServer((req, res) => {
   const p = path.join(ROOT, decodeURIComponent(new URL(req.url, 'http://x').pathname));
   if (!p.startsWith(ROOT) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { res.writeHead(404); return res.end(); }

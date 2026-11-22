@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Podcast-Intro Bea — Overlay</title>
+<style>
+  @font-face { font-family: 'Montserrat'; font-weight: 500; src: url(../fonts/Montserrat-500.ttf); }
+  @font-face { font-family: 'Montserrat'; font-weight: 700; src: url(../fonts/Montserrat-700.ttf); }
+  html, body { margin: 0; height: 100%; background: #111; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; font-family: 'Montserrat', sans-serif; }
+  canvas { display: block; width: min(100vw, 177.78vh); height: min(56.25vw, 100vh); cursor: pointer;
+           background: repeating-conic-gradient(#2a2a2a 0% 25%, #222 0% 50%) 0 0 / 32px 32px; }
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px; display: flex; gap: 12px; align-items: center;
+        background: linear-gradient(transparent, rgba(0,0,0,.75)); color: #fff; font-size: 12px; opacity: 0; transition: opacity .3s; }
+  body:hover #ui { opacity: 1; }
+  #ui input { flex: 1; accent-color: #E63946; }
+  #ui button { background: #E63946; color: #fff; border: 0; font: 700 12px 'Montserrat', sans-serif; padding: 8px 14px; border-radius: 99px; cursor: pointer; }
+  .render #ui { display: none; }
+  .render canvas { background: transparent; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="ui"><button id="pp">PAUSE</button><input id="scrub" type="range" min="0" max="100" step="0.01" value="0"><span id="tc">00:00.00</span></div>
+<script src="intro.js"></script>
+</body>
+</html>
